@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_997c7bf4ac40454f9b95e9649c7f24dc {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_997c7bf4ac40454f9b95e9649c7f24dc" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_997c7bf4ac40454f9b95e9649c7f24dc = L.map(
+        'map_997c7bf4ac40454f9b95e9649c7f24dc', {
+        center: [47.5595986, 7.5885761],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_4000c5bbe08141e986c4d65f12fca458 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+    
+            var circle_marker_55aebb16b1164d13ad8ce9f89943e07f = L.circleMarker(
+                [47.5667, 7.6],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_5d7bd15bc9474f0899af8dcc3f863e8e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96da7fe812a444389d6049a1d40792c4 = $('<div id="html_96da7fe812a444389d6049a1d40792c4" style="width: 100.0%; height: 100.0%;">4000, Basel Cluster 6</div>')[0];
+                popup_5d7bd15bc9474f0899af8dcc3f863e8e.setContent(html_96da7fe812a444389d6049a1d40792c4);
+            
+
+            circle_marker_55aebb16b1164d13ad8ce9f89943e07f.bindPopup(popup_5d7bd15bc9474f0899af8dcc3f863e8e)
+            ;
+
+            
+        
+    
+            var circle_marker_b7c8359ee0dc470c9a4247069a897e37 = L.circleMarker(
+                [47.5564, 7.5889],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_ce00ef97c6d5441a934d208df681122f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5c2d06dfbf47429887a7c977546b13c3 = $('<div id="html_5c2d06dfbf47429887a7c977546b13c3" style="width: 100.0%; height: 100.0%;">4001, Basel Cluster 6</div>')[0];
+                popup_ce00ef97c6d5441a934d208df681122f.setContent(html_5c2d06dfbf47429887a7c977546b13c3);
+            
+
+            circle_marker_b7c8359ee0dc470c9a4247069a897e37.bindPopup(popup_ce00ef97c6d5441a934d208df681122f)
+            ;
+
+            
+        
+    
+            var circle_marker_c6b3f91c0dbf4a57b7a546280fd610f4 = L.circleMarker(
+                [47.5488, 7.5904],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_9bcfbdbd2e294acba1bddae2f9529f54 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_596c0bd4fd7e4485a4554614e243c859 = $('<div id="html_596c0bd4fd7e4485a4554614e243c859" style="width: 100.0%; height: 100.0%;">4002, Basel Cluster 6</div>')[0];
+                popup_9bcfbdbd2e294acba1bddae2f9529f54.setContent(html_596c0bd4fd7e4485a4554614e243c859);
+            
+
+            circle_marker_c6b3f91c0dbf4a57b7a546280fd610f4.bindPopup(popup_9bcfbdbd2e294acba1bddae2f9529f54)
+            ;
+
+            
+        
+    
+            var circle_marker_2bb65018fde14355ac766558a3c534d3 = L.circleMarker(
+                [47.5592, 7.5788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_2dc5719b0de747b99d48c5a1ca34be0c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5ca749b1cc8d4a76b9248764478b390a = $('<div id="html_5ca749b1cc8d4a76b9248764478b390a" style="width: 100.0%; height: 100.0%;">4003, Basel Cluster 6</div>')[0];
+                popup_2dc5719b0de747b99d48c5a1ca34be0c.setContent(html_5ca749b1cc8d4a76b9248764478b390a);
+            
+
+            circle_marker_2bb65018fde14355ac766558a3c534d3.bindPopup(popup_2dc5719b0de747b99d48c5a1ca34be0c)
+            ;
+
+            
+        
+    
+            var circle_marker_e141870c8e37438aaaf3ec409d68a8d1 = L.circleMarker(
+                [47.5623, 7.5946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_65737cee77f14d94a393d00808c849a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dd8804e743df4a8a904d98507f5d3611 = $('<div id="html_dd8804e743df4a8a904d98507f5d3611" style="width: 100.0%; height: 100.0%;">4005, Basel Cluster 6</div>')[0];
+                popup_65737cee77f14d94a393d00808c849a7.setContent(html_dd8804e743df4a8a904d98507f5d3611);
+            
+
+            circle_marker_e141870c8e37438aaaf3ec409d68a8d1.bindPopup(popup_65737cee77f14d94a393d00808c849a7)
+            ;
+
+            
+        
+    
+            var circle_marker_49702ae835c64738890f70414eff7aaa = L.circleMarker(
+                [47.5528, 7.5929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#000000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#000000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_7a678ab50f2342f9ae79c5b1ed0d52dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_92a899602699439ba32ce9811b10f518 = $('<div id="html_92a899602699439ba32ce9811b10f518" style="width: 100.0%; height: 100.0%;">4010, Basel Cluster 4</div>')[0];
+                popup_7a678ab50f2342f9ae79c5b1ed0d52dd.setContent(html_92a899602699439ba32ce9811b10f518);
+            
+
+            circle_marker_49702ae835c64738890f70414eff7aaa.bindPopup(popup_7a678ab50f2342f9ae79c5b1ed0d52dd)
+            ;
+
+            
+        
+    
+            var circle_marker_6bb7113bc79743c5a5e7f5cda5afa474 = L.circleMarker(
+                [47.5225, 7.5962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_9c8815443d31446d94a55aa715b06a42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_498ee57a25cb4fbb8b3b6e8b9997dd2f = $('<div id="html_498ee57a25cb4fbb8b3b6e8b9997dd2f" style="width: 100.0%; height: 100.0%;">4052, Basel Cluster 3</div>')[0];
+                popup_9c8815443d31446d94a55aa715b06a42.setContent(html_498ee57a25cb4fbb8b3b6e8b9997dd2f);
+            
+
+            circle_marker_6bb7113bc79743c5a5e7f5cda5afa474.bindPopup(popup_9c8815443d31446d94a55aa715b06a42)
+            ;
+
+            
+        
+    
+            var circle_marker_26c0fdee3e12431caa7a24024cff0426 = L.circleMarker(
+                [47.5383, 7.601],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_1645a76993f241da9bf90347d915802e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_09536987dd61411c8ed0d26dfdb7373b = $('<div id="html_09536987dd61411c8ed0d26dfdb7373b" style="width: 100.0%; height: 100.0%;">4053, Basel Cluster 6</div>')[0];
+                popup_1645a76993f241da9bf90347d915802e.setContent(html_09536987dd61411c8ed0d26dfdb7373b);
+            
+
+            circle_marker_26c0fdee3e12431caa7a24024cff0426.bindPopup(popup_1645a76993f241da9bf90347d915802e)
+            ;
+
+            
+        
+    
+            var circle_marker_d7b6ebbb1c1746459a7263babab00377 = L.circleMarker(
+                [47.5505, 7.5689],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_c1d74cb891c446aab631d5cff63dea20 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45c965cae24c42dd81b9c25a4e72015f = $('<div id="html_45c965cae24c42dd81b9c25a4e72015f" style="width: 100.0%; height: 100.0%;">4054, Basel Cluster 3</div>')[0];
+                popup_c1d74cb891c446aab631d5cff63dea20.setContent(html_45c965cae24c42dd81b9c25a4e72015f);
+            
+
+            circle_marker_d7b6ebbb1c1746459a7263babab00377.bindPopup(popup_c1d74cb891c446aab631d5cff63dea20)
+            ;
+
+            
+        
+    
+            var circle_marker_8b5864c02fad4537a3b79c651820caff = L.circleMarker(
+                [47.5637, 7.564],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_5a37d8c4fdac41208c356d4904ab8645 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cfb1c70069644c1eafa28aa996c9cb90 = $('<div id="html_cfb1c70069644c1eafa28aa996c9cb90" style="width: 100.0%; height: 100.0%;">4055, Basel Cluster 3</div>')[0];
+                popup_5a37d8c4fdac41208c356d4904ab8645.setContent(html_cfb1c70069644c1eafa28aa996c9cb90);
+            
+
+            circle_marker_8b5864c02fad4537a3b79c651820caff.bindPopup(popup_5a37d8c4fdac41208c356d4904ab8645)
+            ;
+
+            
+        
+    
+            var circle_marker_6023602a2de94324997b175a35761224 = L.circleMarker(
+                [47.5696, 7.5734],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_99eb1332fa164cc49022f3cf164ccb4c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e33b464f339444358f0ac842b4d30214 = $('<div id="html_e33b464f339444358f0ac842b4d30214" style="width: 100.0%; height: 100.0%;">4056, Basel Cluster 6</div>')[0];
+                popup_99eb1332fa164cc49022f3cf164ccb4c.setContent(html_e33b464f339444358f0ac842b4d30214);
+            
+
+            circle_marker_6023602a2de94324997b175a35761224.bindPopup(popup_99eb1332fa164cc49022f3cf164ccb4c)
+            ;
+
+            
+        
+    
+            var circle_marker_134b94597eab4a59b036ff1da0dba77b = L.circleMarker(
+                [47.5761, 7.5999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_f13cf8b09cdb4a28af9410ab781079f1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fbc0b6cf4e1f41f6a8b158fd027b041a = $('<div id="html_fbc0b6cf4e1f41f6a8b158fd027b041a" style="width: 100.0%; height: 100.0%;">4057, Basel Cluster 6</div>')[0];
+                popup_f13cf8b09cdb4a28af9410ab781079f1.setContent(html_fbc0b6cf4e1f41f6a8b158fd027b041a);
+            
+
+            circle_marker_134b94597eab4a59b036ff1da0dba77b.bindPopup(popup_f13cf8b09cdb4a28af9410ab781079f1)
+            ;
+
+            
+        
+    
+            var circle_marker_5c16429caa7f495bb65c6049e1ffbb14 = L.circleMarker(
+                [47.5677, 7.6135],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_08f5352788b645b499639b28ff138ccd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d32fd3724f6142ca81c64cbaf869bac0 = $('<div id="html_d32fd3724f6142ca81c64cbaf869bac0" style="width: 100.0%; height: 100.0%;">4058, Basel Cluster 6</div>')[0];
+                popup_08f5352788b645b499639b28ff138ccd.setContent(html_d32fd3724f6142ca81c64cbaf869bac0);
+            
+
+            circle_marker_5c16429caa7f495bb65c6049e1ffbb14.bindPopup(popup_08f5352788b645b499639b28ff138ccd)
+            ;
+
+            
+        
+    
+            var circle_marker_1a7411f31eca4374bafc2beeb94acc20 = L.circleMarker(
+                [47.5316, 7.5934],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_ef8c31b7318e44cdb65a7797a44af805 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07df65e29b05494697b89264f7d380e1 = $('<div id="html_07df65e29b05494697b89264f7d380e1" style="width: 100.0%; height: 100.0%;">4059, Basel Cluster 2</div>')[0];
+                popup_ef8c31b7318e44cdb65a7797a44af805.setContent(html_07df65e29b05494697b89264f7d380e1);
+            
+
+            circle_marker_1a7411f31eca4374bafc2beeb94acc20.bindPopup(popup_ef8c31b7318e44cdb65a7797a44af805)
+            ;
+
+            
+        
+    
+            var circle_marker_b79675c5a4b9422eb416e5b6ae20bc56 = L.circleMarker(
+                [47.5617, 7.6067],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_997c7bf4ac40454f9b95e9649c7f24dc);
+            
+    
+            var popup_469bfb48df8944279979e2cbb1de1b96 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c3fab43c890c453fa96d728c0e2ebe51 = $('<div id="html_c3fab43c890c453fa96d728c0e2ebe51" style="width: 100.0%; height: 100.0%;">4065, Basel Cluster 2</div>')[0];
+                popup_469bfb48df8944279979e2cbb1de1b96.setContent(html_c3fab43c890c453fa96d728c0e2ebe51);
+            
+
+            circle_marker_b79675c5a4b9422eb416e5b6ae20bc56.bindPopup(popup_469bfb48df8944279979e2cbb1de1b96)
+            ;
+
+            
+        
+</script>

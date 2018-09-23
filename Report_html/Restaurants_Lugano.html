@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_ab8d9692dd6948edb92b42462bad89b1 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_ab8d9692dd6948edb92b42462bad89b1" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_ab8d9692dd6948edb92b42462bad89b1 = L.map(
+        'map_ab8d9692dd6948edb92b42462bad89b1', {
+        center: [46.0036778, 8.951051999999999],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_25e65dc527524f4b907f8aea6644cc9c = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_ab8d9692dd6948edb92b42462bad89b1);
+    
+            var circle_marker_debd4ec61afe4528876cfcd36770fea0 = L.circleMarker(
+                [46.00524262775688, 8.949844052682874],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7841241161527712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_ab8d9692dd6948edb92b42462bad89b1);
+            
+    
+            var popup_14c88559b0154ee3820a965cb74f6e81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e170599296564d24b3b6ce95ecce6e87 = $('<div id="html_e170599296564d24b3b6ce95ecce6e87" style="width: 100.0%; height: 100.0%;">Manora Restaurant: 10 likes</div>')[0];
+                popup_14c88559b0154ee3820a965cb74f6e81.setContent(html_e170599296564d24b3b6ce95ecce6e87);
+            
+
+            circle_marker_debd4ec61afe4528876cfcd36770fea0.bindPopup(popup_14c88559b0154ee3820a965cb74f6e81)
+            ;
+
+            
+        
+    
+            var circle_marker_3715be5ff30f447c9fe3b3ed341c8435 = L.circleMarker(
+                [45.99313365941507, 8.946395636592953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7841241161527712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_ab8d9692dd6948edb92b42462bad89b1);
+            
+    
+            var popup_1698e77be23a4ba098d22e2ef350a6ef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6fcb3453bd4444b891518d429156138e = $('<div id="html_6fcb3453bd4444b891518d429156138e" style="width: 100.0%; height: 100.0%;">Metamorphosis Restaurant &amp; Bar: 10 likes</div>')[0];
+                popup_1698e77be23a4ba098d22e2ef350a6ef.setContent(html_6fcb3453bd4444b891518d429156138e);
+            
+
+            circle_marker_3715be5ff30f447c9fe3b3ed341c8435.bindPopup(popup_1698e77be23a4ba098d22e2ef350a6ef)
+            ;
+
+            
+        
+    
+            var circle_marker_409fdf4e0aaf458fab88823bdf3d47dd = L.circleMarker(
+                [46.008539041897116, 8.95748039240552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_ab8d9692dd6948edb92b42462bad89b1);
+            
+    
+            var popup_afb40ca4b40e4e8cbc7e9c4372895af2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_93d6e89de5fd40ae9913e92f0fda4d8c = $('<div id="html_93d6e89de5fd40ae9913e92f0fda4d8c" style="width: 100.0%; height: 100.0%;">Viva Café - Lounge &amp; Restaurant: 5 likes</div>')[0];
+                popup_afb40ca4b40e4e8cbc7e9c4372895af2.setContent(html_93d6e89de5fd40ae9913e92f0fda4d8c);
+            
+
+            circle_marker_409fdf4e0aaf458fab88823bdf3d47dd.bindPopup(popup_afb40ca4b40e4e8cbc7e9c4372895af2)
+            ;
+
+            
+        
+    
+            var circle_marker_12d905d8146c4554ab8a5937f755a401 = L.circleMarker(
+                [45.97289032493433, 8.927297576892215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.381976597885342,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_ab8d9692dd6948edb92b42462bad89b1);
+            
+    
+            var popup_15a5f152f92b45f3b668c3c89a4e88da = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e0a3244d99cf4f0faed33a7cff925d6f = $('<div id="html_e0a3244d99cf4f0faed33a7cff925d6f" style="width: 100.0%; height: 100.0%;">IKEA Restaurant &amp; Café: 6 likes</div>')[0];
+                popup_15a5f152f92b45f3b668c3c89a4e88da.setContent(html_e0a3244d99cf4f0faed33a7cff925d6f);
+            
+
+            circle_marker_12d905d8146c4554ab8a5937f755a401.bindPopup(popup_15a5f152f92b45f3b668c3c89a4e88da)
+            ;
+
+            
+        
+</script>

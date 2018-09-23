@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_e1abb74519974a77ad56110ec548846d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e1abb74519974a77ad56110ec548846d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e1abb74519974a77ad56110ec548846d = L.map(
+        'map_e1abb74519974a77ad56110ec548846d', {
+        center: [46.9479739, 7.4474468],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_3e79d58928cb4c60b98c504e0b46fbb7 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e1abb74519974a77ad56110ec548846d);
+    
+            var circle_marker_6dfb95fa8ca14f64aadf78de71381e27 = L.circleMarker(
+                [46.9167, 7.4667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_e851a0e269c74bc49d9b6abe6e1715e0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7719f97d65794eee88289fb59a2b6a01 = $('<div id="html_7719f97d65794eee88289fb59a2b6a01" style="width: 100.0%; height: 100.0%;">3000, Bern Cluster 6</div>')[0];
+                popup_e851a0e269c74bc49d9b6abe6e1715e0.setContent(html_7719f97d65794eee88289fb59a2b6a01);
+            
+
+            circle_marker_6dfb95fa8ca14f64aadf78de71381e27.bindPopup(popup_e851a0e269c74bc49d9b6abe6e1715e0)
+            ;
+
+            
+        
+    
+            var circle_marker_2f35ca054fd346d7b5c03d4a959f107d = L.circleMarker(
+                [46.947, 7.4404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_45ab52b855034256bb4543d5537992fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d08b3de36688415c9b4af7cf1d58a93a = $('<div id="html_d08b3de36688415c9b4af7cf1d58a93a" style="width: 100.0%; height: 100.0%;">3001, Bern Cluster 6</div>')[0];
+                popup_45ab52b855034256bb4543d5537992fc.setContent(html_d08b3de36688415c9b4af7cf1d58a93a);
+            
+
+            circle_marker_2f35ca054fd346d7b5c03d4a959f107d.bindPopup(popup_45ab52b855034256bb4543d5537992fc)
+            ;
+
+            
+        
+    
+            var circle_marker_6f6e77ae101c4693918b45b83d161629 = L.circleMarker(
+                [46.9805, 7.452000000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_c8ba269a27484405b007bda0d231490c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_daf24f9278d34dea9d08c8320d3644d8 = $('<div id="html_daf24f9278d34dea9d08c8320d3644d8" style="width: 100.0%; height: 100.0%;">3004, Bern Cluster 6</div>')[0];
+                popup_c8ba269a27484405b007bda0d231490c.setContent(html_daf24f9278d34dea9d08c8320d3644d8);
+            
+
+            circle_marker_6f6e77ae101c4693918b45b83d161629.bindPopup(popup_c8ba269a27484405b007bda0d231490c)
+            ;
+
+            
+        
+    
+            var circle_marker_626f36a09a4640e5b2e0018d1a4a292f = L.circleMarker(
+                [46.9394, 7.4499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_7982312db96f440ebd1bf9eca2750bd1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_084cef6dd7444ec0a30343056920f9ee = $('<div id="html_084cef6dd7444ec0a30343056920f9ee" style="width: 100.0%; height: 100.0%;">3005, Bern Cluster 6</div>')[0];
+                popup_7982312db96f440ebd1bf9eca2750bd1.setContent(html_084cef6dd7444ec0a30343056920f9ee);
+            
+
+            circle_marker_626f36a09a4640e5b2e0018d1a4a292f.bindPopup(popup_7982312db96f440ebd1bf9eca2750bd1)
+            ;
+
+            
+        
+    
+            var circle_marker_425be3887c4341a9ae11449c54580da4 = L.circleMarker(
+                [46.9458, 7.4713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_939805cd9c9f45ef991f16ec731b0c95 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc14867a0f1540c3bb648033e65ff16e = $('<div id="html_bc14867a0f1540c3bb648033e65ff16e" style="width: 100.0%; height: 100.0%;">3006, Bern Cluster 3</div>')[0];
+                popup_939805cd9c9f45ef991f16ec731b0c95.setContent(html_bc14867a0f1540c3bb648033e65ff16e);
+            
+
+            circle_marker_425be3887c4341a9ae11449c54580da4.bindPopup(popup_939805cd9c9f45ef991f16ec731b0c95)
+            ;
+
+            
+        
+    
+            var circle_marker_181009698235467f9b2390f3cf67e68b = L.circleMarker(
+                [46.9392, 7.4346],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_1fa4e0d31eaa4416bc379eb726c0c3e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3b76b38f51744733b6ef7dc2a006579d = $('<div id="html_3b76b38f51744733b6ef7dc2a006579d" style="width: 100.0%; height: 100.0%;">3007, Bern Cluster 6</div>')[0];
+                popup_1fa4e0d31eaa4416bc379eb726c0c3e9.setContent(html_3b76b38f51744733b6ef7dc2a006579d);
+            
+
+            circle_marker_181009698235467f9b2390f3cf67e68b.bindPopup(popup_1fa4e0d31eaa4416bc379eb726c0c3e9)
+            ;
+
+            
+        
+    
+            var circle_marker_8a5e1751ced34594961cbdc726831fc2 = L.circleMarker(
+                [46.9546, 7.4207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_943e71f2d9124976b6fa65c7caca97f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f15abb2d7f664818aeb126a7cc3249a3 = $('<div id="html_f15abb2d7f664818aeb126a7cc3249a3" style="width: 100.0%; height: 100.0%;">3008, Bern Cluster 6</div>')[0];
+                popup_943e71f2d9124976b6fa65c7caca97f0.setContent(html_f15abb2d7f664818aeb126a7cc3249a3);
+            
+
+            circle_marker_8a5e1751ced34594961cbdc726831fc2.bindPopup(popup_943e71f2d9124976b6fa65c7caca97f0)
+            ;
+
+            
+        
+    
+            var circle_marker_e0f545e8ab524f628c96dc21646777b7 = L.circleMarker(
+                [46.9471, 7.4244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_108e65b9da5a4635ada13cb89fae11f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_751c9dbc6a0e4c248b767ca1aa617ec4 = $('<div id="html_751c9dbc6a0e4c248b767ca1aa617ec4" style="width: 100.0%; height: 100.0%;">3010, Bern Cluster 3</div>')[0];
+                popup_108e65b9da5a4635ada13cb89fae11f6.setContent(html_751c9dbc6a0e4c248b767ca1aa617ec4);
+            
+
+            circle_marker_e0f545e8ab524f628c96dc21646777b7.bindPopup(popup_108e65b9da5a4635ada13cb89fae11f6)
+            ;
+
+            
+        
+    
+            var circle_marker_848243bea17a496b8a9e395e496df0cc = L.circleMarker(
+                [46.948, 7.4484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_85cdf94bd91348199afe5d13de2714f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e37db9552a54de68f5823191a35f03e = $('<div id="html_8e37db9552a54de68f5823191a35f03e" style="width: 100.0%; height: 100.0%;">3011, Bern Cluster 6</div>')[0];
+                popup_85cdf94bd91348199afe5d13de2714f3.setContent(html_8e37db9552a54de68f5823191a35f03e);
+            
+
+            circle_marker_848243bea17a496b8a9e395e496df0cc.bindPopup(popup_85cdf94bd91348199afe5d13de2714f3)
+            ;
+
+            
+        
+    
+            var circle_marker_19a93d12bace4adebdb7fd2a4c47e49f = L.circleMarker(
+                [46.9616, 7.426],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_3b15a5a50ca043c7b96fda8540091552 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a876c22e16824430878d913f355923c3 = $('<div id="html_a876c22e16824430878d913f355923c3" style="width: 100.0%; height: 100.0%;">3012, Bern Cluster 1</div>')[0];
+                popup_3b15a5a50ca043c7b96fda8540091552.setContent(html_a876c22e16824430878d913f355923c3);
+            
+
+            circle_marker_19a93d12bace4adebdb7fd2a4c47e49f.bindPopup(popup_3b15a5a50ca043c7b96fda8540091552)
+            ;
+
+            
+        
+    
+            var circle_marker_299a4e5d16a642dc9d4761969dd36f5c = L.circleMarker(
+                [46.9562, 7.4462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_d63a08c49ab34d49bf6f7c3db432e63f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_260084378bdf4e87b0ac5c211c7993d4 = $('<div id="html_260084378bdf4e87b0ac5c211c7993d4" style="width: 100.0%; height: 100.0%;">3013, Bern Cluster 6</div>')[0];
+                popup_d63a08c49ab34d49bf6f7c3db432e63f.setContent(html_260084378bdf4e87b0ac5c211c7993d4);
+            
+
+            circle_marker_299a4e5d16a642dc9d4761969dd36f5c.bindPopup(popup_d63a08c49ab34d49bf6f7c3db432e63f)
+            ;
+
+            
+        
+    
+            var circle_marker_c5b90546773c4fd0b1af840095dfda21 = L.circleMarker(
+                [46.9622, 7.4584],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_7039bdc43fbd43a6b910ddede81d8a90 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_290fbfe984464d73aef272b5e5609187 = $('<div id="html_290fbfe984464d73aef272b5e5609187" style="width: 100.0%; height: 100.0%;">3014, Bern Cluster 0</div>')[0];
+                popup_7039bdc43fbd43a6b910ddede81d8a90.setContent(html_290fbfe984464d73aef272b5e5609187);
+            
+
+            circle_marker_c5b90546773c4fd0b1af840095dfda21.bindPopup(popup_7039bdc43fbd43a6b910ddede81d8a90)
+            ;
+
+            
+        
+    
+            var circle_marker_1b0743df35ee42f0818dd4e3a32ffd89 = L.circleMarker(
+                [46.9402, 7.4855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_ea8bea48ce05417fbbce4ba0235a2319 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1fe332b98ade467cadea5725f9be43f0 = $('<div id="html_1fe332b98ade467cadea5725f9be43f0" style="width: 100.0%; height: 100.0%;">3015, Bern Cluster 1</div>')[0];
+                popup_ea8bea48ce05417fbbce4ba0235a2319.setContent(html_1fe332b98ade467cadea5725f9be43f0);
+            
+
+            circle_marker_1b0743df35ee42f0818dd4e3a32ffd89.bindPopup(popup_ea8bea48ce05417fbbce4ba0235a2319)
+            ;
+
+            
+        
+    
+            var circle_marker_529661e037f0470ea80599c3833317ee = L.circleMarker(
+                [46.9476, 7.4065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_ee5f1a642b5d421f912f84dec67ecbe9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_accaa14f26b6433db40f39ff3e8dac78 = $('<div id="html_accaa14f26b6433db40f39ff3e8dac78" style="width: 100.0%; height: 100.0%;">3017, Bern Cluster 6</div>')[0];
+                popup_ee5f1a642b5d421f912f84dec67ecbe9.setContent(html_accaa14f26b6433db40f39ff3e8dac78);
+            
+
+            circle_marker_529661e037f0470ea80599c3833317ee.bindPopup(popup_ee5f1a642b5d421f912f84dec67ecbe9)
+            ;
+
+            
+        
+    
+            var circle_marker_e988d76584564d969f720bd050d24356 = L.circleMarker(
+                [46.9339, 7.3891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_bf8719c99e094b779f8e6e2824b23639 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_234d28fa100f4750b07cde68f9e32f04 = $('<div id="html_234d28fa100f4750b07cde68f9e32f04" style="width: 100.0%; height: 100.0%;">3018, Bern Cluster 6</div>')[0];
+                popup_bf8719c99e094b779f8e6e2824b23639.setContent(html_234d28fa100f4750b07cde68f9e32f04);
+            
+
+            circle_marker_e988d76584564d969f720bd050d24356.bindPopup(popup_bf8719c99e094b779f8e6e2824b23639)
+            ;
+
+            
+        
+    
+            var circle_marker_3b2ef23ee7904f509d318031180ccba3 = L.circleMarker(
+                [46.931, 7.3479],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_a4b237a655ad420487d801c600de6407 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1011fd8d0e1f4872b435fba458dd14c2 = $('<div id="html_1011fd8d0e1f4872b435fba458dd14c2" style="width: 100.0%; height: 100.0%;">3019, Bern Cluster 0</div>')[0];
+                popup_a4b237a655ad420487d801c600de6407.setContent(html_1011fd8d0e1f4872b435fba458dd14c2);
+            
+
+            circle_marker_3b2ef23ee7904f509d318031180ccba3.bindPopup(popup_a4b237a655ad420487d801c600de6407)
+            ;
+
+            
+        
+    
+            var circle_marker_b0f47e1827e8496b8a94e6a5885aff7f = L.circleMarker(
+                [46.9371, 7.3209],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_d6d8785efff24c52b10fbab7101eacac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9aa35de261fd40b9958992e4ea301c10 = $('<div id="html_9aa35de261fd40b9958992e4ea301c10" style="width: 100.0%; height: 100.0%;">3020, Bern Cluster 6</div>')[0];
+                popup_d6d8785efff24c52b10fbab7101eacac.setContent(html_9aa35de261fd40b9958992e4ea301c10);
+            
+
+            circle_marker_b0f47e1827e8496b8a94e6a5885aff7f.bindPopup(popup_d6d8785efff24c52b10fbab7101eacac)
+            ;
+
+            
+        
+    
+            var circle_marker_f906977bc53e4903a749e878c45730bf = L.circleMarker(
+                [46.9558, 7.3872],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_62e63e8752e34798a8a00bd7752c7bf1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ddc7f38e81b0429f9a0809f55a38e423 = $('<div id="html_ddc7f38e81b0429f9a0809f55a38e423" style="width: 100.0%; height: 100.0%;">3027, Bern Cluster 1</div>')[0];
+                popup_62e63e8752e34798a8a00bd7752c7bf1.setContent(html_ddc7f38e81b0429f9a0809f55a38e423);
+            
+
+            circle_marker_f906977bc53e4903a749e878c45730bf.bindPopup(popup_62e63e8752e34798a8a00bd7752c7bf1)
+            ;
+
+            
+        
+    
+            var circle_marker_c333d8afa726488f9f0c0eaa9c297c14 = L.circleMarker(
+                [46.9667, 7.3833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_b98e174a2e964c99a60c390215a05777 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb8d7d9f0405459baff0401a39158cd6 = $('<div id="html_bb8d7d9f0405459baff0401a39158cd6" style="width: 100.0%; height: 100.0%;">3039, Bern Cluster 3</div>')[0];
+                popup_b98e174a2e964c99a60c390215a05777.setContent(html_bb8d7d9f0405459baff0401a39158cd6);
+            
+
+            circle_marker_c333d8afa726488f9f0c0eaa9c297c14.bindPopup(popup_b98e174a2e964c99a60c390215a05777)
+            ;
+
+            
+        
+    
+            var circle_marker_fae581ab73ae4a8fa4b0c694779ac705 = L.circleMarker(
+                [47.0111, 7.4333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e1abb74519974a77ad56110ec548846d);
+            
+    
+            var popup_c398adf20d784dd299c358399f240927 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_95daa12f0fc046be8169510e078b6c10 = $('<div id="html_95daa12f0fc046be8169510e078b6c10" style="width: 100.0%; height: 100.0%;">3050, Bern Cluster 2</div>')[0];
+                popup_c398adf20d784dd299c358399f240927.setContent(html_95daa12f0fc046be8169510e078b6c10);
+            
+
+            circle_marker_fae581ab73ae4a8fa4b0c694779ac705.bindPopup(popup_c398adf20d784dd299c358399f240927)
+            ;
+
+            
+        
+</script>

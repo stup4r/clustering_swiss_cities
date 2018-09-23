@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_07610ddceba64547951355f5c1327239 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_07610ddceba64547951355f5c1327239" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_07610ddceba64547951355f5c1327239 = L.map(
+        'map_07610ddceba64547951355f5c1327239', {
+        center: [47.4988196, 8.723688899999999],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_31e0f6dced99407ab70ea3c3758884d9 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_07610ddceba64547951355f5c1327239);
+    
+            var circle_marker_e2d7c05af66048ba96575a56164e1119 = L.circleMarker(
+                [47.498908963354616, 8.731258089834894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7841241161527712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_daac38fe72794d42b5a8abce18ff5037 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bfa2d3145bf547d9abbdec5479e79cd5 = $('<div id="html_bfa2d3145bf547d9abbdec5479e79cd5" style="width: 100.0%; height: 100.0%;">Restaurant Schäfli: 10 likes</div>')[0];
+                popup_daac38fe72794d42b5a8abce18ff5037.setContent(html_bfa2d3145bf547d9abbdec5479e79cd5);
+            
+
+            circle_marker_e2d7c05af66048ba96575a56164e1119.bindPopup(popup_daac38fe72794d42b5a8abce18ff5037)
+            ;
+
+            
+        
+    
+            var circle_marker_0dd496b8943749a8a83cead0026887e7 = L.circleMarker(
+                [47.498863731424855, 8.730310912730324],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.381976597885342,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_65b4f90c26174598a1db3fb7d6e61e2b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b5f1e4e50dd4ca69080773353bdff38 = $('<div id="html_6b5f1e4e50dd4ca69080773353bdff38" style="width: 100.0%; height: 100.0%;">Restaurant Obergass: 6 likes</div>')[0];
+                popup_65b4f90c26174598a1db3fb7d6e61e2b.setContent(html_6b5f1e4e50dd4ca69080773353bdff38);
+            
+
+            circle_marker_0dd496b8943749a8a83cead0026887e7.bindPopup(popup_65b4f90c26174598a1db3fb7d6e61e2b)
+            ;
+
+            
+        
+    
+            var circle_marker_762aac66cb7f44459e7bc8dabcdaa049 = L.circleMarker(
+                [47.49032519381336, 8.72737968702538],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_28eef1f9152e4eaa910c7b39898c2d55 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d625994578ff4bab9e9f0f42b9564208 = $('<div id="html_d625994578ff4bab9e9f0f42b9564208" style="width: 100.0%; height: 100.0%;">Restaurant Barnabas: 4 likes</div>')[0];
+                popup_28eef1f9152e4eaa910c7b39898c2d55.setContent(html_d625994578ff4bab9e9f0f42b9564208);
+            
+
+            circle_marker_762aac66cb7f44459e7bc8dabcdaa049.bindPopup(popup_28eef1f9152e4eaa910c7b39898c2d55)
+            ;
+
+            
+        
+    
+            var circle_marker_ea6819dea68448e5884690eed60ee64f = L.circleMarker(
+                [47.498649107863045, 8.727838749917638],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7841241161527712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_bb44f64bf18a41a9b924d9db03e17cc9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2b33247e9fe44723a167bcd5fa7df7b2 = $('<div id="html_2b33247e9fe44723a167bcd5fa7df7b2" style="width: 100.0%; height: 100.0%;">Restaurant Widder: 10 likes</div>')[0];
+                popup_bb44f64bf18a41a9b924d9db03e17cc9.setContent(html_2b33247e9fe44723a167bcd5fa7df7b2);
+            
+
+            circle_marker_ea6819dea68448e5884690eed60ee64f.bindPopup(popup_bb44f64bf18a41a9b924d9db03e17cc9)
+            ;
+
+            
+        
+    
+            var circle_marker_06839d6d792442c2b98c2dcf9cb57c90 = L.circleMarker(
+                [47.49980197715088, 8.729846732337409],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9544100476116797,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_2a060bb9f69d42c8abba673bb44e98d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a9023b7f8a0c4498b5421cc2d69fd0d7 = $('<div id="html_a9023b7f8a0c4498b5421cc2d69fd0d7" style="width: 100.0%; height: 100.0%;">Restaurant zur Sonne: 12 likes</div>')[0];
+                popup_2a060bb9f69d42c8abba673bb44e98d4.setContent(html_a9023b7f8a0c4498b5421cc2d69fd0d7);
+            
+
+            circle_marker_06839d6d792442c2b98c2dcf9cb57c90.bindPopup(popup_2a060bb9f69d42c8abba673bb44e98d4)
+            ;
+
+            
+        
+    
+            var circle_marker_baccf0412d0e4777a6b44b138b81eb0e = L.circleMarker(
+                [47.49434, 8.73981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.381976597885342,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_f614b2fd48cf4c5abac6d8b43d238c93 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6bce0d8db83842448393a694c0ad65e2 = $('<div id="html_6bce0d8db83842448393a694c0ad65e2" style="width: 100.0%; height: 100.0%;">Restaurant Al Giardino: 6 likes</div>')[0];
+                popup_f614b2fd48cf4c5abac6d8b43d238c93.setContent(html_6bce0d8db83842448393a694c0ad65e2);
+            
+
+            circle_marker_baccf0412d0e4777a6b44b138b81eb0e.bindPopup(popup_f614b2fd48cf4c5abac6d8b43d238c93)
+            ;
+
+            
+        
+    
+            var circle_marker_2b032e79699b474a8ba51051cc4a4564 = L.circleMarker(
+                [47.498646648659886, 8.726407727806347],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5957691216057308,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_7fa060960e0e475bb9c4f6548c201e60 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14a1d5bd4ba741d398770e00369cb967 = $('<div id="html_14a1d5bd4ba741d398770e00369cb967" style="width: 100.0%; height: 100.0%;">Restaurant Neumarkt: 8 likes</div>')[0];
+                popup_7fa060960e0e475bb9c4f6548c201e60.setContent(html_14a1d5bd4ba741d398770e00369cb967);
+            
+
+            circle_marker_2b032e79699b474a8ba51051cc4a4564.bindPopup(popup_7fa060960e0e475bb9c4f6548c201e60)
+            ;
+
+            
+        
+    
+            var circle_marker_f12c7bc8dab8433c94e3bc3571f4ee2a = L.circleMarker(
+                [47.49536355380354, 8.718363617392937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.9316150714175193,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_c250c17c98fe4d8a83a698079c74823b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e0f55b92fd0f4a6d828bc7e003fe2fdc = $('<div id="html_e0f55b92fd0f4a6d828bc7e003fe2fdc" style="width: 100.0%; height: 100.0%;">Outback Lodge: 27 likes</div>')[0];
+                popup_c250c17c98fe4d8a83a698079c74823b.setContent(html_e0f55b92fd0f4a6d828bc7e003fe2fdc);
+            
+
+            circle_marker_f12c7bc8dab8433c94e3bc3571f4ee2a.bindPopup(popup_c250c17c98fe4d8a83a698079c74823b)
+            ;
+
+            
+        
+    
+            var circle_marker_a234e92e2f2b48deac47217d44163530 = L.circleMarker(
+                [47.499708108672046, 8.723949584580925],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.385137501286538,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_36568d8e2b3548448b4a29565382be88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87b400ab98d0484d817ab7d7ffe89052 = $('<div id="html_87b400ab98d0484d817ab7d7ffe89052" style="width: 100.0%; height: 100.0%;">National: 36 likes</div>')[0];
+                popup_36568d8e2b3548448b4a29565382be88.setContent(html_87b400ab98d0484d817ab7d7ffe89052);
+            
+
+            circle_marker_a234e92e2f2b48deac47217d44163530.bindPopup(popup_36568d8e2b3548448b4a29565382be88)
+            ;
+
+            
+        
+    
+            var circle_marker_13afd1d935664b22b00eaf4299e06789 = L.circleMarker(
+                [47.49982330560852, 8.726492972805715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.7846987830302403,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_07920fd638fc4a698c320ed84970c036 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25033751298f48d2a9f164525593a574 = $('<div id="html_25033751298f48d2a9f164525593a574" style="width: 100.0%; height: 100.0%;">Casinotheater: 45 likes</div>')[0];
+                popup_07920fd638fc4a698c320ed84970c036.setContent(html_25033751298f48d2a9f164525593a574);
+            
+
+            circle_marker_13afd1d935664b22b00eaf4299e06789.bindPopup(popup_07920fd638fc4a698c320ed84970c036)
+            ;
+
+            
+        
+    
+            var circle_marker_a12a5703cd4041d2bac2e50c39a43f41 = L.circleMarker(
+                [47.50097623097364, 8.732609744752372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8712051592547776,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_1d8a4a7722d849bc98182066e19eea61 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_51839322c3f547ccb4dc5bfba7f56ba9 = $('<div id="html_51839322c3f547ccb4dc5bfba7f56ba9" style="width: 100.0%; height: 100.0%;">bloom: 11 likes</div>')[0];
+                popup_1d8a4a7722d849bc98182066e19eea61.setContent(html_51839322c3f547ccb4dc5bfba7f56ba9);
+            
+
+            circle_marker_a12a5703cd4041d2bac2e50c39a43f41.bindPopup(popup_1d8a4a7722d849bc98182066e19eea61)
+            ;
+
+            
+        
+    
+            var circle_marker_3fa5544cb8f64a1c97d9ae6d4d5fc861 = L.circleMarker(
+                [47.50024320977874, 8.729235087817976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_4430c056966341b28fcbdd1a88348d21 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_57b1eebd946545f39dc92fb1933164b3 = $('<div id="html_57b1eebd946545f39dc92fb1933164b3" style="width: 100.0%; height: 100.0%;">La Pergola: 7 likes</div>')[0];
+                popup_4430c056966341b28fcbdd1a88348d21.setContent(html_57b1eebd946545f39dc92fb1933164b3);
+            
+
+            circle_marker_3fa5544cb8f64a1c97d9ae6d4d5fc861.bindPopup(popup_4430c056966341b28fcbdd1a88348d21)
+            ;
+
+            
+        
+    
+            var circle_marker_06b113beb7c948e6a958ff403b4f32ce = L.circleMarker(
+                [47.50074326264416, 8.725610678907143],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_3fb687636e9a40e19c61f9eb0dd8686d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7704c256c1a74ebf8c806ec9c84eeb66 = $('<div id="html_7704c256c1a74ebf8c806ec9c84eeb66" style="width: 100.0%; height: 100.0%;">Coop: 2 likes</div>')[0];
+                popup_3fb687636e9a40e19c61f9eb0dd8686d.setContent(html_7704c256c1a74ebf8c806ec9c84eeb66);
+            
+
+            circle_marker_06b113beb7c948e6a958ff403b4f32ce.bindPopup(popup_3fb687636e9a40e19c61f9eb0dd8686d)
+            ;
+
+            
+        
+    
+            var circle_marker_13e2ac9367864f9f90b6b3ec53992e3f = L.circleMarker(
+                [47.50580006827013, 8.741180887963578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.8209479177387813,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_6652154e522a41ffb1789a1899c0e1b6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e5c2126be36c49119662372a3ee6f1b4 = $('<div id="html_e5c2126be36c49119662372a3ee6f1b4" style="width: 100.0%; height: 100.0%;">Restaurant Goldenberg: 25 likes</div>')[0];
+                popup_6652154e522a41ffb1789a1899c0e1b6.setContent(html_e5c2126be36c49119662372a3ee6f1b4);
+            
+
+            circle_marker_13e2ac9367864f9f90b6b3ec53992e3f.bindPopup(popup_6652154e522a41ffb1789a1899c0e1b6)
+            ;
+
+            
+        
+    
+            var circle_marker_af586ea3cde44ec29e9d50c0d7f66e9c = L.circleMarker(
+                [47.49774507794209, 8.746574800868268],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.111004122822376,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_9377370a9b48419ca461cf96f4c98453 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c85654874e964c2ca1e0b65f829550f5 = $('<div id="html_c85654874e964c2ca1e0b65f829550f5" style="width: 100.0%; height: 100.0%;">McDonald&#39;s: 14 likes</div>')[0];
+                popup_9377370a9b48419ca461cf96f4c98453.setContent(html_c85654874e964c2ca1e0b65f829550f5);
+            
+
+            circle_marker_af586ea3cde44ec29e9d50c0d7f66e9c.bindPopup(popup_9377370a9b48419ca461cf96f4c98453)
+            ;
+
+            
+        
+    
+            var circle_marker_f973f171efe44400bd420b30d3a904a4 = L.circleMarker(
+                [47.489165, 8.703089],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_07610ddceba64547951355f5c1327239);
+            
+    
+            var popup_556a568e549c41289c805545bb0cad97 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_575e943cf52a41f2a9faa2b04af3096e = $('<div id="html_575e943cf52a41f2a9faa2b04af3096e" style="width: 100.0%; height: 100.0%;">Restaurant Pizzeria La Mirada: 3 likes</div>')[0];
+                popup_556a568e549c41289c805545bb0cad97.setContent(html_575e943cf52a41f2a9faa2b04af3096e);
+            
+
+            circle_marker_f973f171efe44400bd420b30d3a904a4.bindPopup(popup_556a568e549c41289c805545bb0cad97)
+            ;
+
+            
+        
+</script>

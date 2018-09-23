@@ -1,0 +1,51 @@
+,Neighborhood,Latitude,Longitude,Venue,Venue Category,Venue id,Venue Latitude,Venue Longitude,Rating,Tier,Likes
+0,"9000, St. Gallen",47.4236,9.3622,Migros Restaurant St. Gallen,Restaurant,502a29bfe4b06ec42c3a9afc,47.421735619652324,9.371391660459294,,2.0,4
+1,"9000, St. Gallen",47.4236,9.3622,Seeger,Restaurant,4b067bc5f964a5203bec22e3,47.42585082081956,9.373863477992373,8.1,2.0,44
+2,"9000, St. Gallen",47.4236,9.3622,Splügen,Bar,4b9c024ef964a5204f4036e3,47.422258589175385,9.376959800720215,7.8,2.0,10
+3,"9000, St. Gallen",47.4236,9.3622,Wirtschaft zur alten Post,Swiss Restaurant,4e779cd88998ed82a5b97873,47.42408057234665,9.376487731933594,7.8,3.0,7
+4,"9001, St. Gallen",47.4667,9.4,Restaurant Sonnental (Gift),Swiss Restaurant,4ecfd8a8f790d07037c84778,47.466595833264634,9.394268180668787,,3.0,0
+5,"9008, St. Gallen",47.4418,9.3918,Restaurant Espenmoos,Swiss Restaurant,51812c68498e72611038ca6c,47.438860490455134,9.39509831624942,,3.0,0
+6,"9008, St. Gallen",47.4418,9.3918,Peter und Paul Wildpark Restaurant,Swiss Restaurant,4e5a4d9e185036bc29efbbfc,47.45003516720589,9.387978315353394,,3.0,7
+7,"9008, St. Gallen",47.4418,9.3918,Restaurant Sternen,Swiss Restaurant,4f11c052e4b07e9ecabd7631,47.44129370532996,9.393049995822002,,3.0,1
+8,"9008, St. Gallen",47.4418,9.3918,Restaurant Paradisli,Sports Bar,4f11ca87e4b03856f0ba941e,47.43903674876458,9.390733354031594,,1.0,0
+9,"9008, St. Gallen",47.4418,9.3918,Restaurant Grütli,Food,4e4d3d4cfa769ce595ba94f9,47.44245166911543,9.39399734687893,,,0
+10,"9008, St. Gallen",47.4418,9.3918,"Restaurant Heiligkreuz ""Elba Pizzakurier""",Italian Restaurant,535f9b92498edc8cf0e57e7d,47.442354,9.394093,,2.0,0
+11,"9008, St. Gallen",47.4418,9.3918,Restaurant Zunftstube,Swiss Restaurant,4c611d8354ac0f47ee21b721,47.44039335233328,9.394601379064145,,3.0,4
+12,"9008, St. Gallen",47.4418,9.3918,Restaurant Segreto,Italian Restaurant,4c4ea6f1fb742d7f324ba22e,47.450205911320765,9.396461818832888,,2.0,2
+13,"9008, St. Gallen",47.4418,9.3918,Restaurant Neue Heimat,Snack Place,50701ab1e4b06190ff7cc5a9,47.435801,9.392693,,1.0,1
+14,"9008, St. Gallen",47.4418,9.3918,Restaurant Al Covo,Restaurant,4d7fbc202ff9b60cddc3c347,47.45069875262031,9.3966458974721,6.6,2.0,5
+15,"9008, St. Gallen",47.4418,9.3918,Restaurant Rennbahn,Restaurant,4da08ec34977236a6147c696,47.43314445018768,9.401738047599792,,2.0,0
+16,"9008, St. Gallen",47.4418,9.3918,Restaurant Blume,Restaurant,5241ef0d11d260e26bb8d79f,47.435346,9.402116,,2.0,0
+17,"9008, St. Gallen",47.4418,9.3918,Schweizerbund Restaurant,Restaurant,4e25c72a14956d36077ffd5c,47.43605339881213,9.392604950835532,,2.0,1
+18,"9011, St. Gallen",47.4148,9.3999,Restaurant Scheitlinsbüchel,Swiss Restaurant,4b5c36cdf964a520812729e3,47.424282011659145,9.396098213828841,7.7,3.0,14
+19,"9011, St. Gallen",47.4148,9.3999,Restaurant Dreilinden,Restaurant,4e569674fa763b20fd0ef176,47.42295182128002,9.389753937721252,6.8,2.0,7
+20,"9011, St. Gallen",47.4148,9.3999,Restaurant Unterer Brand,Swiss Restaurant,529e2b87498e0dbde7318d36,47.41562056008573,9.38447498359482,,3.0,0
+21,"9012, St. Gallen",47.4103,9.3617,Restaurant Ahorn,Restaurant,4fe4506ce4b0d43f1f9d1d44,47.41266,9.347495,,2.0,0
+22,"9014, St. Gallen",47.4091,9.3355,Restaurant Rose,Swiss Restaurant,4b5c7c9ef964a5203a3229e3,47.410510365089365,9.335841536521912,,3.0,1
+23,"9014, St. Gallen",47.4091,9.3355,Restaurant Schützengarten Takeout,Restaurant,555a2c04498ea0e92b915037,47.41520234627107,9.341490268707275,,2.0,0
+24,"9014, St. Gallen",47.4091,9.3355,Restaurant Schlössli Haggen,Swiss Restaurant,4b5c7be1f964a520173229e3,47.403063,9.339056,,3.0,7
+25,"9014, St. Gallen",47.4091,9.3355,Restaurant Zur Brugg,Gastropub,57473d1c498ea1bc18a5bb49,47.40844,9.330312,,3.0,0
+26,"9014, St. Gallen",47.4091,9.3355,Restaurant Bahnhof Bruggen,African Restaurant,5228769611d2d91db0da04a3,47.40757509997867,9.330134771574468,,2.0,0
+27,"9014, St. Gallen",47.4091,9.3355,Restaurant Linde,Restaurant,4ff0c89ae4b07e8f74a5b9ba,47.407942,9.328649,,2.0,0
+28,"9015, St. Gallen",47.4056,9.3093,Restaurant Marktplatz,Swiss Restaurant,4dba904d6e815ab0de548e2d,47.4075307373191,9.306015975319509,,3.0,2
+29,"9015, St. Gallen",47.4056,9.3093,Restaurant Bild,Food,4dba8f7e43a1b9dbe87c2f03,47.40749892753212,9.30842399597168,,,0
+30,"9015, St. Gallen",47.4056,9.3093,Restaurant Waffenplatz,Swiss Restaurant,4eb2e2fc77c814d925debf20,47.407903623890675,9.297673581445297,,3.0,0
+31,"9015, St. Gallen",47.4056,9.3093,Restaurant Kreuz Winkeln,Restaurant,4f8d55e7e4b04bd7c5970a6b,47.404306761447145,9.30224478648321,,2.0,0
+32,"9015, St. Gallen",47.4056,9.3093,Restaurant Landhaus,Restaurant,4ce1970df8a4a1431f83ebbc,47.404069368494916,9.302572948712244,,2.0,1
+33,"9015, St. Gallen",47.4056,9.3093,NewStar Restaurant,Swiss Restaurant,595aa596178a2a234a0c6e7c,47.408348,9.310883,,3.0,1
+34,"9015, St. Gallen",47.4056,9.3093,Ikea Restaurant,Food Court,56d6b70a498e04f903fddedc,47.40859902437562,9.307579182594969,,,2
+35,"9015, St. Gallen",47.4056,9.3093,Rüti Restaurant,Swiss Restaurant,4d414b93255d8cfa0e6a6e05,47.404229,9.304978,,3.0,0
+36,"9016, St. Gallen",47.4415,9.4141,Restaurant Seeblick,Gastropub,515ecbcae4b0d868b86bfd35,47.436602251329354,9.409363106748792,,3.0,0
+37,"9016, St. Gallen",47.4415,9.4141,Restaurant Stephanshorn,German Restaurant,4d8b38c0f607a09338a00e87,47.438577,9.405736,,2.0,0
+38,"9016, St. Gallen",47.4415,9.4141,Coop Supermarkt St. Gallen Gallusmarkt,Supermarket,4fcf4d99e4b084fb797d9145,47.43799522,9.41283277,6.5,,0
+39,"6901, Lugano",46.0003,8.9512,Manora Restaurant,Restaurant,503df247e4b058aa490edaaa,46.00524262775688,8.949844052682872,7.6,2.0,10
+40,"6901, Lugano",46.0003,8.9512,Steib Bar & Restaurant,Café,4bf7ae245317a5938d70fe7e,46.005216,8.9534793,,1.0,1
+41,"6901, Lugano",46.0003,8.9512,Seven Restaurant,Italian Restaurant,54a1492b498e498dacb5b156,46.00396427462504,8.95511747092803,,2.0,2
+42,"6901, Lugano",46.0003,8.9512,Metamorphosis Restaurant & Bar,Swiss Restaurant,4c80e5d6d4e23704d4405888,45.99313365941507,8.946395636592952,6.2,3.0,10
+43,"6901, Lugano",46.0003,8.9512,Viva Café - Lounge & Restaurant,Café,4d5d7bc35d1537042f307fe7,46.008539041897116,8.95748039240552,6.1,1.0,5
+44,"6901, Lugano",46.0003,8.9512,Migros Restaurant,Restaurant,4ced00823b03f04d64b531dc,46.0071447,8.952352,,2.0,0
+45,"6901, Lugano",46.0003,8.9512,Coop Ristorante Lugano,Restaurant,504f47def1ba6afe50c96529,46.00284044,8.9497682,,2.0,0
+46,"6902, Lugano",46.0117,8.9575,Villa Sassa Restaurant,Diner,4d2fe8f94db137045837f65d,46.01213423725276,8.950734343943804,,1.0,5
+47,"6902, Lugano",46.0117,8.9575,Viva cafe' - restaurant lounge,,4d46a9cd7e2e5481879e758f,46.01284215925028,8.9682269447051,,,1
+48,"6910, Lugano",46.0238,8.9393,Manora Restaurant,Restaurant,5b097893829b0c002c4f6a66,46.026372,8.937382,,2.0,0
+49,"6913, Lugano",45.9701,8.9334,IKEA Restaurant & Café,Scandinavian Restaurant,4c0cc3e3c700c9b60d53a1dd,45.972890324934326,8.927297576892215,6.2,2.0,6

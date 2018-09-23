@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_a805463f761c4147ae1642ecb27c9a26 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_a805463f761c4147ae1642ecb27c9a26" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_a805463f761c4147ae1642ecb27c9a26 = L.map(
+        'map_a805463f761c4147ae1642ecb27c9a26', {
+        center: [46.5196535, 6.6322734],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_05a3691f158a4d5c9f659361762a3774 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_a805463f761c4147ae1642ecb27c9a26);
+    
+            var circle_marker_f46e5e922cc04fb1a3e0e553315bf35e = L.circleMarker(
+                [46.5534, 6.6971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_544e4f2ea46e4ace8cc2c4ac0972685d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f3a428f1f3b04c9f8e50084ac1406983 = $('<div id="html_f3a428f1f3b04c9f8e50084ac1406983" style="width: 100.0%; height: 100.0%;">1000, Lausanne Cluster 2</div>')[0];
+                popup_544e4f2ea46e4ace8cc2c4ac0972685d.setContent(html_f3a428f1f3b04c9f8e50084ac1406983);
+            
+
+            circle_marker_f46e5e922cc04fb1a3e0e553315bf35e.bindPopup(popup_544e4f2ea46e4ace8cc2c4ac0972685d)
+            ;
+
+            
+        
+    
+            var circle_marker_40afa228b8d7442d89db3b7a10b9ca1a = L.circleMarker(
+                [46.5224, 6.6303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_44b5835f57f94194b52711fcc6c34dff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe67d1375cfc49e885393167f65db290 = $('<div id="html_fe67d1375cfc49e885393167f65db290" style="width: 100.0%; height: 100.0%;">1001, Lausanne Cluster 6</div>')[0];
+                popup_44b5835f57f94194b52711fcc6c34dff.setContent(html_fe67d1375cfc49e885393167f65db290);
+            
+
+            circle_marker_40afa228b8d7442d89db3b7a10b9ca1a.bindPopup(popup_44b5835f57f94194b52711fcc6c34dff)
+            ;
+
+            
+        
+    
+            var circle_marker_7a3ba529c03043519ebe595595fedca7 = L.circleMarker(
+                [46.5195, 6.6322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_717157a2e18d43318c8fc14b98fb33f3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e7671de3b2e447db74e5c2370fa44f9 = $('<div id="html_5e7671de3b2e447db74e5c2370fa44f9" style="width: 100.0%; height: 100.0%;">1002, Lausanne Cluster 6</div>')[0];
+                popup_717157a2e18d43318c8fc14b98fb33f3.setContent(html_5e7671de3b2e447db74e5c2370fa44f9);
+            
+
+            circle_marker_7a3ba529c03043519ebe595595fedca7.bindPopup(popup_717157a2e18d43318c8fc14b98fb33f3)
+            ;
+
+            
+        
+    
+            var circle_marker_a8c9fd6c292d407bbe98e938373e0dc8 = L.circleMarker(
+                [46.5285, 6.6187],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_90490c4be08345acad162f824eb02159 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8169fcd97c734d33b64a2c1ac3864064 = $('<div id="html_8169fcd97c734d33b64a2c1ac3864064" style="width: 100.0%; height: 100.0%;">1004, Lausanne Cluster 6</div>')[0];
+                popup_90490c4be08345acad162f824eb02159.setContent(html_8169fcd97c734d33b64a2c1ac3864064);
+            
+
+            circle_marker_a8c9fd6c292d407bbe98e938373e0dc8.bindPopup(popup_90490c4be08345acad162f824eb02159)
+            ;
+
+            
+        
+    
+            var circle_marker_11bc106ea4ca4c5498e8a5ee1ca80acd = L.circleMarker(
+                [46.5199, 6.6425],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_4e7a0d7d6e554d8da19935dce74b0d54 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5fd477136f54b268874145586710f6f = $('<div id="html_b5fd477136f54b268874145586710f6f" style="width: 100.0%; height: 100.0%;">1005, Lausanne Cluster 6</div>')[0];
+                popup_4e7a0d7d6e554d8da19935dce74b0d54.setContent(html_b5fd477136f54b268874145586710f6f);
+            
+
+            circle_marker_11bc106ea4ca4c5498e8a5ee1ca80acd.bindPopup(popup_4e7a0d7d6e554d8da19935dce74b0d54)
+            ;
+
+            
+        
+    
+            var circle_marker_efa4dbdec0f34f5097303e449885c055 = L.circleMarker(
+                [46.5112, 6.6371],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_58f1312fd8294281b99923a45f53d9d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b97d0dd9e66a406bac8cf2aaa6f52922 = $('<div id="html_b97d0dd9e66a406bac8cf2aaa6f52922" style="width: 100.0%; height: 100.0%;">1006, Lausanne Cluster 6</div>')[0];
+                popup_58f1312fd8294281b99923a45f53d9d6.setContent(html_b97d0dd9e66a406bac8cf2aaa6f52922);
+            
+
+            circle_marker_efa4dbdec0f34f5097303e449885c055.bindPopup(popup_58f1312fd8294281b99923a45f53d9d6)
+            ;
+
+            
+        
+    
+            var circle_marker_29353fba678b4443a5845b7992e69c9b = L.circleMarker(
+                [46.5177, 6.609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_35a5f9ab36b24dfda1c153681cb29fd9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20f9beb394654d709dbac4ab9ba03dff = $('<div id="html_20f9beb394654d709dbac4ab9ba03dff" style="width: 100.0%; height: 100.0%;">1007, Lausanne Cluster 3</div>')[0];
+                popup_35a5f9ab36b24dfda1c153681cb29fd9.setContent(html_20f9beb394654d709dbac4ab9ba03dff);
+            
+
+            circle_marker_29353fba678b4443a5845b7992e69c9b.bindPopup(popup_35a5f9ab36b24dfda1c153681cb29fd9)
+            ;
+
+            
+        
+    
+            var circle_marker_158de76e8e80424f943ab4b64f2b7be7 = L.circleMarker(
+                [46.5362, 6.6589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_4783f49d3fd2448c82656cb83c98ae3c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0c11735f1c434245ba484e50e0051b5b = $('<div id="html_0c11735f1c434245ba484e50e0051b5b" style="width: 100.0%; height: 100.0%;">1010, Lausanne Cluster 1</div>')[0];
+                popup_4783f49d3fd2448c82656cb83c98ae3c.setContent(html_0c11735f1c434245ba484e50e0051b5b);
+            
+
+            circle_marker_158de76e8e80424f943ab4b64f2b7be7.bindPopup(popup_4783f49d3fd2448c82656cb83c98ae3c)
+            ;
+
+            
+        
+    
+            var circle_marker_c541d95212e942c29f15ed3e3952b990 = L.circleMarker(
+                [46.5249, 6.6431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_358e11d120734d4ea118726e1dc0a3ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_74c7699490c74596b8bc949738c89e10 = $('<div id="html_74c7699490c74596b8bc949738c89e10" style="width: 100.0%; height: 100.0%;">1011, Lausanne Cluster 6</div>')[0];
+                popup_358e11d120734d4ea118726e1dc0a3ab.setContent(html_74c7699490c74596b8bc949738c89e10);
+            
+
+            circle_marker_c541d95212e942c29f15ed3e3952b990.bindPopup(popup_358e11d120734d4ea118726e1dc0a3ab)
+            ;
+
+            
+        
+    
+            var circle_marker_920ae176130c471f98be5ccdb61de5e2 = L.circleMarker(
+                [46.5263, 6.657],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#A1A9AD",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#A1A9AD",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_79a70735d9e545738d7b3d0c0ed17268 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91f0b2066cfa4c9198bbdad0995e9188 = $('<div id="html_91f0b2066cfa4c9198bbdad0995e9188" style="width: 100.0%; height: 100.0%;">1012, Lausanne Cluster 9</div>')[0];
+                popup_79a70735d9e545738d7b3d0c0ed17268.setContent(html_91f0b2066cfa4c9198bbdad0995e9188);
+            
+
+            circle_marker_920ae176130c471f98be5ccdb61de5e2.bindPopup(popup_79a70735d9e545738d7b3d0c0ed17268)
+            ;
+
+            
+        
+    
+            var circle_marker_54f465f5ba9342889e73fd344c3af57d = L.circleMarker(
+                [46.5333, 6.6667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_7e771d0a556f4f51be3f308009d7fa80 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe2f714497d5462188fc90c8ca148859 = $('<div id="html_fe2f714497d5462188fc90c8ca148859" style="width: 100.0%; height: 100.0%;">1014, Lausanne Cluster 3</div>')[0];
+                popup_7e771d0a556f4f51be3f308009d7fa80.setContent(html_fe2f714497d5462188fc90c8ca148859);
+            
+
+            circle_marker_54f465f5ba9342889e73fd344c3af57d.bindPopup(popup_7e771d0a556f4f51be3f308009d7fa80)
+            ;
+
+            
+        
+    
+            var circle_marker_4349cd4c14024b4dab68c3063c132077 = L.circleMarker(
+                [46.5379, 6.6293],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_a805463f761c4147ae1642ecb27c9a26);
+            
+    
+            var popup_d3e9b11982a84c32959e4450b22bdd70 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c0092d536a104ccf927be99a580cc2ac = $('<div id="html_c0092d536a104ccf927be99a580cc2ac" style="width: 100.0%; height: 100.0%;">1018, Lausanne Cluster 3</div>')[0];
+                popup_d3e9b11982a84c32959e4450b22bdd70.setContent(html_c0092d536a104ccf927be99a580cc2ac);
+            
+
+            circle_marker_4349cd4c14024b4dab68c3063c132077.bindPopup(popup_d3e9b11982a84c32959e4450b22bdd70)
+            ;
+
+            
+        
+</script>

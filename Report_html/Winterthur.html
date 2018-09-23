@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_fcb1537336b9482ba4659ee216e04f6c {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_fcb1537336b9482ba4659ee216e04f6c" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_fcb1537336b9482ba4659ee216e04f6c = L.map(
+        'map_fcb1537336b9482ba4659ee216e04f6c', {
+        center: [47.4988, 8.7237],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_00c14b3f577c4a28904b7983cd53d9c6 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+    
+            var circle_marker_721bf18b359b4f568fa7e7dedc03c0f1 = L.circleMarker(
+                [47.4869, 8.7975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_82c8fef33c704a548b1af995e372e55f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d8d4efbbbdb54fbb979f5f899f84ce41 = $('<div id="html_d8d4efbbbdb54fbb979f5f899f84ce41" style="width: 100.0%; height: 100.0%;">8352, Winterthur Cluster 6</div>')[0];
+                popup_82c8fef33c704a548b1af995e372e55f.setContent(html_d8d4efbbbdb54fbb979f5f899f84ce41);
+            
+
+            circle_marker_721bf18b359b4f568fa7e7dedc03c0f1.bindPopup(popup_82c8fef33c704a548b1af995e372e55f)
+            ;
+
+            
+        
+    
+            var circle_marker_1d07c17a810b4f0ca2d87c87612806ee = L.circleMarker(
+                [47.4916, 8.7295],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_e18205615d81479aa320586ae4274b1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f7ce7a1b732146828965ed6e700b8ff9 = $('<div id="html_f7ce7a1b732146828965ed6e700b8ff9" style="width: 100.0%; height: 100.0%;">8400, Winterthur Cluster 6</div>')[0];
+                popup_e18205615d81479aa320586ae4274b1e.setContent(html_f7ce7a1b732146828965ed6e700b8ff9);
+            
+
+            circle_marker_1d07c17a810b4f0ca2d87c87612806ee.bindPopup(popup_e18205615d81479aa320586ae4274b1e)
+            ;
+
+            
+        
+    
+            var circle_marker_e1396374fe2049feafe256b17304e0ab = L.circleMarker(
+                [47.5, 8.75],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_8a55d807514248cd90e31f73afc73a50 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc462b8f68c545a29f843ce04361cb86 = $('<div id="html_bc462b8f68c545a29f843ce04361cb86" style="width: 100.0%; height: 100.0%;">8401, Winterthur Cluster 6</div>')[0];
+                popup_8a55d807514248cd90e31f73afc73a50.setContent(html_bc462b8f68c545a29f843ce04361cb86);
+            
+
+            circle_marker_e1396374fe2049feafe256b17304e0ab.bindPopup(popup_8a55d807514248cd90e31f73afc73a50)
+            ;
+
+            
+        
+    
+            var circle_marker_a0f2506f97df41cb8d72636c7b8bfe98 = L.circleMarker(
+                [47.5382, 8.7652],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_d74fc281b5e140a3bf1b7782fc7350ee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_237da4a9603d44999fb10359560a67b9 = $('<div id="html_237da4a9603d44999fb10359560a67b9" style="width: 100.0%; height: 100.0%;">8404, Winterthur Cluster 2</div>')[0];
+                popup_d74fc281b5e140a3bf1b7782fc7350ee.setContent(html_237da4a9603d44999fb10359560a67b9);
+            
+
+            circle_marker_a0f2506f97df41cb8d72636c7b8bfe98.bindPopup(popup_d74fc281b5e140a3bf1b7782fc7350ee)
+            ;
+
+            
+        
+    
+            var circle_marker_e6c9249fc1bb42189b367653dbd70ee1 = L.circleMarker(
+                [47.4776, 8.7783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#265dca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#265dca",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_ac93827f1b6c430c8a3204bcc45c7115 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3bcd70492f5446aaa4bf6de68f81f0a7 = $('<div id="html_3bcd70492f5446aaa4bf6de68f81f0a7" style="width: 100.0%; height: 100.0%;">8405, Winterthur Cluster 7</div>')[0];
+                popup_ac93827f1b6c430c8a3204bcc45c7115.setContent(html_3bcd70492f5446aaa4bf6de68f81f0a7);
+            
+
+            circle_marker_e6c9249fc1bb42189b367653dbd70ee1.bindPopup(popup_ac93827f1b6c430c8a3204bcc45c7115)
+            ;
+
+            
+        
+    
+            var circle_marker_427a914c0d424c4bb0b2b6848329e262 = L.circleMarker(
+                [47.4832, 8.7006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_f894311fa1f04476a45d34d65284cdb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd8d2d7d666a4e1780aecd0382e0a350 = $('<div id="html_bd8d2d7d666a4e1780aecd0382e0a350" style="width: 100.0%; height: 100.0%;">8406, Winterthur Cluster 3</div>')[0];
+                popup_f894311fa1f04476a45d34d65284cdb1.setContent(html_bd8d2d7d666a4e1780aecd0382e0a350);
+            
+
+            circle_marker_427a914c0d424c4bb0b2b6848329e262.bindPopup(popup_f894311fa1f04476a45d34d65284cdb1)
+            ;
+
+            
+        
+    
+            var circle_marker_3825109260414a1782b82ff5b29e85a3 = L.circleMarker(
+                [47.5077, 8.6833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_cb596e6478054be0ba5659709e49030f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc2c27903e814d2b97f2c6f50b09fc57 = $('<div id="html_bc2c27903e814d2b97f2c6f50b09fc57" style="width: 100.0%; height: 100.0%;">8408, Winterthur Cluster 6</div>')[0];
+                popup_cb596e6478054be0ba5659709e49030f.setContent(html_bc2c27903e814d2b97f2c6f50b09fc57);
+            
+
+            circle_marker_3825109260414a1782b82ff5b29e85a3.bindPopup(popup_cb596e6478054be0ba5659709e49030f)
+            ;
+
+            
+        
+    
+            var circle_marker_187e9f67754b4919a654aa7f80ad4462 = L.circleMarker(
+                [47.5098, 8.7814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_a73c346e972b4bccb4ef54e92667c19b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b7fea89bcbb048fcb02791c28818dfe8 = $('<div id="html_b7fea89bcbb048fcb02791c28818dfe8" style="width: 100.0%; height: 100.0%;">8409, Winterthur Cluster 1</div>')[0];
+                popup_a73c346e972b4bccb4ef54e92667c19b.setContent(html_b7fea89bcbb048fcb02791c28818dfe8);
+            
+
+            circle_marker_187e9f67754b4919a654aa7f80ad4462.bindPopup(popup_a73c346e972b4bccb4ef54e92667c19b)
+            ;
+
+            
+        
+    
+            var circle_marker_fb1a2c8fe5b54717aefba21882082e5c = L.circleMarker(
+                [47.4674, 8.758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_fcb1537336b9482ba4659ee216e04f6c);
+            
+    
+            var popup_86fd7a7f7a4a4c0ba516fbad10d3f7c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_778082d64e6b4e1a9452f6ca7805ef28 = $('<div id="html_778082d64e6b4e1a9452f6ca7805ef28" style="width: 100.0%; height: 100.0%;">8482, Winterthur Cluster 6</div>')[0];
+                popup_86fd7a7f7a4a4c0ba516fbad10d3f7c1.setContent(html_778082d64e6b4e1a9452f6ca7805ef28);
+            
+
+            circle_marker_fb1a2c8fe5b54717aefba21882082e5c.bindPopup(popup_86fd7a7f7a4a4c0ba516fbad10d3f7c1)
+            ;
+
+            
+        
+</script>

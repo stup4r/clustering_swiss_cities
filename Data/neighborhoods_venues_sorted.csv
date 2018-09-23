@@ -1,0 +1,140 @@
+,Neighborhood,1st Most Common Venue,2nd Most Common Venue,3rd Most Common Venue,4th Most Common Venue,5th Most Common Venue,6th Most Common Venue,7th Most Common Venue,8th Most Common Venue,9th Most Common Venue,10th Most Common Venue,Cluster Labels,Latitude,Longitude
+0,"1000, Lausanne",Swiss Restaurant,French Restaurant,IT Services,Pizza Place,Athletics & Sports,Event Space,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,2,46.5534,6.6971
+1,"1001, Lausanne",Bar,French Restaurant,Burger Joint,Japanese Restaurant,Italian Restaurant,Plaza,Chinese Restaurant,Restaurant,Pizza Place,Wine Bar,6,46.5224,6.6303
+2,"1002, Lausanne",Bar,Italian Restaurant,Thai Restaurant,Park,Sandwich Place,Gastropub,Tea Room,Boutique,Coffee Shop,Pool,6,46.5195,6.6322
+3,"1004, Lausanne",Grocery Store,Supermarket,Bus Stop,Bar,Italian Restaurant,Gas Station,Theater,Sushi Restaurant,Chinese Restaurant,Steakhouse,6,46.5285,6.6187
+4,"1005, Lausanne",Italian Restaurant,Supermarket,Hotel,Park,Coffee Shop,Café,Burger Joint,English Restaurant,Middle Eastern Restaurant,Fast Food Restaurant,6,46.5199,6.6425
+5,"1006, Lausanne",Hotel,Café,Italian Restaurant,Bar,Hotel Bar,French Restaurant,Japanese Restaurant,Nightclub,Plaza,Restaurant,6,46.5112,6.6371
+6,"1007, Lausanne",Bus Station,Swiss Restaurant,Hostel,Beach,Bus Stop,Supermarket,Asian Restaurant,Hotel,Cafeteria,Steakhouse,3,46.5177,6.609
+7,"1010, Lausanne",Supermarket,Metro Station,Bakery,Gas Station,Swiss Restaurant,Aquarium,Bus Stop,Bus Station,Ethiopian Restaurant,Electronics Store,1,46.5362,6.6589
+8,"1011, Lausanne",Department Store,Gym / Fitness Center,Scenic Lookout,Plaza,Swiss Restaurant,Farmers Market,Metro Station,Café,Mediterranean Restaurant,Snack Place,6,46.5249,6.6431
+9,"1012, Lausanne",Bus Line,Zoo,Dive Bar,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Event Space,9,46.5263,6.657
+10,"1014, Lausanne",Discount Store,Athletics & Sports,Event Space,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Factory,3,46.5333,6.6667
+11,"1018, Lausanne",Italian Restaurant,Bus Station,Gas Station,Gym Pool,Grocery Store,Swiss Restaurant,Scenic Lookout,Park,Supermarket,Bakery,3,46.5379,6.6293
+12,"1200, Genève",Italian Restaurant,French Restaurant,Park,Restaurant,Bakery,Coffee Shop,Middle Eastern Restaurant,Café,Chinese Restaurant,Japanese Restaurant,6,46.2,6.1667
+13,"1201, Genève",Hotel,French Restaurant,Bar,Burger Joint,Dessert Shop,Plaza,Swiss Restaurant,Ice Cream Shop,Indian Restaurant,Coffee Shop,6,46.2103,6.1464
+14,"1202, Genève",Hotel,Café,Thai Restaurant,Supermarket,Park,French Restaurant,Italian Restaurant,Cafeteria,Restaurant,Cocktail Bar,6,46.2214,6.1431
+15,"1203, Genève",Supermarket,Tram Station,French Restaurant,Gym / Fitness Center,Fast Food Restaurant,Park,Grocery Store,Scenic Lookout,Middle Eastern Restaurant,Café,3,46.2086,6.1236
+16,"1204, Genève",Plaza,French Restaurant,Department Store,Italian Restaurant,Café,Dessert Shop,Bar,Coffee Shop,Park,Cocktail Bar,6,46.2024,6.145
+17,"1205, Genève",Bar,Italian Restaurant,French Restaurant,Burger Joint,Restaurant,Coffee Shop,Café,Bistro,Tea Room,Theater,6,46.1952,6.1436
+18,"1206, Genève",Pool,Athletics & Sports,Plaza,Park,Dog Run,Bus Stop,Bus Station,Stadium,Swiss Restaurant,Bakery,3,46.1872,6.1588
+19,"1207, Genève",Hotel,Italian Restaurant,Sandwich Place,Coffee Shop,Clothing Store,Nightclub,Bookstore,Steakhouse,Lighthouse,Sushi Restaurant,6,46.2058,6.1619
+20,"1208, Genève",Café,Pizza Place,Video Store,Ethiopian Restaurant,Dive Bar,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,6,46.1994,6.1659
+21,"1209, Genève",Bus Station,Park,Hotel,Grocery Store,Bakery,Pizza Place,Chinese Restaurant,Spanish Restaurant,Smoke Shop,Shopping Mall,3,46.2219,6.1244
+22,"1211, Genève",Music Venue,Tram Station,Soccer Stadium,Pizza Place,Fast Food Restaurant,Board Shop,Sporting Goods Shop,Bakery,Athletics & Sports,Italian Restaurant,3,46.2111,6.1028
+23,"1289, Genève",Concert Hall,Hotel,Pub,Korean Restaurant,Bar,Restaurant,Italian Restaurant,Salad Place,Wine Shop,Falafel Restaurant,0,46.2058,6.1416
+24,"2500, Biel/Bienne",Restaurant,Supermarket,Café,Bar,Department Store,Swiss Restaurant,Fast Food Restaurant,Movie Theater,Hotel,Grocery Store,6,47.1324,7.2441
+25,"2501, Biel/Bienne",Thai Restaurant,Gastropub,Scandinavian Restaurant,Swiss Restaurant,Flower Shop,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,2,47.1504,7.247000000000001
+26,"2502, Biel/Bienne",Hotel,Watch Shop,Bowling Alley,Light Rail Station,Restaurant,Italian Restaurant,Park,Food,Pizza Place,Farm,0,47.143,7.2468
+27,"2503, Biel/Bienne",Platform,Supermarket,Newsstand,Italian Restaurant,Plaza,Food,Furniture / Home Store,Shopping Mall,Swiss Restaurant,Dog Run,6,47.1311,7.2519
+28,"2504, Biel/Bienne",Supermarket,College Gym,Train Station,Multiplex,Electronics Store,Shopping Mall,Fast Food Restaurant,Stadium,Gas Station,Grocery Store,1,47.1581,7.2829999999999995
+29,"2505, Biel/Bienne",Hotel,Seafood Restaurant,Italian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Event Space,0,47.1342,7.2188
+30,"3000, Bern",Train Station,Discount Store,Tennis Court,Supermarket,Electronics Store,Grocery Store,Bed & Breakfast,Japanese Restaurant,Italian Restaurant,Convenience Store,6,46.9167,7.4667
+31,"3001, Bern",Café,Plaza,Bar,Restaurant,Italian Restaurant,Swiss Restaurant,Park,Creperie,Gastropub,Monument / Landmark,6,46.946999999999996,7.4404
+32,"3004, Bern",Train Station,Snack Place,Coffee Shop,Swiss Restaurant,Restaurant,Park,Zoo,Dog Run,Doner Restaurant,Donut Shop,6,46.9805,7.452000000000001
+33,"3005, Bern",Bar,Swiss Restaurant,Tram Station,Zoo,Seafood Restaurant,Science Museum,Sandwich Place,Rock Climbing Spot,Music Venue,Lounge,6,46.9394,7.4499
+34,"3006, Bern",Tram Station,Bus Station,Pizza Place,Swiss Restaurant,Bakery,Zoo Exhibit,Art Museum,Light Rail Station,French Restaurant,Restaurant,3,46.9458,7.4713
+35,"3007, Bern",Hotel,Movie Theater,Indian Restaurant,Pizza Place,Bus Station,Supermarket,Multiplex,Bakery,Plaza,Swiss Restaurant,6,46.9392,7.4346
+36,"3008, Bern",Italian Restaurant,Supermarket,Swiss Restaurant,Hotel,Ethiopian Restaurant,Tapas Restaurant,Bakery,Bagel Shop,Grocery Store,Train Station,6,46.9546,7.4207
+37,"3010, Bern",Bus Station,Pizza Place,Tram Station,Swiss Restaurant,Grocery Store,Bar,Gastropub,Discount Store,Thai Restaurant,Chinese Restaurant,3,46.9471,7.4244
+38,"3011, Bern",Bar,Café,Swiss Restaurant,Spanish Restaurant,Garden,Hotel,Ice Cream Shop,Convention Center,Park,Farmers Market,6,46.948,7.4484
+39,"3012, Bern",Supermarket,Bus Station,Café,Field,Fast Food Restaurant,Farmers Market,Farm,Falafel Restaurant,Factory,Dog Run,1,46.9616,7.426
+40,"3013, Bern",Bar,Hotel,Supermarket,Italian Restaurant,Coffee Shop,Swiss Restaurant,Shopping Mall,Brewery,Café,Restaurant,6,46.9562,7.4462
+41,"3014, Bern",Hotel,Italian Restaurant,Restaurant,Gym / Fitness Center,Shopping Mall,Soccer Stadium,Stadium,Supermarket,Grocery Store,Train Station,0,46.9622,7.4584
+42,"3015, Bern",Supermarket,Tram Station,Hotel,Restaurant,Grocery Store,Gym / Fitness Center,Asian Restaurant,Bakery,Dog Run,Doner Restaurant,1,46.9402,7.4855
+43,"3017, Bern",Train Station,Pool,Sandwich Place,Falafel Restaurant,Swiss Restaurant,Supermarket,Gym Pool,Athletics & Sports,Steakhouse,Zoo,6,46.9476,7.4065
+44,"3018, Bern",Supermarket,Gas Station,Department Store,Restaurant,Swiss Restaurant,Train Station,Zoo,Doner Restaurant,Donut Shop,Eastern European Restaurant,6,46.9339,7.3891
+45,"3019, Bern",Restaurant,Hotel,Farm,Ethiopian Restaurant,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,0,46.931000000000004,7.3479
+46,"3020, Bern",Forest,Café,Athletics & Sports,Farm,Ethiopian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,6,46.9371,7.3209
+47,"3027, Bern",Tram Station,Restaurant,Supermarket,Food & Drink Shop,Bus Station,Grocery Store,Gym Pool,Zoo,Doner Restaurant,Donut Shop,1,46.9558,7.3872
+48,"3039, Bern",Campground,Grocery Store,Asian Restaurant,Discount Store,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,3,46.9667,7.3833
+49,"3050, Bern",Hockey Arena,Swiss Restaurant,Theater,Zoo,English Restaurant,Dive Bar,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,2,47.0111,7.4333
+50,"4000, Basel",Hotel,Thai Restaurant,Restaurant,Bar,Swiss Restaurant,Italian Restaurant,Supermarket,Café,Plaza,Brewery,6,47.5667,7.6
+51,"4001, Basel",Café,Hotel,Swiss Restaurant,Plaza,Art Museum,Italian Restaurant,French Restaurant,Pizza Place,Bar,Cocktail Bar,6,47.5564,7.5889
+52,"4002, Basel",Italian Restaurant,Hotel,Coffee Shop,Swiss Restaurant,Bakery,Supermarket,Electronics Store,Mexican Restaurant,Sushi Restaurant,Sporting Goods Shop,6,47.5488,7.5904
+53,"4003, Basel",Italian Restaurant,Tram Station,Supermarket,Café,Hotel,Gym,Middle Eastern Restaurant,Park,Bakery,Bus Station,6,47.5592,7.5788
+54,"4005, Basel",Food & Drink Shop,Art Museum,Beer Garden,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Event Space,Factory,6,47.5623,7.5946
+55,"4010, Basel",History Museum,Zoo,Event Space,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,4,47.5528,7.5929
+56,"4052, Basel",Pizza Place,Tram Station,Farmers Market,Farm,Shopping Mall,Scenic Lookout,Bus Station,Supermarket,Gas Station,Bakery,3,47.5225,7.5962
+57,"4053, Basel",Hotel,Tram Station,Italian Restaurant,Café,Bakery,Shopping Mall,Supermarket,Bistro,Brewery,Burger Joint,6,47.5383,7.601
+58,"4054, Basel",Tram Station,Zoo Exhibit,Supermarket,Bus Stop,Plaza,Soccer Field,Restaurant,Grocery Store,Asian Restaurant,Bakery,3,47.5505,7.5689
+59,"4055, Basel",Tram Station,Supermarket,Grocery Store,Restaurant,Bus Stop,Bus Station,Italian Restaurant,Pool,Bakery,Park,3,47.5637,7.564
+60,"4056, Basel",Tram Station,Gym,Supermarket,Italian Restaurant,Bakery,Hotel,Bar,Motel,Sushi Restaurant,Concert Hall,6,47.5696,7.5734
+61,"4057, Basel",Coffee Shop,Park,Clothing Store,Supermarket,Swiss Restaurant,Grocery Store,Gaming Cafe,Fast Food Restaurant,Discount Store,Recycling Facility,6,47.5761,7.5999
+62,"4058, Basel",Soccer Field,Art Museum,Supermarket,Bus Stop,Grocery Store,Gym,Italian Restaurant,Tram Station,Café,Skating Rink,6,47.5677,7.6135
+63,"4059, Basel",Swiss Restaurant,Zoo,Event Space,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Factory,2,47.5316,7.5934
+64,"4065, Basel",Swiss Restaurant,Park,Hostel,Tram Station,Moving Target,Bathing Area,Supermarket,Beach,Lounge,Hotel,2,47.5617,7.6067
+65,"6000, Luzern",Train Station,Restaurant,Hotel,Pizza Place,Flower Shop,Lounge,Supermarket,Grocery Store,Gym,Food,6,47.0833,8.2667
+66,"6002, Luzern",Swiss Restaurant,Italian Restaurant,Plaza,Café,Music Venue,Thai Restaurant,Restaurant,Supermarket,Bar,Hotel,6,47.0596,8.306000000000001
+67,"6003, Luzern",Hotel,Café,Swiss Restaurant,Asian Restaurant,Bar,Mexican Restaurant,Burger Joint,Italian Restaurant,Nightclub,Cocktail Bar,6,47.0501,8.297
+68,"6004, Luzern",Swiss Restaurant,Thai Restaurant,Asian Restaurant,Gas Station,Bus Station,Supermarket,Stadium,Factory,Event Space,Ethiopian Restaurant,2,47.0603,8.2986
+69,"6005, Luzern",Supermarket,Bus Stop,Grocery Store,Bar,Food,Hockey Arena,Shopping Mall,Food Truck,Mediterranean Restaurant,Zoo,3,47.0342,8.3178
+70,"6006, Luzern",Hotel,Park,Gym,Food & Drink Shop,Science Museum,Boat or Ferry,Bus Stop,Movie Theater,Beach,Campground,6,47.0585,8.3337
+71,"6876, Lugano",Italian Restaurant,Restaurant,Discount Store,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,0,45.9821,8.9936
+72,"6901, Lugano",Italian Restaurant,Hotel,Café,Restaurant,Plaza,Art Museum,Swiss Restaurant,Bar,Pizza Place,Beach,6,46.0003,8.9512
+73,"6902, Lugano",Hotel,Supermarket,Italian Restaurant,Snack Place,Bar,Athletics & Sports,Lounge,Beach,Café,Gastropub,6,46.0117,8.9575
+74,"6903, Lugano",Diner,Gym,Platform,Café,Spa,College Arts Building,Swiss Restaurant,Chinese Restaurant,Italian Restaurant,Grocery Store,6,46.0058,8.9475
+75,"6910, Lugano",Supermarket,Bed & Breakfast,Café,Gas Station,Food Court,Motel,Gym,Department Store,Ethiopian Restaurant,Eastern European Restaurant,1,46.0238,8.9393
+76,"6912, Lugano",Hotel,Swiss Restaurant,Italian Restaurant,Food,Mountain,Lighthouse,Scenic Lookout,Nightclub,Fast Food Restaurant,Cocktail Bar,0,45.9798,8.9447
+77,"6913, Lugano",Electronics Store,Café,Shopping Mall,Supermarket,Gym,Mobile Phone Shop,Restaurant,Scandinavian Restaurant,Rental Service,Furniture / Home Store,6,45.9701,8.9334
+78,"6915, Lugano",Pizza Place,Soccer Field,Sporting Goods Shop,Swiss Restaurant,Gym,Italian Restaurant,Bar,Gas Station,Indian Restaurant,Falafel Restaurant,6,45.9845,8.9276
+79,"6917, Lugano",Electronics Store,Hotel,Resort,Ethiopian Restaurant,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,English Restaurant,Event Space,7,45.9611,8.9165
+80,"6918, Lugano",Home Service,Park,Swiss Restaurant,Sandwich Place,Pool,Convenience Store,Ethiopian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,2,45.9559,8.9215
+81,"6925, Lugano",Hotel,Italian Restaurant,Irish Pub,Restaurant,Bike Rental / Bike Share,Swiss Restaurant,Bakery,BBQ Joint,Grocery Store,Train Station,0,45.9927,8.9391
+82,"6932, Lugano",Supermarket,Hotel,Pizza Place,Bus Station,Steakhouse,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,1,46.0067,8.9296
+83,"6962, Lugano",Hotel,Cable Car,Italian Restaurant,Park,Supermarket,Café,Farm,Falafel Restaurant,Factory,Event Space,0,46.0121,8.9692
+84,"6963, Lugano",Gym,Zoo,Ethiopian Restaurant,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Event Space,5,46.0196,8.9763
+85,"6964, Lugano",Italian Restaurant,Soccer Field,Auto Garage,Karaoke Bar,Building,Record Shop,Ethiopian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,6,46.0326,8.9869
+86,"6966, Lugano",Soccer Field,BBQ Joint,Pizza Place,Sports Bar,Ethiopian Restaurant,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,3,46.0549,9.0037
+87,"6974, Lugano",Hotel,Restaurant,Trail,Swiss Restaurant,Mountain,Electronics Store,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,0,46.0097,8.981
+88,"6977, Lugano",Hotel,Ice Cream Shop,Factory,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Event Space,8,46.007,8.9792
+89,"6978, Lugano",Italian Restaurant,Gas Station,Swiss Restaurant,Restaurant,Mediterranean Restaurant,Bus Station,Harbor / Marina,English Restaurant,Doner Restaurant,Donut Shop,6,46.0009,9.0097
+90,"6979, Lugano",Swiss Restaurant,Japanese Restaurant,Italian Restaurant,Zoo,Dive Bar,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,2,46.0185,8.999
+91,"8000, Zürich",Swiss Restaurant,Café,Bar,Plaza,Hotel,Dessert Shop,Lounge,Indian Restaurant,Vegetarian / Vegan Restaurant,French Restaurant,6,47.3667,8.55
+92,"8001, Zürich",Swiss Restaurant,Bar,French Restaurant,Vegetarian / Vegan Restaurant,Italian Restaurant,Boutique,Lounge,Restaurant,Cocktail Bar,Department Store,6,47.372,8.5413
+93,"8002, Zürich",Hotel,Restaurant,Bar,Italian Restaurant,Swiss Restaurant,Park,Tram Station,Coffee Shop,Athletics & Sports,Burger Joint,6,47.3606,8.5325
+94,"8003, Zürich",Bar,Café,Italian Restaurant,Swiss Restaurant,Restaurant,Thai Restaurant,Pizza Place,Bakery,Japanese Restaurant,Middle Eastern Restaurant,6,47.3726,8.5161
+95,"8004, Zürich",Bar,Nightclub,Swiss Restaurant,Asian Restaurant,Mediterranean Restaurant,Italian Restaurant,Hotel,Gay Bar,Japanese Restaurant,Moroccan Restaurant,6,47.378,8.5234
+96,"8005, Zürich",Café,Hotel,Italian Restaurant,Nightclub,Bar,Swiss Restaurant,Thai Restaurant,Indian Restaurant,Food Truck,Park,6,47.3868,8.5207
+97,"8006, Zürich",Italian Restaurant,Hotel,Café,Bar,Bakery,Swiss Restaurant,Restaurant,Park,Supermarket,Falafel Restaurant,6,47.3858,8.5432
+98,"8008, Zürich",Italian Restaurant,Swiss Restaurant,Museum,Restaurant,Park,Supermarket,Café,Bakery,Movie Theater,Art Museum,6,47.3536,8.5614
+99,"8022, Zürich",Cocktail Bar,Restaurant,Hotel,Café,Juice Bar,Jewelry Store,Gym / Fitness Center,Asian Restaurant,Tram Station,Bar,6,47.3674,8.5374
+100,"8023, Zürich",Bar,Swiss Restaurant,Vegetarian / Vegan Restaurant,Hotel,Italian Restaurant,Board Shop,Burrito Place,Sporting Goods Shop,Supermarket,Sushi Restaurant,6,47.3748,8.5381
+101,"8032, Zürich",Hotel,Tram Station,Swiss Restaurant,Plaza,Italian Restaurant,Park,Coffee Shop,Grocery Store,Supermarket,Golf Course,6,47.3667,8.5644
+102,"8033, Zürich",Bar,Café,Tram Station,Hotel,Swiss Restaurant,Plaza,Italian Restaurant,Athletics & Sports,Chinese Restaurant,Bakery,6,47.3836,8.548
+103,"8037, Zürich",Trail,Supermarket,Italian Restaurant,Hotel,Eastern European Restaurant,Thai Restaurant,Taco Place,Swiss Restaurant,Restaurant,Electronics Store,6,47.3985,8.5243
+104,"8038, Zürich",Bus Station,Restaurant,Swiss Restaurant,Supermarket,Harbor / Marina,Mediterranean Restaurant,Gas Station,Building,Café,Campground,3,47.3416,8.5369
+105,"8040, Zürich",Restaurant,Hotel,Korean Restaurant,Pool,Convenience Store,Climbing Gym,Electronics Store,Bus Station,Brewery,Soccer Stadium,6,47.3802,8.5068
+106,"8041, Zürich",Light Rail Station,Bus Station,Bakery,Gas Station,Pizza Place,Mediterranean Restaurant,Grocery Store,Trail,Zoo,Donut Shop,3,47.3361,8.5156
+107,"8045, Zürich",Bus Station,Swiss Restaurant,Bar,Tram Station,Tennis Court,Gym,Food Court,Scenic Lookout,Mountain,Café,3,47.3516,8.5057
+108,"8046, Zürich",Supermarket,Bus Station,Hotel,Swiss Restaurant,Flower Shop,Light Rail Station,Department Store,Athletics & Sports,Gym,Train Station,1,47.4222,8.5083
+109,"8047, Zürich",Bus Station,Tram Station,Swiss Restaurant,Supermarket,Convenience Store,Soccer Field,Italian Restaurant,Breakfast Spot,Scenic Lookout,Stadium,3,47.3739,8.487
+110,"8048, Zürich",Supermarket,Hotel,Thai Restaurant,Italian Restaurant,Chinese Restaurant,Bakery,Gym,Gas Station,Pool,Soccer Field,6,47.3868,8.4839
+111,"8049, Zürich",Bus Station,Tram Station,Supermarket,Grocery Store,Soccer Field,Mexican Restaurant,Fast Food Restaurant,Steakhouse,Gym Pool,Bakery,3,47.4087,8.5004
+112,"8050, Zürich",Supermarket,Hotel,Restaurant,Italian Restaurant,Swiss Restaurant,Pub,Bakery,Hookah Bar,Salad Place,Thai Restaurant,6,47.4119,8.5508
+113,"8051, Zürich",Tram Station,Swiss Restaurant,Supermarket,Bus Station,Arts & Crafts Store,Discount Store,Thai Restaurant,Steakhouse,Light Rail Station,Asian Restaurant,3,47.3996,8.5788
+114,"8052, Zürich",Bus Station,Pool,Italian Restaurant,Community Center,Pizza Place,River,Café,Bus Stop,Mini Golf,Bowling Alley,3,47.4245,8.5406
+115,"8053, Zürich",Bus Station,Tram Station,Scenic Lookout,Pharmacy,Home Service,Soccer Field,Indian Restaurant,Supermarket,Shoe Store,Department Store,3,47.3613,8.5974
+116,"8055, Zürich",Hotel,Light Rail Station,Pizza Place,Tea Room,Café,Bus Station,Swiss Restaurant,Motorcycle Shop,Scenic Lookout,Eastern European Restaurant,6,47.3642,8.4903
+117,"8057, Zürich",Tram Station,Swiss Restaurant,Pizza Place,Bus Station,Flower Shop,Park,Supermarket,Hockey Rink,Pharmacy,Hotel,3,47.3999,8.5474
+118,"8063, Zürich",Bus Station,Supermarket,Middle Eastern Restaurant,Plaza,Italian Restaurant,Tram Station,Ethiopian Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,1,47.3666,8.497
+119,"8064, Zürich",Tram Station,Bus Station,Bakery,Italian Restaurant,Concert Hall,Snack Place,Food & Drink Shop,Spa,Bistro,Bathing Area,3,47.3987,8.4852
+120,"8074, Zürich",Hostel,Gastropub,Pizza Place,Mediterranean Restaurant,Zoo,Ethiopian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,3,47.3828,8.5307
+121,"8352, Winterthur",Diner,Bakery,Zoo,Event Space,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,Factory,6,47.4869,8.7975
+122,"8400, Winterthur",Café,Bar,Restaurant,Italian Restaurant,Multiplex,Cocktail Bar,Nightclub,Coffee Shop,Shopping Mall,Swiss Restaurant,6,47.4916,8.7295
+123,"8401, Winterthur",Restaurant,Bus Stop,Italian Restaurant,Fast Food Restaurant,Soccer Field,Sporting Goods Shop,Supermarket,Furniture / Home Store,Café,Bakery,6,47.5,8.75
+124,"8404, Winterthur",Golf Course,Swiss Restaurant,Beer Garden,Event Space,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,2,47.5382,8.7652
+125,"8405, Winterthur",Electronics Store,Bus Stop,Bus Station,Restaurant,Zoo,Ethiopian Restaurant,Donut Shop,Eastern European Restaurant,English Restaurant,Event Space,7,47.4776,8.7783
+126,"8406, Winterthur",Bus Station,Australian Restaurant,Tea Room,Convenience Store,Supermarket,Auto Workshop,Hardware Store,Rental Car Location,Roof Deck,Record Shop,3,47.4832,8.7006
+127,"8408, Winterthur",Gas Station,Italian Restaurant,River,Bus Stop,Supermarket,Train Station,Plaza,Pool,Ethiopian Restaurant,English Restaurant,6,47.5077,8.6833
+128,"8409, Winterthur",Food & Drink Shop,Bowling Alley,Sporting Goods Shop,Electronics Store,Supermarket,Zoo,Event Space,Donut Shop,Eastern European Restaurant,English Restaurant,1,47.5098,8.7814
+129,"8482, Winterthur",Food & Drink Shop,Music Venue,River,Train Station,Zoo,English Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,6,47.4674,8.758
+130,"9000, St. Gallen",Bar,Swiss Restaurant,Music Venue,Restaurant,Café,Nightclub,Coffee Shop,Hotel,Gym / Fitness Center,Burger Joint,6,47.4236,9.3622
+131,"9001, St. Gallen",Train Station,Farmers Market,Pet Store,Print Shop,Bus Station,Supermarket,Rental Car Location,Zoo,Dog Run,Doner Restaurant,3,47.4667,9.4
+132,"9008, St. Gallen",Supermarket,Zoo,Swiss Restaurant,Bakery,Gas Station,Gym,Gym / Fitness Center,Italian Restaurant,Hotel,Vegetarian / Vegan Restaurant,6,47.4418,9.3918
+133,"9010, St. Gallen",Hotel,Pool,Event Space,Dog Run,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,Ethiopian Restaurant,8,47.4422,9.3717
+134,"9011, St. Gallen",Scenic Lookout,Pizza Place,Bus Line,Zoo,Ethiopian Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,English Restaurant,3,47.4148,9.3999
+135,"9012, St. Gallen",Bus Stop,Gym / Fitness Center,Gas Station,Zoo,English Restaurant,Doner Restaurant,Donut Shop,Eastern European Restaurant,Electronics Store,Ethiopian Restaurant,6,47.4103,9.3617
+136,"9014, St. Gallen",Bus Stop,Supermarket,Train Station,Grocery Store,Skating Rink,Hotel,Lounge,Music Venue,Other Great Outdoors,Record Shop,6,47.4091,9.3355
+137,"9015, St. Gallen",Furniture / Home Store,Train Station,Soccer Stadium,Shopping Mall,Hotel,Electronics Store,Sandwich Place,Supermarket,Swiss Restaurant,Bus Stop,6,47.4056,9.3093
+138,"9016, St. Gallen",Supermarket,Pool,Grocery Store,Bus Station,Garden,Bakery,Restaurant,German Restaurant,Coworking Space,Dog Run,1,47.4415,9.4141

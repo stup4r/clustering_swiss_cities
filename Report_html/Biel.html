@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_4a306409c3b0449e82a9b819d55f40a7 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_4a306409c3b0449e82a9b819d55f40a7" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_4a306409c3b0449e82a9b819d55f40a7 = L.map(
+        'map_4a306409c3b0449e82a9b819d55f40a7', {
+        center: [47.1367785, 7.2467909],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_8a8cf434f9db410286b289b8310f8980 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+    
+            var circle_marker_d8744393a3824b7d8983f94ae46cc4ae = L.circleMarker(
+                [47.1324, 7.2441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_251e3ecfa6574801b81f87fcc6989344 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8503bfa75da94046904841c038a61057 = $('<div id="html_8503bfa75da94046904841c038a61057" style="width: 100.0%; height: 100.0%;">2500, Biel/Bienne Cluster 6</div>')[0];
+                popup_251e3ecfa6574801b81f87fcc6989344.setContent(html_8503bfa75da94046904841c038a61057);
+            
+
+            circle_marker_d8744393a3824b7d8983f94ae46cc4ae.bindPopup(popup_251e3ecfa6574801b81f87fcc6989344)
+            ;
+
+            
+        
+    
+            var circle_marker_0f6bda9e4d654eb7957eb9d007b08912 = L.circleMarker(
+                [47.1504, 7.247000000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_f93cab3096b243e88bb591a12ba16f98 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5bd4daa6021e4e929348ca6a0efeee3d = $('<div id="html_5bd4daa6021e4e929348ca6a0efeee3d" style="width: 100.0%; height: 100.0%;">2501, Biel/Bienne Cluster 2</div>')[0];
+                popup_f93cab3096b243e88bb591a12ba16f98.setContent(html_5bd4daa6021e4e929348ca6a0efeee3d);
+            
+
+            circle_marker_0f6bda9e4d654eb7957eb9d007b08912.bindPopup(popup_f93cab3096b243e88bb591a12ba16f98)
+            ;
+
+            
+        
+    
+            var circle_marker_2ce67e483a144637ac7d3c2b615dec0c = L.circleMarker(
+                [47.143, 7.2468],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_82c1545683644d2b83be847208409cef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_163e2e58858c4169bad6217658ad87c9 = $('<div id="html_163e2e58858c4169bad6217658ad87c9" style="width: 100.0%; height: 100.0%;">2502, Biel/Bienne Cluster 0</div>')[0];
+                popup_82c1545683644d2b83be847208409cef.setContent(html_163e2e58858c4169bad6217658ad87c9);
+            
+
+            circle_marker_2ce67e483a144637ac7d3c2b615dec0c.bindPopup(popup_82c1545683644d2b83be847208409cef)
+            ;
+
+            
+        
+    
+            var circle_marker_e9ef917bf1734878912943bf8789c5f6 = L.circleMarker(
+                [47.1311, 7.2519],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_f8f353e35f9e4a8089b485a7a05581c5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69d8c2c8a0764679b24b35161fc9b6e3 = $('<div id="html_69d8c2c8a0764679b24b35161fc9b6e3" style="width: 100.0%; height: 100.0%;">2503, Biel/Bienne Cluster 6</div>')[0];
+                popup_f8f353e35f9e4a8089b485a7a05581c5.setContent(html_69d8c2c8a0764679b24b35161fc9b6e3);
+            
+
+            circle_marker_e9ef917bf1734878912943bf8789c5f6.bindPopup(popup_f8f353e35f9e4a8089b485a7a05581c5)
+            ;
+
+            
+        
+    
+            var circle_marker_f77bedb706614968979c10d348321955 = L.circleMarker(
+                [47.1581, 7.282999999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_6b752a203ac24259b13211d939da93e7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_764c78a456dd4196899b42677c4fffc7 = $('<div id="html_764c78a456dd4196899b42677c4fffc7" style="width: 100.0%; height: 100.0%;">2504, Biel/Bienne Cluster 1</div>')[0];
+                popup_6b752a203ac24259b13211d939da93e7.setContent(html_764c78a456dd4196899b42677c4fffc7);
+            
+
+            circle_marker_f77bedb706614968979c10d348321955.bindPopup(popup_6b752a203ac24259b13211d939da93e7)
+            ;
+
+            
+        
+    
+            var circle_marker_1757b4aa779d444885debf6f2a4d0429 = L.circleMarker(
+                [47.1342, 7.2188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4a306409c3b0449e82a9b819d55f40a7);
+            
+    
+            var popup_f9da8881ffe74af492a5110bd4abbeb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dcd888e72e5c4f14ad0ef733d98859be = $('<div id="html_dcd888e72e5c4f14ad0ef733d98859be" style="width: 100.0%; height: 100.0%;">2505, Biel/Bienne Cluster 0</div>')[0];
+                popup_f9da8881ffe74af492a5110bd4abbeb3.setContent(html_dcd888e72e5c4f14ad0ef733d98859be);
+            
+
+            circle_marker_1757b4aa779d444885debf6f2a4d0429.bindPopup(popup_f9da8881ffe74af492a5110bd4abbeb3)
+            ;
+
+            
+        
+</script>

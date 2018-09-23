@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_e74ae86ae8104363af2d8a0f273602dd {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e74ae86ae8104363af2d8a0f273602dd" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e74ae86ae8104363af2d8a0f273602dd = L.map(
+        'map_e74ae86ae8104363af2d8a0f273602dd', {
+        center: [46.0036778, 8.951051999999999],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_2c435cc161c84d7ba1e3eedf4d6653ee = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+    
+            var circle_marker_8f846da75dd24bad8dde2fe1637661cc = L.circleMarker(
+                [45.9821, 8.9936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_04707132813e4835b6838b971907dd1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ab8af577a344fe4817eb82f0d145cdb = $('<div id="html_0ab8af577a344fe4817eb82f0d145cdb" style="width: 100.0%; height: 100.0%;">6876, Lugano Cluster 0</div>')[0];
+                popup_04707132813e4835b6838b971907dd1e.setContent(html_0ab8af577a344fe4817eb82f0d145cdb);
+            
+
+            circle_marker_8f846da75dd24bad8dde2fe1637661cc.bindPopup(popup_04707132813e4835b6838b971907dd1e)
+            ;
+
+            
+        
+    
+            var circle_marker_507dc205f4b5480d903bd0a93bd60f44 = L.circleMarker(
+                [46.0003, 8.9512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_767e5fe4847b4934b7a5843c049c6014 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_38cff4074c424db3a689cb1557ab895e = $('<div id="html_38cff4074c424db3a689cb1557ab895e" style="width: 100.0%; height: 100.0%;">6901, Lugano Cluster 6</div>')[0];
+                popup_767e5fe4847b4934b7a5843c049c6014.setContent(html_38cff4074c424db3a689cb1557ab895e);
+            
+
+            circle_marker_507dc205f4b5480d903bd0a93bd60f44.bindPopup(popup_767e5fe4847b4934b7a5843c049c6014)
+            ;
+
+            
+        
+    
+            var circle_marker_09fbaeda12c34c138398ecd41e3122ae = L.circleMarker(
+                [46.0117, 8.9575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_bc7a3de6285e491dbad5de836fc69df3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b147412b210b4536bba9c2fedf7bb7df = $('<div id="html_b147412b210b4536bba9c2fedf7bb7df" style="width: 100.0%; height: 100.0%;">6902, Lugano Cluster 6</div>')[0];
+                popup_bc7a3de6285e491dbad5de836fc69df3.setContent(html_b147412b210b4536bba9c2fedf7bb7df);
+            
+
+            circle_marker_09fbaeda12c34c138398ecd41e3122ae.bindPopup(popup_bc7a3de6285e491dbad5de836fc69df3)
+            ;
+
+            
+        
+    
+            var circle_marker_d63f6eab12734f51a852f8fd5e1fae25 = L.circleMarker(
+                [46.0058, 8.9475],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_75303f7696ac48dbb259d72c2754f9e9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_348d75f63877408b9f751e21416dd9a1 = $('<div id="html_348d75f63877408b9f751e21416dd9a1" style="width: 100.0%; height: 100.0%;">6903, Lugano Cluster 6</div>')[0];
+                popup_75303f7696ac48dbb259d72c2754f9e9.setContent(html_348d75f63877408b9f751e21416dd9a1);
+            
+
+            circle_marker_d63f6eab12734f51a852f8fd5e1fae25.bindPopup(popup_75303f7696ac48dbb259d72c2754f9e9)
+            ;
+
+            
+        
+    
+            var circle_marker_754734756d774966a92afc05f1a84e0a = L.circleMarker(
+                [46.0238, 8.9393],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_396100da29984ffabc296e39db31a69d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c7255cf2c1f349f3b0ec78d26aa1b284 = $('<div id="html_c7255cf2c1f349f3b0ec78d26aa1b284" style="width: 100.0%; height: 100.0%;">6910, Lugano Cluster 1</div>')[0];
+                popup_396100da29984ffabc296e39db31a69d.setContent(html_c7255cf2c1f349f3b0ec78d26aa1b284);
+            
+
+            circle_marker_754734756d774966a92afc05f1a84e0a.bindPopup(popup_396100da29984ffabc296e39db31a69d)
+            ;
+
+            
+        
+    
+            var circle_marker_8899a12b0b194f2b8596a190fb404a4f = L.circleMarker(
+                [45.9798, 8.9447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_8c70e85163e54b19b8f97c4d3223e550 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f59fa7998cad4870aada1d9b9ea19f94 = $('<div id="html_f59fa7998cad4870aada1d9b9ea19f94" style="width: 100.0%; height: 100.0%;">6912, Lugano Cluster 0</div>')[0];
+                popup_8c70e85163e54b19b8f97c4d3223e550.setContent(html_f59fa7998cad4870aada1d9b9ea19f94);
+            
+
+            circle_marker_8899a12b0b194f2b8596a190fb404a4f.bindPopup(popup_8c70e85163e54b19b8f97c4d3223e550)
+            ;
+
+            
+        
+    
+            var circle_marker_8a075bbf5ac8473e8d53e6042555ff60 = L.circleMarker(
+                [45.9701, 8.9334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_82f6b455ebc04388b55c0e9bdecf4dcb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8cb0ac8faef5483faaec422481b85dac = $('<div id="html_8cb0ac8faef5483faaec422481b85dac" style="width: 100.0%; height: 100.0%;">6913, Lugano Cluster 6</div>')[0];
+                popup_82f6b455ebc04388b55c0e9bdecf4dcb.setContent(html_8cb0ac8faef5483faaec422481b85dac);
+            
+
+            circle_marker_8a075bbf5ac8473e8d53e6042555ff60.bindPopup(popup_82f6b455ebc04388b55c0e9bdecf4dcb)
+            ;
+
+            
+        
+    
+            var circle_marker_49720f8ec5b24d5cb69cf238f1043fcb = L.circleMarker(
+                [45.9845, 8.9276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_5f343eb4d70847f2a97fbcbc7a186bdd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d774c7e873c34536b726df213dbae9eb = $('<div id="html_d774c7e873c34536b726df213dbae9eb" style="width: 100.0%; height: 100.0%;">6915, Lugano Cluster 6</div>')[0];
+                popup_5f343eb4d70847f2a97fbcbc7a186bdd.setContent(html_d774c7e873c34536b726df213dbae9eb);
+            
+
+            circle_marker_49720f8ec5b24d5cb69cf238f1043fcb.bindPopup(popup_5f343eb4d70847f2a97fbcbc7a186bdd)
+            ;
+
+            
+        
+    
+            var circle_marker_18b1a817ba3c4512b647f8b1b4ca58f1 = L.circleMarker(
+                [45.9611, 8.9165],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#265dca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#265dca",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_25d3a346bc344f79bcf105861978806a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7e55ac4c5a9a4d939367bff26d708ede = $('<div id="html_7e55ac4c5a9a4d939367bff26d708ede" style="width: 100.0%; height: 100.0%;">6917, Lugano Cluster 7</div>')[0];
+                popup_25d3a346bc344f79bcf105861978806a.setContent(html_7e55ac4c5a9a4d939367bff26d708ede);
+            
+
+            circle_marker_18b1a817ba3c4512b647f8b1b4ca58f1.bindPopup(popup_25d3a346bc344f79bcf105861978806a)
+            ;
+
+            
+        
+    
+            var circle_marker_62d9482666a74d0b8f9c03b92894f3d3 = L.circleMarker(
+                [45.9559, 8.9215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_d202966466bb4d7aac28037927f7045f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e3d1bff32e9345bc9b923ee1b4d36d1a = $('<div id="html_e3d1bff32e9345bc9b923ee1b4d36d1a" style="width: 100.0%; height: 100.0%;">6918, Lugano Cluster 2</div>')[0];
+                popup_d202966466bb4d7aac28037927f7045f.setContent(html_e3d1bff32e9345bc9b923ee1b4d36d1a);
+            
+
+            circle_marker_62d9482666a74d0b8f9c03b92894f3d3.bindPopup(popup_d202966466bb4d7aac28037927f7045f)
+            ;
+
+            
+        
+    
+            var circle_marker_68ae06b12d8f46a3b913addcb96c56ba = L.circleMarker(
+                [45.9927, 8.9391],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_0d53038acbe842a08cfa9129907f8688 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a1577fb095aa45258a13bc1c89006aa6 = $('<div id="html_a1577fb095aa45258a13bc1c89006aa6" style="width: 100.0%; height: 100.0%;">6925, Lugano Cluster 0</div>')[0];
+                popup_0d53038acbe842a08cfa9129907f8688.setContent(html_a1577fb095aa45258a13bc1c89006aa6);
+            
+
+            circle_marker_68ae06b12d8f46a3b913addcb96c56ba.bindPopup(popup_0d53038acbe842a08cfa9129907f8688)
+            ;
+
+            
+        
+    
+            var circle_marker_3b7da8ed40ad4d7d81909242d8a2c715 = L.circleMarker(
+                [46.0067, 8.9296],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_234cd24a758c4d79a147ad8a9893e9ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1edfe121899a4d0f9c234d37f36b2a6b = $('<div id="html_1edfe121899a4d0f9c234d37f36b2a6b" style="width: 100.0%; height: 100.0%;">6932, Lugano Cluster 1</div>')[0];
+                popup_234cd24a758c4d79a147ad8a9893e9ac.setContent(html_1edfe121899a4d0f9c234d37f36b2a6b);
+            
+
+            circle_marker_3b7da8ed40ad4d7d81909242d8a2c715.bindPopup(popup_234cd24a758c4d79a147ad8a9893e9ac)
+            ;
+
+            
+        
+    
+            var circle_marker_0fd76bb0dde74cb792b52b6215b7fc8c = L.circleMarker(
+                [46.0121, 8.9692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_101c01b0c2d347859b7270d8403b085b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_649089e15a3342c1911bfab44fa9685c = $('<div id="html_649089e15a3342c1911bfab44fa9685c" style="width: 100.0%; height: 100.0%;">6962, Lugano Cluster 0</div>')[0];
+                popup_101c01b0c2d347859b7270d8403b085b.setContent(html_649089e15a3342c1911bfab44fa9685c);
+            
+
+            circle_marker_0fd76bb0dde74cb792b52b6215b7fc8c.bindPopup(popup_101c01b0c2d347859b7270d8403b085b)
+            ;
+
+            
+        
+    
+            var circle_marker_21fb66d117bb432f81c77f024fb9fe88 = L.circleMarker(
+                [46.0196, 8.9763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#faf200",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#faf200",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_9d2305bf756b4ca7a7f7ecc35defec5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_647a2b655e084a0583aaa027fe6c24c4 = $('<div id="html_647a2b655e084a0583aaa027fe6c24c4" style="width: 100.0%; height: 100.0%;">6963, Lugano Cluster 5</div>')[0];
+                popup_9d2305bf756b4ca7a7f7ecc35defec5e.setContent(html_647a2b655e084a0583aaa027fe6c24c4);
+            
+
+            circle_marker_21fb66d117bb432f81c77f024fb9fe88.bindPopup(popup_9d2305bf756b4ca7a7f7ecc35defec5e)
+            ;
+
+            
+        
+    
+            var circle_marker_665c0011a5624637ab9efb9d458b0381 = L.circleMarker(
+                [46.0326, 8.9869],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_ecec48446773407ead3253cdb407cdc2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c5c00870432405aae024905638b86a4 = $('<div id="html_9c5c00870432405aae024905638b86a4" style="width: 100.0%; height: 100.0%;">6964, Lugano Cluster 6</div>')[0];
+                popup_ecec48446773407ead3253cdb407cdc2.setContent(html_9c5c00870432405aae024905638b86a4);
+            
+
+            circle_marker_665c0011a5624637ab9efb9d458b0381.bindPopup(popup_ecec48446773407ead3253cdb407cdc2)
+            ;
+
+            
+        
+    
+            var circle_marker_ebfa8eb0c4654b14ba33555e75a6f380 = L.circleMarker(
+                [46.0549, 9.0037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_73711cea53bf4ae39262f5f0be49bb3e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8871c1970b7145dba72fd0fee13b0ab3 = $('<div id="html_8871c1970b7145dba72fd0fee13b0ab3" style="width: 100.0%; height: 100.0%;">6966, Lugano Cluster 3</div>')[0];
+                popup_73711cea53bf4ae39262f5f0be49bb3e.setContent(html_8871c1970b7145dba72fd0fee13b0ab3);
+            
+
+            circle_marker_ebfa8eb0c4654b14ba33555e75a6f380.bindPopup(popup_73711cea53bf4ae39262f5f0be49bb3e)
+            ;
+
+            
+        
+    
+            var circle_marker_145db84af0574cd39b9769360047c305 = L.circleMarker(
+                [46.0097, 8.981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_ffbe8ef2bccc4166829746c9a76879b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ba3a7ff9492a46fea6e64fea4d9be5a5 = $('<div id="html_ba3a7ff9492a46fea6e64fea4d9be5a5" style="width: 100.0%; height: 100.0%;">6974, Lugano Cluster 0</div>')[0];
+                popup_ffbe8ef2bccc4166829746c9a76879b5.setContent(html_ba3a7ff9492a46fea6e64fea4d9be5a5);
+            
+
+            circle_marker_145db84af0574cd39b9769360047c305.bindPopup(popup_ffbe8ef2bccc4166829746c9a76879b5)
+            ;
+
+            
+        
+    
+            var circle_marker_7454076b66c74c5fadf8ef72665f75ed = L.circleMarker(
+                [46.007, 8.9792],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CF3838",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CF3838",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_fd11a465209841a1aa60069fac6fe30a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07c95b6949c74b0988f43f57289309ef = $('<div id="html_07c95b6949c74b0988f43f57289309ef" style="width: 100.0%; height: 100.0%;">6977, Lugano Cluster 8</div>')[0];
+                popup_fd11a465209841a1aa60069fac6fe30a.setContent(html_07c95b6949c74b0988f43f57289309ef);
+            
+
+            circle_marker_7454076b66c74c5fadf8ef72665f75ed.bindPopup(popup_fd11a465209841a1aa60069fac6fe30a)
+            ;
+
+            
+        
+    
+            var circle_marker_3047c7e8ab5f4460a0e16724921ba5c1 = L.circleMarker(
+                [46.0009, 9.0097],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_176b8ea265184ca2972661b34f6ed6de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e1cbf5e06645446e87d61ea62f76fc2f = $('<div id="html_e1cbf5e06645446e87d61ea62f76fc2f" style="width: 100.0%; height: 100.0%;">6978, Lugano Cluster 6</div>')[0];
+                popup_176b8ea265184ca2972661b34f6ed6de.setContent(html_e1cbf5e06645446e87d61ea62f76fc2f);
+            
+
+            circle_marker_3047c7e8ab5f4460a0e16724921ba5c1.bindPopup(popup_176b8ea265184ca2972661b34f6ed6de)
+            ;
+
+            
+        
+    
+            var circle_marker_214b0216c785449abba1e34788decf8f = L.circleMarker(
+                [46.0185, 8.999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_e74ae86ae8104363af2d8a0f273602dd);
+            
+    
+            var popup_92ba44d40a654b67b24ca3dfec8f8353 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eee01a05935b464d8c8c17aeba703dc4 = $('<div id="html_eee01a05935b464d8c8c17aeba703dc4" style="width: 100.0%; height: 100.0%;">6979, Lugano Cluster 2</div>')[0];
+                popup_92ba44d40a654b67b24ca3dfec8f8353.setContent(html_eee01a05935b464d8c8c17aeba703dc4);
+            
+
+            circle_marker_214b0216c785449abba1e34788decf8f.bindPopup(popup_92ba44d40a654b67b24ca3dfec8f8353)
+            ;
+
+            
+        
+</script>

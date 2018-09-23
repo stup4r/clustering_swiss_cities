@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_16bf8ef5624944bfb43ac2ea52eb8b79 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_16bf8ef5624944bfb43ac2ea52eb8b79" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_16bf8ef5624944bfb43ac2ea52eb8b79 = L.map(
+        'map_16bf8ef5624944bfb43ac2ea52eb8b79', {
+        center: [47.3768866, 8.541694],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_ecc566abfc8b4c9fbb94795d15978ca8 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+    
+            var circle_marker_86790f2832db403a81f76132dc7f9ba9 = L.circleMarker(
+                [47.3667, 8.55],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_83c7ede1673143769a7160827ab67651 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8426a39082544a81b936045cc3ee1cab = $('<div id="html_8426a39082544a81b936045cc3ee1cab" style="width: 100.0%; height: 100.0%;">8000, Zürich Cluster 6</div>')[0];
+                popup_83c7ede1673143769a7160827ab67651.setContent(html_8426a39082544a81b936045cc3ee1cab);
+            
+
+            circle_marker_86790f2832db403a81f76132dc7f9ba9.bindPopup(popup_83c7ede1673143769a7160827ab67651)
+            ;
+
+            
+        
+    
+            var circle_marker_05e58851039344b9a046be57ef1cd4f9 = L.circleMarker(
+                [47.372, 8.5413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_0050fe04d89e4253846acc24528a3ccf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8676457e46514926ab62e7068124215a = $('<div id="html_8676457e46514926ab62e7068124215a" style="width: 100.0%; height: 100.0%;">8001, Zürich Cluster 6</div>')[0];
+                popup_0050fe04d89e4253846acc24528a3ccf.setContent(html_8676457e46514926ab62e7068124215a);
+            
+
+            circle_marker_05e58851039344b9a046be57ef1cd4f9.bindPopup(popup_0050fe04d89e4253846acc24528a3ccf)
+            ;
+
+            
+        
+    
+            var circle_marker_285be5245824455d865a2bf35874013f = L.circleMarker(
+                [47.3606, 8.5325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_a70ac142c08341c4b0e1eea5c05f06cf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8088abc0433d4fcaa1ce0e467e177c62 = $('<div id="html_8088abc0433d4fcaa1ce0e467e177c62" style="width: 100.0%; height: 100.0%;">8002, Zürich Cluster 6</div>')[0];
+                popup_a70ac142c08341c4b0e1eea5c05f06cf.setContent(html_8088abc0433d4fcaa1ce0e467e177c62);
+            
+
+            circle_marker_285be5245824455d865a2bf35874013f.bindPopup(popup_a70ac142c08341c4b0e1eea5c05f06cf)
+            ;
+
+            
+        
+    
+            var circle_marker_a40f6dab714646ea862807507a6c0de2 = L.circleMarker(
+                [47.3726, 8.5161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_effb3a0f60e1408285f80e343333c899 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0dd6482ee27840b088cd92182c7ea9d3 = $('<div id="html_0dd6482ee27840b088cd92182c7ea9d3" style="width: 100.0%; height: 100.0%;">8003, Zürich Cluster 6</div>')[0];
+                popup_effb3a0f60e1408285f80e343333c899.setContent(html_0dd6482ee27840b088cd92182c7ea9d3);
+            
+
+            circle_marker_a40f6dab714646ea862807507a6c0de2.bindPopup(popup_effb3a0f60e1408285f80e343333c899)
+            ;
+
+            
+        
+    
+            var circle_marker_5f37053b253c452faddc480c2db7cb2e = L.circleMarker(
+                [47.378, 8.5234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_bb684cc2cc80471e8bba4ca3123085bc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45f0c80bf7c64671a13060a61d96a87b = $('<div id="html_45f0c80bf7c64671a13060a61d96a87b" style="width: 100.0%; height: 100.0%;">8004, Zürich Cluster 6</div>')[0];
+                popup_bb684cc2cc80471e8bba4ca3123085bc.setContent(html_45f0c80bf7c64671a13060a61d96a87b);
+            
+
+            circle_marker_5f37053b253c452faddc480c2db7cb2e.bindPopup(popup_bb684cc2cc80471e8bba4ca3123085bc)
+            ;
+
+            
+        
+    
+            var circle_marker_042b720cfdb645f9a6ac136708e5fdb3 = L.circleMarker(
+                [47.3868, 8.5207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_c72f09df15234f01944175aed1176fee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3e25b919ef864b6e8259911b7267b017 = $('<div id="html_3e25b919ef864b6e8259911b7267b017" style="width: 100.0%; height: 100.0%;">8005, Zürich Cluster 6</div>')[0];
+                popup_c72f09df15234f01944175aed1176fee.setContent(html_3e25b919ef864b6e8259911b7267b017);
+            
+
+            circle_marker_042b720cfdb645f9a6ac136708e5fdb3.bindPopup(popup_c72f09df15234f01944175aed1176fee)
+            ;
+
+            
+        
+    
+            var circle_marker_6e0f6ae3f1ac455798cab2d8f7cfd637 = L.circleMarker(
+                [47.3858, 8.5432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_55fafb3818fe4138837446868f75bc75 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cc342c344f68404bb0d7554e60fb319f = $('<div id="html_cc342c344f68404bb0d7554e60fb319f" style="width: 100.0%; height: 100.0%;">8006, Zürich Cluster 6</div>')[0];
+                popup_55fafb3818fe4138837446868f75bc75.setContent(html_cc342c344f68404bb0d7554e60fb319f);
+            
+
+            circle_marker_6e0f6ae3f1ac455798cab2d8f7cfd637.bindPopup(popup_55fafb3818fe4138837446868f75bc75)
+            ;
+
+            
+        
+    
+            var circle_marker_eb35c33fae224224a772f519e52e19c4 = L.circleMarker(
+                [47.3536, 8.5614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_ab1e93ed250545e98aac21fe1c5e8939 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d86156d8a7d24e5fb01c512b07dd2f00 = $('<div id="html_d86156d8a7d24e5fb01c512b07dd2f00" style="width: 100.0%; height: 100.0%;">8008, Zürich Cluster 6</div>')[0];
+                popup_ab1e93ed250545e98aac21fe1c5e8939.setContent(html_d86156d8a7d24e5fb01c512b07dd2f00);
+            
+
+            circle_marker_eb35c33fae224224a772f519e52e19c4.bindPopup(popup_ab1e93ed250545e98aac21fe1c5e8939)
+            ;
+
+            
+        
+    
+            var circle_marker_ef5a4ad6181e4a60a4af2bab3ad7dc8a = L.circleMarker(
+                [47.3674, 8.5374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_dfd1ef039c7946188039067c5693411e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d8df78b757574666a27e0effd372956e = $('<div id="html_d8df78b757574666a27e0effd372956e" style="width: 100.0%; height: 100.0%;">8022, Zürich Cluster 6</div>')[0];
+                popup_dfd1ef039c7946188039067c5693411e.setContent(html_d8df78b757574666a27e0effd372956e);
+            
+
+            circle_marker_ef5a4ad6181e4a60a4af2bab3ad7dc8a.bindPopup(popup_dfd1ef039c7946188039067c5693411e)
+            ;
+
+            
+        
+    
+            var circle_marker_77e86e7a56c1440da383885350198be4 = L.circleMarker(
+                [47.3748, 8.5381],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_18844a0ee3a54f6283992eee1e632f8d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c740b7fc8ce4b0ba0a9ac392726cec8 = $('<div id="html_2c740b7fc8ce4b0ba0a9ac392726cec8" style="width: 100.0%; height: 100.0%;">8023, Zürich Cluster 6</div>')[0];
+                popup_18844a0ee3a54f6283992eee1e632f8d.setContent(html_2c740b7fc8ce4b0ba0a9ac392726cec8);
+            
+
+            circle_marker_77e86e7a56c1440da383885350198be4.bindPopup(popup_18844a0ee3a54f6283992eee1e632f8d)
+            ;
+
+            
+        
+    
+            var circle_marker_405a3315fd4c43e7af6a80f808d50032 = L.circleMarker(
+                [47.3667, 8.5644],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_76b12e2a1ae34c00bb663117e76923fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1067beb355884b88a669333a8e9009db = $('<div id="html_1067beb355884b88a669333a8e9009db" style="width: 100.0%; height: 100.0%;">8032, Zürich Cluster 6</div>')[0];
+                popup_76b12e2a1ae34c00bb663117e76923fa.setContent(html_1067beb355884b88a669333a8e9009db);
+            
+
+            circle_marker_405a3315fd4c43e7af6a80f808d50032.bindPopup(popup_76b12e2a1ae34c00bb663117e76923fa)
+            ;
+
+            
+        
+    
+            var circle_marker_f9bd485434904b80b45f102780ea755d = L.circleMarker(
+                [47.3836, 8.548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_94069366dc334963a7a0906bfc0defc7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_687b44f70fcc4747a86a38dca5a03d4e = $('<div id="html_687b44f70fcc4747a86a38dca5a03d4e" style="width: 100.0%; height: 100.0%;">8033, Zürich Cluster 6</div>')[0];
+                popup_94069366dc334963a7a0906bfc0defc7.setContent(html_687b44f70fcc4747a86a38dca5a03d4e);
+            
+
+            circle_marker_f9bd485434904b80b45f102780ea755d.bindPopup(popup_94069366dc334963a7a0906bfc0defc7)
+            ;
+
+            
+        
+    
+            var circle_marker_e9d1013c6df74287ba02f5bf0f4e9cda = L.circleMarker(
+                [47.3985, 8.5243],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_74b2f9a9dbfc40a6878da808609900ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b00473cf30345c5a1f251b20f7407ff = $('<div id="html_1b00473cf30345c5a1f251b20f7407ff" style="width: 100.0%; height: 100.0%;">8037, Zürich Cluster 6</div>')[0];
+                popup_74b2f9a9dbfc40a6878da808609900ac.setContent(html_1b00473cf30345c5a1f251b20f7407ff);
+            
+
+            circle_marker_e9d1013c6df74287ba02f5bf0f4e9cda.bindPopup(popup_74b2f9a9dbfc40a6878da808609900ac)
+            ;
+
+            
+        
+    
+            var circle_marker_cc552387e7e2451dbe24c4d9f21119de = L.circleMarker(
+                [47.3416, 8.5369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_1732ee0eed52478bbac010d2befb4627 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_12e8851ccada48d088ac1814151e2174 = $('<div id="html_12e8851ccada48d088ac1814151e2174" style="width: 100.0%; height: 100.0%;">8038, Zürich Cluster 3</div>')[0];
+                popup_1732ee0eed52478bbac010d2befb4627.setContent(html_12e8851ccada48d088ac1814151e2174);
+            
+
+            circle_marker_cc552387e7e2451dbe24c4d9f21119de.bindPopup(popup_1732ee0eed52478bbac010d2befb4627)
+            ;
+
+            
+        
+    
+            var circle_marker_864f6e8297d44dcbb2cedbc81c3d834c = L.circleMarker(
+                [47.3802, 8.5068],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_c4feed2bc67245b5a0c537e65bd804c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e4691635115419fb9d9d3c92a84177d = $('<div id="html_5e4691635115419fb9d9d3c92a84177d" style="width: 100.0%; height: 100.0%;">8040, Zürich Cluster 6</div>')[0];
+                popup_c4feed2bc67245b5a0c537e65bd804c8.setContent(html_5e4691635115419fb9d9d3c92a84177d);
+            
+
+            circle_marker_864f6e8297d44dcbb2cedbc81c3d834c.bindPopup(popup_c4feed2bc67245b5a0c537e65bd804c8)
+            ;
+
+            
+        
+    
+            var circle_marker_44a5fe161e4544f2a70afe4aeb86b908 = L.circleMarker(
+                [47.3361, 8.5156],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_1c02950611bb4067be16f9e321a9de50 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4276908179164d37af236924baedf503 = $('<div id="html_4276908179164d37af236924baedf503" style="width: 100.0%; height: 100.0%;">8041, Zürich Cluster 3</div>')[0];
+                popup_1c02950611bb4067be16f9e321a9de50.setContent(html_4276908179164d37af236924baedf503);
+            
+
+            circle_marker_44a5fe161e4544f2a70afe4aeb86b908.bindPopup(popup_1c02950611bb4067be16f9e321a9de50)
+            ;
+
+            
+        
+    
+            var circle_marker_05d7262d1eda48fc956ca819566924fd = L.circleMarker(
+                [47.3516, 8.5057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_5f9d578381a644d38ffabd9b28cf26ea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d2c8c983736b4165b4d62a85efdcb831 = $('<div id="html_d2c8c983736b4165b4d62a85efdcb831" style="width: 100.0%; height: 100.0%;">8045, Zürich Cluster 3</div>')[0];
+                popup_5f9d578381a644d38ffabd9b28cf26ea.setContent(html_d2c8c983736b4165b4d62a85efdcb831);
+            
+
+            circle_marker_05d7262d1eda48fc956ca819566924fd.bindPopup(popup_5f9d578381a644d38ffabd9b28cf26ea)
+            ;
+
+            
+        
+    
+            var circle_marker_7421ea8d0d8b4cceac3aa9f7d0af877e = L.circleMarker(
+                [47.4222, 8.5083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_288c9993ef6e4f6f8cc99a360ea5f903 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f08a2ae40aad497a8d6cc1450a0de1fe = $('<div id="html_f08a2ae40aad497a8d6cc1450a0de1fe" style="width: 100.0%; height: 100.0%;">8046, Zürich Cluster 1</div>')[0];
+                popup_288c9993ef6e4f6f8cc99a360ea5f903.setContent(html_f08a2ae40aad497a8d6cc1450a0de1fe);
+            
+
+            circle_marker_7421ea8d0d8b4cceac3aa9f7d0af877e.bindPopup(popup_288c9993ef6e4f6f8cc99a360ea5f903)
+            ;
+
+            
+        
+    
+            var circle_marker_1877b03c021847688c2de35a3246bf34 = L.circleMarker(
+                [47.3739, 8.487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_15ca1b998a9f42098a944c0d0ca41964 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e423db01f80644c09ac8b77293272987 = $('<div id="html_e423db01f80644c09ac8b77293272987" style="width: 100.0%; height: 100.0%;">8047, Zürich Cluster 3</div>')[0];
+                popup_15ca1b998a9f42098a944c0d0ca41964.setContent(html_e423db01f80644c09ac8b77293272987);
+            
+
+            circle_marker_1877b03c021847688c2de35a3246bf34.bindPopup(popup_15ca1b998a9f42098a944c0d0ca41964)
+            ;
+
+            
+        
+    
+            var circle_marker_219fd8d8dcf2424987ed2e551759ca29 = L.circleMarker(
+                [47.3868, 8.4839],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_274d94e28e2d478f8f81b28e01cf433f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e029b7921aa45c09fd4c61d75611150 = $('<div id="html_0e029b7921aa45c09fd4c61d75611150" style="width: 100.0%; height: 100.0%;">8048, Zürich Cluster 6</div>')[0];
+                popup_274d94e28e2d478f8f81b28e01cf433f.setContent(html_0e029b7921aa45c09fd4c61d75611150);
+            
+
+            circle_marker_219fd8d8dcf2424987ed2e551759ca29.bindPopup(popup_274d94e28e2d478f8f81b28e01cf433f)
+            ;
+
+            
+        
+    
+            var circle_marker_b9a0df3770974591a98f307fa6d83f2c = L.circleMarker(
+                [47.4087, 8.5004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_cf1c4f807642408c822b7f56d71e2210 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2e0ba803bbb94db7b5ead61470f20b5d = $('<div id="html_2e0ba803bbb94db7b5ead61470f20b5d" style="width: 100.0%; height: 100.0%;">8049, Zürich Cluster 3</div>')[0];
+                popup_cf1c4f807642408c822b7f56d71e2210.setContent(html_2e0ba803bbb94db7b5ead61470f20b5d);
+            
+
+            circle_marker_b9a0df3770974591a98f307fa6d83f2c.bindPopup(popup_cf1c4f807642408c822b7f56d71e2210)
+            ;
+
+            
+        
+    
+            var circle_marker_39fa514db23c4688a9d97fa42b97d266 = L.circleMarker(
+                [47.4119, 8.5508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_8b7d3d8993074686b3ae9eb87517f4ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_903273ec28274db497c49f25abb40a53 = $('<div id="html_903273ec28274db497c49f25abb40a53" style="width: 100.0%; height: 100.0%;">8050, Zürich Cluster 6</div>')[0];
+                popup_8b7d3d8993074686b3ae9eb87517f4ff.setContent(html_903273ec28274db497c49f25abb40a53);
+            
+
+            circle_marker_39fa514db23c4688a9d97fa42b97d266.bindPopup(popup_8b7d3d8993074686b3ae9eb87517f4ff)
+            ;
+
+            
+        
+    
+            var circle_marker_8d657b0b9ef348a6af4726b7123619f3 = L.circleMarker(
+                [47.3996, 8.5788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_d0dbbd8cdc4f4439bc2d4df62b693af2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a9c1d0745d924a50bc5d237c6b66a27a = $('<div id="html_a9c1d0745d924a50bc5d237c6b66a27a" style="width: 100.0%; height: 100.0%;">8051, Zürich Cluster 3</div>')[0];
+                popup_d0dbbd8cdc4f4439bc2d4df62b693af2.setContent(html_a9c1d0745d924a50bc5d237c6b66a27a);
+            
+
+            circle_marker_8d657b0b9ef348a6af4726b7123619f3.bindPopup(popup_d0dbbd8cdc4f4439bc2d4df62b693af2)
+            ;
+
+            
+        
+    
+            var circle_marker_073f158ab76742ca820a733eda5e39c3 = L.circleMarker(
+                [47.4245, 8.5406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_026ffc386c0c47228e3a4a2e6659c133 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e8814283a15b4c8fba0eaa8490038365 = $('<div id="html_e8814283a15b4c8fba0eaa8490038365" style="width: 100.0%; height: 100.0%;">8052, Zürich Cluster 3</div>')[0];
+                popup_026ffc386c0c47228e3a4a2e6659c133.setContent(html_e8814283a15b4c8fba0eaa8490038365);
+            
+
+            circle_marker_073f158ab76742ca820a733eda5e39c3.bindPopup(popup_026ffc386c0c47228e3a4a2e6659c133)
+            ;
+
+            
+        
+    
+            var circle_marker_0322b9520d924803b9db7f6d248aee2e = L.circleMarker(
+                [47.3613, 8.5974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_d59a9505512343ac82ce733410c62c2d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_647010b7413f4777a352133165004985 = $('<div id="html_647010b7413f4777a352133165004985" style="width: 100.0%; height: 100.0%;">8053, Zürich Cluster 3</div>')[0];
+                popup_d59a9505512343ac82ce733410c62c2d.setContent(html_647010b7413f4777a352133165004985);
+            
+
+            circle_marker_0322b9520d924803b9db7f6d248aee2e.bindPopup(popup_d59a9505512343ac82ce733410c62c2d)
+            ;
+
+            
+        
+    
+            var circle_marker_ad431e2ea18041b2ad4c75f701098677 = L.circleMarker(
+                [47.3642, 8.4903],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_9edc8ab7f7b94547901b131251a266e6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f26e965eefd4e998cac3e827f1c0115 = $('<div id="html_1f26e965eefd4e998cac3e827f1c0115" style="width: 100.0%; height: 100.0%;">8055, Zürich Cluster 6</div>')[0];
+                popup_9edc8ab7f7b94547901b131251a266e6.setContent(html_1f26e965eefd4e998cac3e827f1c0115);
+            
+
+            circle_marker_ad431e2ea18041b2ad4c75f701098677.bindPopup(popup_9edc8ab7f7b94547901b131251a266e6)
+            ;
+
+            
+        
+    
+            var circle_marker_ab0224c9191d454cb28bd326eec88328 = L.circleMarker(
+                [47.3999, 8.5474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_3f91177a27004f30b1fc6bd3ada58a48 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50057cf749f7476d8196ddf6d77abd2b = $('<div id="html_50057cf749f7476d8196ddf6d77abd2b" style="width: 100.0%; height: 100.0%;">8057, Zürich Cluster 3</div>')[0];
+                popup_3f91177a27004f30b1fc6bd3ada58a48.setContent(html_50057cf749f7476d8196ddf6d77abd2b);
+            
+
+            circle_marker_ab0224c9191d454cb28bd326eec88328.bindPopup(popup_3f91177a27004f30b1fc6bd3ada58a48)
+            ;
+
+            
+        
+    
+            var circle_marker_a48acd64dce74259b971fa03714a3500 = L.circleMarker(
+                [47.3666, 8.497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_90b2b39914624edd8641284eaf374696 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_175839749b5e416b85658d48f2d86b12 = $('<div id="html_175839749b5e416b85658d48f2d86b12" style="width: 100.0%; height: 100.0%;">8063, Zürich Cluster 1</div>')[0];
+                popup_90b2b39914624edd8641284eaf374696.setContent(html_175839749b5e416b85658d48f2d86b12);
+            
+
+            circle_marker_a48acd64dce74259b971fa03714a3500.bindPopup(popup_90b2b39914624edd8641284eaf374696)
+            ;
+
+            
+        
+    
+            var circle_marker_721837bf3ce74d1ab02ad6749dcd7b96 = L.circleMarker(
+                [47.3987, 8.4852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_381fd28e23604cba9b770f1eb5b15c59 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7c9982d90274fc2989c3d3be79f5bbf = $('<div id="html_a7c9982d90274fc2989c3d3be79f5bbf" style="width: 100.0%; height: 100.0%;">8064, Zürich Cluster 3</div>')[0];
+                popup_381fd28e23604cba9b770f1eb5b15c59.setContent(html_a7c9982d90274fc2989c3d3be79f5bbf);
+            
+
+            circle_marker_721837bf3ce74d1ab02ad6749dcd7b96.bindPopup(popup_381fd28e23604cba9b770f1eb5b15c59)
+            ;
+
+            
+        
+    
+            var circle_marker_82f25b795c154b9c83d2ccb37d888908 = L.circleMarker(
+                [47.3828, 8.5307],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_16bf8ef5624944bfb43ac2ea52eb8b79);
+            
+    
+            var popup_44cc07188e81467da69d782f76364a58 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6b872ea1e9743b2966e59c3f4dfe70b = $('<div id="html_d6b872ea1e9743b2966e59c3f4dfe70b" style="width: 100.0%; height: 100.0%;">8074, Zürich Cluster 3</div>')[0];
+                popup_44cc07188e81467da69d782f76364a58.setContent(html_d6b872ea1e9743b2966e59c3f4dfe70b);
+            
+
+            circle_marker_82f25b795c154b9c83d2ccb37d888908.bindPopup(popup_44cc07188e81467da69d782f76364a58)
+            ;
+
+            
+        
+</script>

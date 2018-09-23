@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_175acccd27b24593a4b274ca76a2e62a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_175acccd27b24593a4b274ca76a2e62a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_175acccd27b24593a4b274ca76a2e62a = L.map(
+        'map_175acccd27b24593a4b274ca76a2e62a', {
+        center: [47.4244818, 9.3767173],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_2bebafd1ab1942bbabc5d0c430231107 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_175acccd27b24593a4b274ca76a2e62a);
+    
+            var circle_marker_eef284d2b11b4be487127601e9a3be60 = L.circleMarker(
+                [47.4236, 9.3622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_61f62943fea740ce9effe64068a66e88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e31b7e56b2654f6092886f1d896a140b = $('<div id="html_e31b7e56b2654f6092886f1d896a140b" style="width: 100.0%; height: 100.0%;">9000, St. Gallen Cluster 6</div>')[0];
+                popup_61f62943fea740ce9effe64068a66e88.setContent(html_e31b7e56b2654f6092886f1d896a140b);
+            
+
+            circle_marker_eef284d2b11b4be487127601e9a3be60.bindPopup(popup_61f62943fea740ce9effe64068a66e88)
+            ;
+
+            
+        
+    
+            var circle_marker_23535b7b7e524542aebd8de4eb9c0e24 = L.circleMarker(
+                [47.4667, 9.4],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_f54c5cc3661e4355ad14aa75652f757b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cdf18a41523e4b668509082957527ff4 = $('<div id="html_cdf18a41523e4b668509082957527ff4" style="width: 100.0%; height: 100.0%;">9001, St. Gallen Cluster 3</div>')[0];
+                popup_f54c5cc3661e4355ad14aa75652f757b.setContent(html_cdf18a41523e4b668509082957527ff4);
+            
+
+            circle_marker_23535b7b7e524542aebd8de4eb9c0e24.bindPopup(popup_f54c5cc3661e4355ad14aa75652f757b)
+            ;
+
+            
+        
+    
+            var circle_marker_81dde44e3fd74a83899670cd0095667c = L.circleMarker(
+                [47.4418, 9.3918],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_8332067c76da4ad7a224663d614f82f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59a8d69a76bd4247bbd111460f99a937 = $('<div id="html_59a8d69a76bd4247bbd111460f99a937" style="width: 100.0%; height: 100.0%;">9008, St. Gallen Cluster 6</div>')[0];
+                popup_8332067c76da4ad7a224663d614f82f9.setContent(html_59a8d69a76bd4247bbd111460f99a937);
+            
+
+            circle_marker_81dde44e3fd74a83899670cd0095667c.bindPopup(popup_8332067c76da4ad7a224663d614f82f9)
+            ;
+
+            
+        
+    
+            var circle_marker_f2b2d60325e34ccc9cd247ef6c6412f3 = L.circleMarker(
+                [47.4422, 9.3717],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CF3838",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CF3838",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_ce8824cdfa9d41de8a2c6634a212dd96 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_863ca688cbea46e8aa9db7ac4b01207d = $('<div id="html_863ca688cbea46e8aa9db7ac4b01207d" style="width: 100.0%; height: 100.0%;">9010, St. Gallen Cluster 8</div>')[0];
+                popup_ce8824cdfa9d41de8a2c6634a212dd96.setContent(html_863ca688cbea46e8aa9db7ac4b01207d);
+            
+
+            circle_marker_f2b2d60325e34ccc9cd247ef6c6412f3.bindPopup(popup_ce8824cdfa9d41de8a2c6634a212dd96)
+            ;
+
+            
+        
+    
+            var circle_marker_25d83dd6ebb7429c98b83ea6d96febd2 = L.circleMarker(
+                [47.4148, 9.3999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_b4c3c5a62460426cafa7149072248676 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_15b217bb06354259ad9fa079fdd800b6 = $('<div id="html_15b217bb06354259ad9fa079fdd800b6" style="width: 100.0%; height: 100.0%;">9011, St. Gallen Cluster 3</div>')[0];
+                popup_b4c3c5a62460426cafa7149072248676.setContent(html_15b217bb06354259ad9fa079fdd800b6);
+            
+
+            circle_marker_25d83dd6ebb7429c98b83ea6d96febd2.bindPopup(popup_b4c3c5a62460426cafa7149072248676)
+            ;
+
+            
+        
+    
+            var circle_marker_dbd66cd7296045439d5e5791c6c5db7a = L.circleMarker(
+                [47.4103, 9.3617],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_0043cffd9e2c4d87ba66171239ddd4ea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b123b6732e548b5b21b1d05e3969d93 = $('<div id="html_1b123b6732e548b5b21b1d05e3969d93" style="width: 100.0%; height: 100.0%;">9012, St. Gallen Cluster 6</div>')[0];
+                popup_0043cffd9e2c4d87ba66171239ddd4ea.setContent(html_1b123b6732e548b5b21b1d05e3969d93);
+            
+
+            circle_marker_dbd66cd7296045439d5e5791c6c5db7a.bindPopup(popup_0043cffd9e2c4d87ba66171239ddd4ea)
+            ;
+
+            
+        
+    
+            var circle_marker_072d4e8b1c814366931bf6e3ee9b8251 = L.circleMarker(
+                [47.4091, 9.3355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_7dc54dd44e924627aabf665b0c7c7092 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_849c845c55334153a981de8633242b46 = $('<div id="html_849c845c55334153a981de8633242b46" style="width: 100.0%; height: 100.0%;">9014, St. Gallen Cluster 6</div>')[0];
+                popup_7dc54dd44e924627aabf665b0c7c7092.setContent(html_849c845c55334153a981de8633242b46);
+            
+
+            circle_marker_072d4e8b1c814366931bf6e3ee9b8251.bindPopup(popup_7dc54dd44e924627aabf665b0c7c7092)
+            ;
+
+            
+        
+    
+            var circle_marker_063b99908bad476497fdfca5b242330a = L.circleMarker(
+                [47.4056, 9.3093],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_9d115119b5ec42fd91c96416a22d1496 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_41d621bdf3db4ac7ba2ce805d01c51db = $('<div id="html_41d621bdf3db4ac7ba2ce805d01c51db" style="width: 100.0%; height: 100.0%;">9015, St. Gallen Cluster 6</div>')[0];
+                popup_9d115119b5ec42fd91c96416a22d1496.setContent(html_41d621bdf3db4ac7ba2ce805d01c51db);
+            
+
+            circle_marker_063b99908bad476497fdfca5b242330a.bindPopup(popup_9d115119b5ec42fd91c96416a22d1496)
+            ;
+
+            
+        
+    
+            var circle_marker_0bff26e6c9ff4b43a3ee2b532624d342 = L.circleMarker(
+                [47.4415, 9.4141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFE318",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFE318",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_175acccd27b24593a4b274ca76a2e62a);
+            
+    
+            var popup_03bd908f3221431a84b9aeb49771ddd3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a4ccebf07e394f16a54f74b44db80178 = $('<div id="html_a4ccebf07e394f16a54f74b44db80178" style="width: 100.0%; height: 100.0%;">9016, St. Gallen Cluster 1</div>')[0];
+                popup_03bd908f3221431a84b9aeb49771ddd3.setContent(html_a4ccebf07e394f16a54f74b44db80178);
+            
+
+            circle_marker_0bff26e6c9ff4b43a3ee2b532624d342.bindPopup(popup_03bd908f3221431a84b9aeb49771ddd3)
+            ;
+
+            
+        
+</script>

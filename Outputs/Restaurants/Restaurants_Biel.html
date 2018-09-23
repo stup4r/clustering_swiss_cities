@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_5875288006b34a15bdc674d5fa8fcaab {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5875288006b34a15bdc674d5fa8fcaab" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5875288006b34a15bdc674d5fa8fcaab = L.map(
+        'map_5875288006b34a15bdc674d5fa8fcaab', {
+        center: [47.1367785, 7.2467909],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_48bfff6e50a94b4cb9b332795d0bf5ce = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+    
+            var circle_marker_5a19dcdc4d0c4f5ca77e2b1bda3da8b1 = L.circleMarker(
+                [47.12594406479342, 7.240311745091448],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1850968611841584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_d8fb85abcbb845d8b2f0308b33c7898c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e3af7bc186d14ca285cb6376a07cc96e = $('<div id="html_e3af7bc186d14ca285cb6376a07cc96e" style="width: 100.0%; height: 100.0%;">Restaurant Nidaux: 15 likes</div>')[0];
+                popup_d8fb85abcbb845d8b2f0308b33c7898c.setContent(html_e3af7bc186d14ca285cb6376a07cc96e);
+            
+
+            circle_marker_5a19dcdc4d0c4f5ca77e2b1bda3da8b1.bindPopup(popup_d8fb85abcbb845d8b2f0308b33c7898c)
+            ;
+
+            
+        
+    
+            var circle_marker_eaf0c90f67e041e088472799989b61be = L.circleMarker(
+                [47.13487328830508, 7.2403649985024225],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.393653682408596,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_98d0d06e823746e2be52ccabdbaa5234 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cbfe515c7e0346c79e5be379c74e4366 = $('<div id="html_cbfe515c7e0346c79e5be379c74e4366" style="width: 100.0%; height: 100.0%;">Restaurant L&#39;Ecluse: 18 likes</div>')[0];
+                popup_98d0d06e823746e2be52ccabdbaa5234.setContent(html_cbfe515c7e0346c79e5be379c74e4366);
+            
+
+            circle_marker_eaf0c90f67e041e088472799989b61be.bindPopup(popup_98d0d06e823746e2be52ccabdbaa5234)
+            ;
+
+            
+        
+    
+            var circle_marker_2b8b99cbabb74183ae125fcec5f8c80b = L.circleMarker(
+                [47.136906794145936, 7.24647053688951],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.393653682408596,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_3fbe4a186d6a462a8487b33a1dfc15c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8834c7c7068848389bd0c9613cbf51ec = $('<div id="html_8834c7c7068848389bd0c9613cbf51ec" style="width: 100.0%; height: 100.0%;">Restaurant Arcade: 18 likes</div>')[0];
+                popup_3fbe4a186d6a462a8487b33a1dfc15c8.setContent(html_8834c7c7068848389bd0c9613cbf51ec);
+            
+
+            circle_marker_2b8b99cbabb74183ae125fcec5f8c80b.bindPopup(popup_3fbe4a186d6a462a8487b33a1dfc15c8)
+            ;
+
+            
+        
+    
+            var circle_marker_70e5d4016324440b9855465c57bc3e47 = L.circleMarker(
+                [47.13860282043853, 7.246840135660117],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8712051592547776,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_5c362f479c0d43d49734bb86cf9a39e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d07090670e5461b8c717b9689e53acd = $('<div id="html_0d07090670e5461b8c717b9689e53acd" style="width: 100.0%; height: 100.0%;">Coop Restaurant: 11 likes</div>')[0];
+                popup_5c362f479c0d43d49734bb86cf9a39e5.setContent(html_0d07090670e5461b8c717b9689e53acd);
+            
+
+            circle_marker_70e5d4016324440b9855465c57bc3e47.bindPopup(popup_5c362f479c0d43d49734bb86cf9a39e5)
+            ;
+
+            
+        
+    
+            var circle_marker_7bf766c8a4f745a1aa87cef4525e3155 = L.circleMarker(
+                [47.13400897550143, 7.240612506866454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5957691216057308,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_4f4ad2313b3e40c2b959b3128b847fa0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a64acb09cb5a4c1bbf2e27e9f07edb23 = $('<div id="html_a64acb09cb5a4c1bbf2e27e9f07edb23" style="width: 100.0%; height: 100.0%;">MÖ - Restaurant &amp; Bar: 8 likes</div>')[0];
+                popup_4f4ad2313b3e40c2b959b3128b847fa0.setContent(html_a64acb09cb5a4c1bbf2e27e9f07edb23);
+            
+
+            circle_marker_7bf766c8a4f745a1aa87cef4525e3155.bindPopup(popup_4f4ad2313b3e40c2b959b3128b847fa0)
+            ;
+
+            
+        
+    
+            var circle_marker_4674baea6a314fca89ec70af45260f5d = L.circleMarker(
+                [47.13485455689649, 7.244497469543442],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5957691216057308,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_76b45fda102c4956bac8602a950e0af8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2cf677e656b143539156b6700d4d1d35 = $('<div id="html_2cf677e656b143539156b6700d4d1d35" style="width: 100.0%; height: 100.0%;">Cecil - Café Bar: 8 likes</div>')[0];
+                popup_76b45fda102c4956bac8602a950e0af8.setContent(html_2cf677e656b143539156b6700d4d1d35);
+            
+
+            circle_marker_4674baea6a314fca89ec70af45260f5d.bindPopup(popup_76b45fda102c4956bac8602a950e0af8)
+            ;
+
+            
+        
+    
+            var circle_marker_6e34cda95cf8444ba78bd387562cd4aa = L.circleMarker(
+                [47.14295441112276, 7.246680854137094],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_75b276be27bc4a168b6b250e9e0b8cef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e5386d6554e44aaaa6678a1363d2cb0 = $('<div id="html_4e5386d6554e44aaaa6678a1363d2cb0" style="width: 100.0%; height: 100.0%;">Restaurant De La Tour: 5 likes</div>')[0];
+                popup_75b276be27bc4a168b6b250e9e0b8cef.setContent(html_4e5386d6554e44aaaa6678a1363d2cb0);
+            
+
+            circle_marker_6e34cda95cf8444ba78bd387562cd4aa.bindPopup(popup_75b276be27bc4a168b6b250e9e0b8cef)
+            ;
+
+            
+        
+    
+            var circle_marker_7407588025df4cf78ceca41a1812c143 = L.circleMarker(
+                [47.15890473358458, 7.287727629794805],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8712051592547776,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_c65f78c620a247cc93544a12165cce8e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f45d3f667fb45e9960e403d0d518131 = $('<div id="html_3f45d3f667fb45e9960e403d0d518131" style="width: 100.0%; height: 100.0%;">McDonald&#39;s: 11 likes</div>')[0];
+                popup_c65f78c620a247cc93544a12165cce8e.setContent(html_3f45d3f667fb45e9960e403d0d518131);
+            
+
+            circle_marker_7407588025df4cf78ceca41a1812c143.bindPopup(popup_c65f78c620a247cc93544a12165cce8e)
+            ;
+
+            
+        
+    
+            var circle_marker_60b45b1d57b94e0c9009974b05ff2913 = L.circleMarker(
+                [47.16156832, 7.29413948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_b5a3e8c440514aaea50868949f2a08e1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d8cb89559a62448a8d1a669e5cb28218 = $('<div id="html_d8cb89559a62448a8d1a669e5cb28218" style="width: 100.0%; height: 100.0%;">Coop Supermarkt Biel Boujean: 2 likes</div>')[0];
+                popup_b5a3e8c440514aaea50868949f2a08e1.setContent(html_d8cb89559a62448a8d1a669e5cb28218);
+            
+
+            circle_marker_60b45b1d57b94e0c9009974b05ff2913.bindPopup(popup_b5a3e8c440514aaea50868949f2a08e1)
+            ;
+
+            
+        
+    
+            var circle_marker_d145f739f1794f36b8a3394739b221f1 = L.circleMarker(
+                [47.16159078540679, 7.29317539975154],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_4fb73f70cd8946d99ab4cc07565f2a14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8321efb28c9b4b788610f3b3f5dc00d5 = $('<div id="html_8321efb28c9b4b788610f3b3f5dc00d5" style="width: 100.0%; height: 100.0%;">Coop: 1 likes</div>')[0];
+                popup_4fb73f70cd8946d99ab4cc07565f2a14.setContent(html_8321efb28c9b4b788610f3b3f5dc00d5);
+            
+
+            circle_marker_d145f739f1794f36b8a3394739b221f1.bindPopup(popup_4fb73f70cd8946d99ab4cc07565f2a14)
+            ;
+
+            
+        
+    
+            var circle_marker_dfdce125ab734bc1b81419dab471dd4f = L.circleMarker(
+                [47.13069586572431, 7.220336194653868],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_8ea26d2738144319b956a6fea02c4b99 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6010827ead434bd6bfc835a078479a98 = $('<div id="html_6010827ead434bd6bfc835a078479a98" style="width: 100.0%; height: 100.0%;">Restaurant du Lac: 7 likes</div>')[0];
+                popup_8ea26d2738144319b956a6fea02c4b99.setContent(html_6010827ead434bd6bfc835a078479a98);
+            
+
+            circle_marker_dfdce125ab734bc1b81419dab471dd4f.bindPopup(popup_8ea26d2738144319b956a6fea02c4b99)
+            ;
+
+            
+        
+    
+            var circle_marker_8ea07094a88943aab25a76ff78d271b2 = L.circleMarker(
+                [47.13186964257001, 7.222434886988437],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5875288006b34a15bdc674d5fa8fcaab);
+            
+    
+            var popup_cad158992f5a4744aaf483398b80a4c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_892ebb29721042b8996348e7104465af = $('<div id="html_892ebb29721042b8996348e7104465af" style="width: 100.0%; height: 100.0%;">Restaurant Räblus: 9 likes</div>')[0];
+                popup_cad158992f5a4744aaf483398b80a4c9.setContent(html_892ebb29721042b8996348e7104465af);
+            
+
+            circle_marker_8ea07094a88943aab25a76ff78d271b2.bindPopup(popup_cad158992f5a4744aaf483398b80a4c9)
+            ;
+
+            
+        
+</script>

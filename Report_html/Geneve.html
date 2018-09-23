@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_5ee4b3458df440ba90179c4ad0bbb7eb {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5ee4b3458df440ba90179c4ad0bbb7eb" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5ee4b3458df440ba90179c4ad0bbb7eb = L.map(
+        'map_5ee4b3458df440ba90179c4ad0bbb7eb', {
+        center: [46.2043907, 6.1431577],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_87ab13598c2749ddad0001a103c2cd82 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+    
+            var circle_marker_11570eff2bf04a52b7d9894728ae25bb = L.circleMarker(
+                [46.2, 6.1667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_1244c21202364ac0896251549f043b8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed969e0b9f5748bbb7bc8f1e76039ef7 = $('<div id="html_ed969e0b9f5748bbb7bc8f1e76039ef7" style="width: 100.0%; height: 100.0%;">1200, Genève Cluster 6</div>')[0];
+                popup_1244c21202364ac0896251549f043b8f.setContent(html_ed969e0b9f5748bbb7bc8f1e76039ef7);
+            
+
+            circle_marker_11570eff2bf04a52b7d9894728ae25bb.bindPopup(popup_1244c21202364ac0896251549f043b8f)
+            ;
+
+            
+        
+    
+            var circle_marker_3d72017c112749d49733b4a855cc46b7 = L.circleMarker(
+                [46.2103, 6.1464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_50ea19839ab7449990b856bd1ab1b38e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0ba5e7bcb7db4e3bab7bba54bd68e3fe = $('<div id="html_0ba5e7bcb7db4e3bab7bba54bd68e3fe" style="width: 100.0%; height: 100.0%;">1201, Genève Cluster 6</div>')[0];
+                popup_50ea19839ab7449990b856bd1ab1b38e.setContent(html_0ba5e7bcb7db4e3bab7bba54bd68e3fe);
+            
+
+            circle_marker_3d72017c112749d49733b4a855cc46b7.bindPopup(popup_50ea19839ab7449990b856bd1ab1b38e)
+            ;
+
+            
+        
+    
+            var circle_marker_0a04e975df974946a5be85a8a834f7ac = L.circleMarker(
+                [46.2214, 6.1431],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_3b1cec727b434c6e9f8364018d398d88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c14aebc84b124c0d9c0b152ed0cc2956 = $('<div id="html_c14aebc84b124c0d9c0b152ed0cc2956" style="width: 100.0%; height: 100.0%;">1202, Genève Cluster 6</div>')[0];
+                popup_3b1cec727b434c6e9f8364018d398d88.setContent(html_c14aebc84b124c0d9c0b152ed0cc2956);
+            
+
+            circle_marker_0a04e975df974946a5be85a8a834f7ac.bindPopup(popup_3b1cec727b434c6e9f8364018d398d88)
+            ;
+
+            
+        
+    
+            var circle_marker_f7b95400aed2473b8ddeb6ebc8ef2027 = L.circleMarker(
+                [46.2086, 6.1236],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_d4aed1cafac94af2a1c0b782c575df4a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2aeea25acec94d1fbcdf19bf8b1f48a5 = $('<div id="html_2aeea25acec94d1fbcdf19bf8b1f48a5" style="width: 100.0%; height: 100.0%;">1203, Genève Cluster 3</div>')[0];
+                popup_d4aed1cafac94af2a1c0b782c575df4a.setContent(html_2aeea25acec94d1fbcdf19bf8b1f48a5);
+            
+
+            circle_marker_f7b95400aed2473b8ddeb6ebc8ef2027.bindPopup(popup_d4aed1cafac94af2a1c0b782c575df4a)
+            ;
+
+            
+        
+    
+            var circle_marker_ed27d16bb1e5481480310ee89b345f43 = L.circleMarker(
+                [46.2024, 6.145],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_ca7db351682e4ef6980ee5a23d2bf875 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c3c606083c9d4baab41d74da19b30a83 = $('<div id="html_c3c606083c9d4baab41d74da19b30a83" style="width: 100.0%; height: 100.0%;">1204, Genève Cluster 6</div>')[0];
+                popup_ca7db351682e4ef6980ee5a23d2bf875.setContent(html_c3c606083c9d4baab41d74da19b30a83);
+            
+
+            circle_marker_ed27d16bb1e5481480310ee89b345f43.bindPopup(popup_ca7db351682e4ef6980ee5a23d2bf875)
+            ;
+
+            
+        
+    
+            var circle_marker_ca820de3143a4fa1a8013bf1d16fa0e1 = L.circleMarker(
+                [46.1952, 6.1436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_b5cd092b08404f17a478e16077f62c13 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dba85f1dacb849d994195bc762d6d25e = $('<div id="html_dba85f1dacb849d994195bc762d6d25e" style="width: 100.0%; height: 100.0%;">1205, Genève Cluster 6</div>')[0];
+                popup_b5cd092b08404f17a478e16077f62c13.setContent(html_dba85f1dacb849d994195bc762d6d25e);
+            
+
+            circle_marker_ca820de3143a4fa1a8013bf1d16fa0e1.bindPopup(popup_b5cd092b08404f17a478e16077f62c13)
+            ;
+
+            
+        
+    
+            var circle_marker_785062542c084734bc3695b2ad3b30a6 = L.circleMarker(
+                [46.1872, 6.1588],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_864d9da58e984431b8564018c5ee42de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e826c69e9c4d46a896b61632415b0718 = $('<div id="html_e826c69e9c4d46a896b61632415b0718" style="width: 100.0%; height: 100.0%;">1206, Genève Cluster 3</div>')[0];
+                popup_864d9da58e984431b8564018c5ee42de.setContent(html_e826c69e9c4d46a896b61632415b0718);
+            
+
+            circle_marker_785062542c084734bc3695b2ad3b30a6.bindPopup(popup_864d9da58e984431b8564018c5ee42de)
+            ;
+
+            
+        
+    
+            var circle_marker_955a2ff4c007455e9398b044919e14d6 = L.circleMarker(
+                [46.2058, 6.1619],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_1d4fa3ba58ba47ac9cd86084c6703b14 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7948b696b92443bb735a52f1965c09c = $('<div id="html_a7948b696b92443bb735a52f1965c09c" style="width: 100.0%; height: 100.0%;">1207, Genève Cluster 6</div>')[0];
+                popup_1d4fa3ba58ba47ac9cd86084c6703b14.setContent(html_a7948b696b92443bb735a52f1965c09c);
+            
+
+            circle_marker_955a2ff4c007455e9398b044919e14d6.bindPopup(popup_1d4fa3ba58ba47ac9cd86084c6703b14)
+            ;
+
+            
+        
+    
+            var circle_marker_e1007369b21a413983f2c734a1b9eb87 = L.circleMarker(
+                [46.1994, 6.1659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_967e938433a64002aa3bc16cf16695f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c0f310c1f5f40d98a7391c09b635c84 = $('<div id="html_6c0f310c1f5f40d98a7391c09b635c84" style="width: 100.0%; height: 100.0%;">1208, Genève Cluster 6</div>')[0];
+                popup_967e938433a64002aa3bc16cf16695f6.setContent(html_6c0f310c1f5f40d98a7391c09b635c84);
+            
+
+            circle_marker_e1007369b21a413983f2c734a1b9eb87.bindPopup(popup_967e938433a64002aa3bc16cf16695f6)
+            ;
+
+            
+        
+    
+            var circle_marker_336f8d2467d843b8af910df107c7082f = L.circleMarker(
+                [46.2219, 6.1244],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_fd79a4c5d84847f48b73a540c3287705 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_192fb1f8ef9a4250b22eb5b3fa43f87f = $('<div id="html_192fb1f8ef9a4250b22eb5b3fa43f87f" style="width: 100.0%; height: 100.0%;">1209, Genève Cluster 3</div>')[0];
+                popup_fd79a4c5d84847f48b73a540c3287705.setContent(html_192fb1f8ef9a4250b22eb5b3fa43f87f);
+            
+
+            circle_marker_336f8d2467d843b8af910df107c7082f.bindPopup(popup_fd79a4c5d84847f48b73a540c3287705)
+            ;
+
+            
+        
+    
+            var circle_marker_d2057b20fde24d90a7fc884df4b3a818 = L.circleMarker(
+                [46.2111, 6.1028],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_a780dd7ed7eb4b20ab0e26e323540c6b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1b5d3b9abb184a2983884b8615278408 = $('<div id="html_1b5d3b9abb184a2983884b8615278408" style="width: 100.0%; height: 100.0%;">1211, Genève Cluster 3</div>')[0];
+                popup_a780dd7ed7eb4b20ab0e26e323540c6b.setContent(html_1b5d3b9abb184a2983884b8615278408);
+            
+
+            circle_marker_d2057b20fde24d90a7fc884df4b3a818.bindPopup(popup_a780dd7ed7eb4b20ab0e26e323540c6b)
+            ;
+
+            
+        
+    
+            var circle_marker_bf2fd020615f46c3b21ac17a0dea1470 = L.circleMarker(
+                [46.2058, 6.1416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#7718FF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#7718FF",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_5ee4b3458df440ba90179c4ad0bbb7eb);
+            
+    
+            var popup_11a8607c962d4d248cb923ecd30bef05 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_52a835b74d384c6084a1bf0686a6b965 = $('<div id="html_52a835b74d384c6084a1bf0686a6b965" style="width: 100.0%; height: 100.0%;">1289, Genève Cluster 0</div>')[0];
+                popup_11a8607c962d4d248cb923ecd30bef05.setContent(html_52a835b74d384c6084a1bf0686a6b965);
+            
+
+            circle_marker_bf2fd020615f46c3b21ac17a0dea1470.bindPopup(popup_11a8607c962d4d248cb923ecd30bef05)
+            ;
+
+            
+        
+</script>

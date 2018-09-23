@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html id="bg" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Clustering Swiss Cities</title>
+        <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script> 
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+        
+    </head>
+    <body>
+        
+        <ul class="nav">
+            <li><a class="active"  href="index.html">Overview</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+            
+        <br><br><br><br>
+        <h1>The battle of Swiss Cities</h1>
+        <img src="Report_html/Foursquare_logo.svg"  height="50" width="200" class="center"/>
+
+        <p>Moving to another city or even a different area within a city, is a difficult
+        decision to make. Likewise, searching for a perfect city to start a new business,
+        or simply moving to another location (city) is not an easy task.
+        Whether you open a new restaurant, a hotel or a bar, you need to know the
+        existing market in the potential city of your choice. It would be beneficial to
+        know what people are like, what kind of activities they prefer, and places they
+        go to. There are many parameters to consider, but the location should be
+        among the most important ones. You may feel that by being in close proximity
+        to your competitors, you can benefit from their marketing efforts. They spent a
+        considerable amount of resources to find their location and drive traffic to it.
+        Alternatively, you would prefer a place with not as many similar businesses, in
+        order to set the brand. One or the other, location data is an important asset in
+        such decision-making processes. Putting efforts into making a good use of it
+        could be beneficial for anyone considering starting a new business or moving it
+        to another location.</p>
+        <br>
+        <p>The analysis of 10 biggest Swiss cities has been done using the Foursquare API and different python libraries. The first part was clustering neighborhoods, accodrding to the collected venus. The second part of the analysis was to gather as much data as possible about restaurants in those neighborhoods, using the same API. Please refer to the links below for a detailed report and the outcomes: the infographics. This webpage contains the interactive versions of the mentioned infographics. The code (notebook) is in the github repository.</p>
+        
+        <form class="btns" method="get" action="Report_html/Report.pdf">
+            <button type="submit" formtarget="_blank" class="dwlnk">Report of the activity</button>
+        </form>
+        
+        <form class="btns" method="get" action="Report_html/Clustering_Swiss_Cities.png">
+            <button type="submit" formtarget="_blank" class="dwlnk">Clustering Swiss Cities Infographic</button>
+        </form>
+        
+        <form class="btns" method="get" action="Report_html/Restaurants_info-01-compressed.png">
+            <button type="submit" formtarget="_blank" class="dwlnk">Restaurants in Switzerland Infographic</button>
+        </form>
+        
+        
+    </body>
+</html>

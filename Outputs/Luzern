@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_be419d048bfa4aab9c77e0141a6d94ff {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_be419d048bfa4aab9c77e0141a6d94ff" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_be419d048bfa4aab9c77e0141a6d94ff = L.map(
+        'map_be419d048bfa4aab9c77e0141a6d94ff', {
+        center: [47.05016819999999, 8.3093072],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_46bf77ae3861445d97d18ff7717953f7 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+    
+            var circle_marker_8aedb419052b4694b5ad43b4f03331dc = L.circleMarker(
+                [47.0833, 8.2667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_bffe899104cb442ab4ca4f940d762ff8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9e1adb877898483185f7d956f9be7404 = $('<div id="html_9e1adb877898483185f7d956f9be7404" style="width: 100.0%; height: 100.0%;">6000, Luzern Cluster 6</div>')[0];
+                popup_bffe899104cb442ab4ca4f940d762ff8.setContent(html_9e1adb877898483185f7d956f9be7404);
+            
+
+            circle_marker_8aedb419052b4694b5ad43b4f03331dc.bindPopup(popup_bffe899104cb442ab4ca4f940d762ff8)
+            ;
+
+            
+        
+    
+            var circle_marker_f1b5d0559fa64b1dbe5ce5efb4e3ba8f = L.circleMarker(
+                [47.0596, 8.306000000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_4d4f15cf99b44afb856bde0effe22c7e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad68a00b4ad74ece9425582acdfd7bd9 = $('<div id="html_ad68a00b4ad74ece9425582acdfd7bd9" style="width: 100.0%; height: 100.0%;">6002, Luzern Cluster 6</div>')[0];
+                popup_4d4f15cf99b44afb856bde0effe22c7e.setContent(html_ad68a00b4ad74ece9425582acdfd7bd9);
+            
+
+            circle_marker_f1b5d0559fa64b1dbe5ce5efb4e3ba8f.bindPopup(popup_4d4f15cf99b44afb856bde0effe22c7e)
+            ;
+
+            
+        
+    
+            var circle_marker_5c0595fa8cb64adbbe3268636ff67701 = L.circleMarker(
+                [47.0501, 8.297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_19ec9b0234fa4a76b96c7a4d02fd13d0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_95242c66f31d4bb3804e5d621dcef1ae = $('<div id="html_95242c66f31d4bb3804e5d621dcef1ae" style="width: 100.0%; height: 100.0%;">6003, Luzern Cluster 6</div>')[0];
+                popup_19ec9b0234fa4a76b96c7a4d02fd13d0.setContent(html_95242c66f31d4bb3804e5d621dcef1ae);
+            
+
+            circle_marker_5c0595fa8cb64adbbe3268636ff67701.bindPopup(popup_19ec9b0234fa4a76b96c7a4d02fd13d0)
+            ;
+
+            
+        
+    
+            var circle_marker_e41aa9aa3a494b829a2c1ca874e28bc3 = L.circleMarker(
+                [47.0603, 8.2986],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#57C2EA",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#57C2EA",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_596e509440d145e59b948fd3b390a9ea = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe5fa796b31a4eee822caf9ad025bbec = $('<div id="html_fe5fa796b31a4eee822caf9ad025bbec" style="width: 100.0%; height: 100.0%;">6004, Luzern Cluster 2</div>')[0];
+                popup_596e509440d145e59b948fd3b390a9ea.setContent(html_fe5fa796b31a4eee822caf9ad025bbec);
+            
+
+            circle_marker_e41aa9aa3a494b829a2c1ca874e28bc3.bindPopup(popup_596e509440d145e59b948fd3b390a9ea)
+            ;
+
+            
+        
+    
+            var circle_marker_dd150158c23747d9ba134a340359e8b6 = L.circleMarker(
+                [47.0342, 8.3178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#13b79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#13b79c",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_dd0c99334b75410a92b4b427ad15ca9e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_65a4fa76b13f42c5b3b524c20cf3f95e = $('<div id="html_65a4fa76b13f42c5b3b524c20cf3f95e" style="width: 100.0%; height: 100.0%;">6005, Luzern Cluster 3</div>')[0];
+                popup_dd0c99334b75410a92b4b427ad15ca9e.setContent(html_65a4fa76b13f42c5b3b524c20cf3f95e);
+            
+
+            circle_marker_dd150158c23747d9ba134a340359e8b6.bindPopup(popup_dd0c99334b75410a92b4b427ad15ca9e)
+            ;
+
+            
+        
+    
+            var circle_marker_2b6fc5a7003b4031a2906cc230f89b7d = L.circleMarker(
+                [47.0585, 8.3337],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_be419d048bfa4aab9c77e0141a6d94ff);
+            
+    
+            var popup_cea556740f654b35bcbe7015acf8b378 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_052720c4772049d1a2f53e17cf207c46 = $('<div id="html_052720c4772049d1a2f53e17cf207c46" style="width: 100.0%; height: 100.0%;">6006, Luzern Cluster 6</div>')[0];
+                popup_cea556740f654b35bcbe7015acf8b378.setContent(html_052720c4772049d1a2f53e17cf207c46);
+            
+
+            circle_marker_2b6fc5a7003b4031a2906cc230f89b7d.bindPopup(popup_cea556740f654b35bcbe7015acf8b378)
+            ;
+
+            
+        
+</script>

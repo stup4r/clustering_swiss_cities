@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_08c4ff9b9037439995b5d4e292de9da4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_08c4ff9b9037439995b5d4e292de9da4" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_08c4ff9b9037439995b5d4e292de9da4 = L.map(
+        'map_08c4ff9b9037439995b5d4e292de9da4', {
+        center: [46.2043907, 6.1431577],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_9a969d330bf44282a81c2b56612e91d1 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+    
+            var circle_marker_ae5be9e071af4a0ba6df16a53e5af770 = L.circleMarker(
+                [46.207858443883715, 6.169256479396912],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.029119531035698,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_288c4385f6804d0a9259ad1c35ffc655 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f57bd2a5f5b14524b3c91ff59b599d43 = $('<div id="html_f57bd2a5f5b14524b3c91ff59b599d43" style="width: 100.0%; height: 100.0%;">Restaurant Hotel du Parc des Eaux-Vives: 51 likes</div>')[0];
+                popup_288c4385f6804d0a9259ad1c35ffc655.setContent(html_f57bd2a5f5b14524b3c91ff59b599d43);
+            
+
+            circle_marker_ae5be9e071af4a0ba6df16a53e5af770.bindPopup(popup_288c4385f6804d0a9259ad1c35ffc655)
+            ;
+
+            
+        
+    
+            var circle_marker_a840def51db14a09b60543b2b7950118 = L.circleMarker(
+                [46.19934920719163, 6.156483572845088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.0342144725641096,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_8b0372ddb5074344992b65a810ef6a0c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_88ccce6032fc477daa406e2fcb85af32 = $('<div id="html_88ccce6032fc477daa406e2fcb85af32" style="width: 100.0%; height: 100.0%;">Restaurant BEEF: 13 likes</div>')[0];
+                popup_8b0372ddb5074344992b65a810ef6a0c.setContent(html_88ccce6032fc477daa406e2fcb85af32);
+            
+
+            circle_marker_a840def51db14a09b60543b2b7950118.bindPopup(popup_8b0372ddb5074344992b65a810ef6a0c)
+            ;
+
+            
+        
+    
+            var circle_marker_4aede9be85cf4b8eaa3a0ed9799fa636 = L.circleMarker(
+                [46.20291535889265, 6.1552295446855725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7841241161527712,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_da15c958562e407c8c14996c62c5c4a0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aca3632aec334b558972dedcecc0f6ad = $('<div id="html_aca3632aec334b558972dedcecc0f6ad" style="width: 100.0%; height: 100.0%;">Restaurant La Bouche Chérie: 10 likes</div>')[0];
+                popup_da15c958562e407c8c14996c62c5c4a0.setContent(html_aca3632aec334b558972dedcecc0f6ad);
+            
+
+            circle_marker_4aede9be85cf4b8eaa3a0ed9799fa636.bindPopup(popup_da15c958562e407c8c14996c62c5c4a0)
+            ;
+
+            
+        
+    
+            var circle_marker_8ebbda0b15734ca1b42de88c57937598 = L.circleMarker(
+                [46.19849725418052, 6.157152899505937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_946725f7d58c4ef0aa3cebee9019887f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_05a093cdecd442fa97ed79995e8c471a = $('<div id="html_05a093cdecd442fa97ed79995e8c471a" style="width: 100.0%; height: 100.0%;">Restaurant Chez Kei: 4 likes</div>')[0];
+                popup_946725f7d58c4ef0aa3cebee9019887f.setContent(html_05a093cdecd442fa97ed79995e8c471a);
+            
+
+            circle_marker_8ebbda0b15734ca1b42de88c57937598.bindPopup(popup_946725f7d58c4ef0aa3cebee9019887f)
+            ;
+
+            
+        
+    
+            var circle_marker_c9b232c626be4114bdf95a372b1e6ade = L.circleMarker(
+                [46.19486567287205, 6.163200428156822],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9544100476116797,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_63c697e35cb54e64a1321a3881bf94a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_87e747ece81c480e9a28e6d0421cb9d2 = $('<div id="html_87e747ece81c480e9a28e6d0421cb9d2" style="width: 100.0%; height: 100.0%;">L&#39;Escapade: 12 likes</div>')[0];
+                popup_63c697e35cb54e64a1321a3881bf94a7.setContent(html_87e747ece81c480e9a28e6d0421cb9d2);
+            
+
+            circle_marker_c9b232c626be4114bdf95a372b1e6ade.bindPopup(popup_63c697e35cb54e64a1321a3881bf94a7)
+            ;
+
+            
+        
+    
+            var circle_marker_ff82ff8fb9bc4f93be6a08afee98d928 = L.circleMarker(
+                [46.21029877132843, 6.1512235516746605],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.257165172872317,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_d046e8c1161a459b88efc7231d556210 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06e9a14e8f4240a8a7676f41d768db1b = $('<div id="html_06e9a14e8f4240a8a7676f41d768db1b" style="width: 100.0%; height: 100.0%;">FloorTWO Restaurant: 123 likes</div>')[0];
+                popup_d046e8c1161a459b88efc7231d556210.setContent(html_06e9a14e8f4240a8a7676f41d768db1b);
+            
+
+            circle_marker_ff82ff8fb9bc4f93be6a08afee98d928.bindPopup(popup_d046e8c1161a459b88efc7231d556210)
+            ;
+
+            
+        
+    
+            var circle_marker_c52163534d254e5bb150b35eb5ecebf4 = L.circleMarker(
+                [46.20890148122936, 6.148667939015581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_9599e70f2c124dabb37e22e81b0ab4d1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f8aea357f0ef420f82252d4dfab7d87f = $('<div id="html_f8aea357f0ef420f82252d4dfab7d87f" style="width: 100.0%; height: 100.0%;">Restaurant le Jardin: 7 likes</div>')[0];
+                popup_9599e70f2c124dabb37e22e81b0ab4d1.setContent(html_f8aea357f0ef420f82252d4dfab7d87f);
+            
+
+            circle_marker_c52163534d254e5bb150b35eb5ecebf4.bindPopup(popup_9599e70f2c124dabb37e22e81b0ab4d1)
+            ;
+
+            
+        
+    
+            var circle_marker_a475f505813f46f081f89d3574016dc7 = L.circleMarker(
+                [46.20112749932412, 6.146809611235308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.989422804014327,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_f0c4d88d5b89401c92219dd613d416fe = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_23db9031a56940e4a3758c951cdc5c22 = $('<div id="html_23db9031a56940e4a3758c951cdc5c22" style="width: 100.0%; height: 100.0%;">Restaurant Hôtel-de-Ville: 50 likes</div>')[0];
+                popup_f0c4d88d5b89401c92219dd613d416fe.setContent(html_23db9031a56940e4a3758c951cdc5c22);
+            
+
+            circle_marker_a475f505813f46f081f89d3574016dc7.bindPopup(popup_f0c4d88d5b89401c92219dd613d416fe)
+            ;
+
+            
+        
+    
+            var circle_marker_e9701bf3bc72412a80c8180556d6f37d = L.circleMarker(
+                [46.21019427161953, 6.145964418807957],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.256758334191025,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_99e4f4d0f5db4ac99b44b65fdcfa1b2f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6510620798c7434490ec207254c457e9 = $('<div id="html_6510620798c7434490ec207254c457e9" style="width: 100.0%; height: 100.0%;">Al-Amir Restaurant: 16 likes</div>')[0];
+                popup_99e4f4d0f5db4ac99b44b65fdcfa1b2f.setContent(html_6510620798c7434490ec207254c457e9);
+            
+
+            circle_marker_e9701bf3bc72412a80c8180556d6f37d.bindPopup(popup_99e4f4d0f5db4ac99b44b65fdcfa1b2f)
+            ;
+
+            
+        
+    
+            var circle_marker_a7d550f0d3004f50800019ae1c48491f = L.circleMarker(
+                [46.209644444012, 6.150541220395862],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.583497844237541,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_0dd24a701e194002b796bd5beb7a1119 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_acd2429c3c374db3a9472c0404e22ee3 = $('<div id="html_acd2429c3c374db3a9472c0404e22ee3" style="width: 100.0%; height: 100.0%;">Windows Restaurant: 66 likes</div>')[0];
+                popup_0dd24a701e194002b796bd5beb7a1119.setContent(html_acd2429c3c374db3a9472c0404e22ee3);
+            
+
+            circle_marker_a7d550f0d3004f50800019ae1c48491f.bindPopup(popup_0dd24a701e194002b796bd5beb7a1119)
+            ;
+
+            
+        
+    
+            var circle_marker_016894abbb3346569fdf1101e4d99402 = L.circleMarker(
+                [46.20820424556618, 6.144225640102436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5682482323055424,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_d898d110806841b3a0b8f9e5f281d017 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e54bd83d38846ca9d0aac2ebc5d8b61 = $('<div id="html_5e54bd83d38846ca9d0aac2ebc5d8b61" style="width: 100.0%; height: 100.0%;">Restaurant Miyako: 40 likes</div>')[0];
+                popup_d898d110806841b3a0b8f9e5f281d017.setContent(html_5e54bd83d38846ca9d0aac2ebc5d8b61);
+            
+
+            circle_marker_016894abbb3346569fdf1101e4d99402.bindPopup(popup_d898d110806841b3a0b8f9e5f281d017)
+            ;
+
+            
+        
+    
+            var circle_marker_4da468697b22493e9306b6da0d100d9c = L.circleMarker(
+                [46.20909948640458, 6.1450533613281415],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_1a133aa8a99f40bd903806c00b41689c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe33715f0a2744d4bed1e3b65f60eb13 = $('<div id="html_fe33715f0a2744d4bed1e3b65f60eb13" style="width: 100.0%; height: 100.0%;">Restaurant Bombay: 9 likes</div>')[0];
+                popup_1a133aa8a99f40bd903806c00b41689c.setContent(html_fe33715f0a2744d4bed1e3b65f60eb13);
+            
+
+            circle_marker_4da468697b22493e9306b6da0d100d9c.bindPopup(popup_1a133aa8a99f40bd903806c00b41689c)
+            ;
+
+            
+        
+    
+            var circle_marker_ed8f4c71a2ad4a6cb46e6f3e222c1717 = L.circleMarker(
+                [46.20058967634469, 6.144329284240728],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.5854414729132054,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_a372fea462fc4537996040a107aa1638 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a4ed6d1c6774ddc86acbfd3365d2c69 = $('<div id="html_9a4ed6d1c6774ddc86acbfd3365d2c69" style="width: 100.0%; height: 100.0%;">Café Restaurant du Parc des Bastions: 21 likes</div>')[0];
+                popup_a372fea462fc4537996040a107aa1638.setContent(html_9a4ed6d1c6774ddc86acbfd3365d2c69);
+            
+
+            circle_marker_ed8f4c71a2ad4a6cb46e6f3e222c1717.bindPopup(popup_a372fea462fc4537996040a107aa1638)
+            ;
+
+            
+        
+    
+            var circle_marker_95ff326f21284db382dcdb86b6d5d0ee = L.circleMarker(
+                [46.21141179492657, 6.1476458577024555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_5d14264a10d9499db38f1eae91f03ee0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a91da66e645044daa9274ad812a4a92c = $('<div id="html_a91da66e645044daa9274ad812a4a92c" style="width: 100.0%; height: 100.0%;">Restaurant Seoul: 3 likes</div>')[0];
+                popup_5d14264a10d9499db38f1eae91f03ee0.setContent(html_a91da66e645044daa9274ad812a4a92c);
+            
+
+            circle_marker_95ff326f21284db382dcdb86b6d5d0ee.bindPopup(popup_5d14264a10d9499db38f1eae91f03ee0)
+            ;
+
+            
+        
+    
+            var circle_marker_2dad7858633c4de492be3e69d40cfdc3 = L.circleMarker(
+                [46.20436547159335, 6.151276058963872],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.9316150714175193,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_a84cede54f5046b88008a7a400a1639b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06f166133df74394b8350a506444602c = $('<div id="html_06f166133df74394b8350a506444602c" style="width: 100.0%; height: 100.0%;">Restaurant la Potinière: 27 likes</div>')[0];
+                popup_a84cede54f5046b88008a7a400a1639b.setContent(html_06f166133df74394b8350a506444602c);
+            
+
+            circle_marker_2dad7858633c4de492be3e69d40cfdc3.bindPopup(popup_a84cede54f5046b88008a7a400a1639b)
+            ;
+
+            
+        
+    
+            var circle_marker_f33b0a10a1684996970cb20a8209b874 = L.circleMarker(
+                [46.211303293304994, 6.145754825272635],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1850968611841584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_04e3e5466cfe4dc5a64268d88af3781c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2d521e4235fb48128f431df3401e0cb7 = $('<div id="html_2d521e4235fb48128f431df3401e0cb7" style="width: 100.0%; height: 100.0%;">Restaurant Hungky: 15 likes</div>')[0];
+                popup_04e3e5466cfe4dc5a64268d88af3781c.setContent(html_2d521e4235fb48128f431df3401e0cb7);
+            
+
+            circle_marker_f33b0a10a1684996970cb20a8209b874.bindPopup(popup_04e3e5466cfe4dc5a64268d88af3781c)
+            ;
+
+            
+        
+    
+            var circle_marker_e51fcc28f2ec4926bea3cf7f22a0a05b = L.circleMarker(
+                [46.20342879487604, 6.148435946665764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.8209479177387813,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_f5fc4490a4494963b974bf4bb2b64f84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59a7bea6d8804f40a5005fb237ee5128 = $('<div id="html_59a7bea6d8804f40a5005fb237ee5128" style="width: 100.0%; height: 100.0%;">Restaurant THAÏ: 25 likes</div>')[0];
+                popup_f5fc4490a4494963b974bf4bb2b64f84.setContent(html_59a7bea6d8804f40a5005fb237ee5128);
+            
+
+            circle_marker_e51fcc28f2ec4926bea3cf7f22a0a05b.bindPopup(popup_f5fc4490a4494963b974bf4bb2b64f84)
+            ;
+
+            
+        
+    
+            var circle_marker_1d2c2bf754614e20a695ed8e635d46cf = L.circleMarker(
+                [46.212597697430105, 6.145059413369111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_37c48f54ef7e45788f57b70563922fad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f05e5fc37157467ea047e50f03304e35 = $('<div id="html_f05e5fc37157467ea047e50f03304e35" style="width: 100.0%; height: 100.0%;">Restaurant Yinde: 7 likes</div>')[0];
+                popup_37c48f54ef7e45788f57b70563922fad.setContent(html_f05e5fc37157467ea047e50f03304e35);
+            
+
+            circle_marker_1d2c2bf754614e20a695ed8e635d46cf.bindPopup(popup_37c48f54ef7e45788f57b70563922fad)
+            ;
+
+            
+        
+    
+            var circle_marker_91d8c30de25446d3b8c94c3d523a53e8 = L.circleMarker(
+                [46.209819347872106, 6.14515737359544],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_065a09467d534aaf984eea2b378effb8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b270f5943f2449b2a4c06ff6018ff65f = $('<div id="html_b270f5943f2449b2a4c06ff6018ff65f" style="width: 100.0%; height: 100.0%;">Boky Restaurant: 9 likes</div>')[0];
+                popup_065a09467d534aaf984eea2b378effb8.setContent(html_b270f5943f2449b2a4c06ff6018ff65f);
+            
+
+            circle_marker_91d8c30de25446d3b8c94c3d523a53e8.bindPopup(popup_065a09467d534aaf984eea2b378effb8)
+            ;
+
+            
+        
+    
+            var circle_marker_f95c80496bfc4180a92d0945ac1a2c05 = L.circleMarker(
+                [46.209011028971965, 6.150051469162428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9544100476116797,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_3e03fc55c2cc4d3cae82d94f9eacf7c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_983a66617ce14819add59b7d781565b4 = $('<div id="html_983a66617ce14819add59b7d781565b4" style="width: 100.0%; height: 100.0%;">Patara (Thai Restaurant): 12 likes</div>')[0];
+                popup_3e03fc55c2cc4d3cae82d94f9eacf7c8.setContent(html_983a66617ce14819add59b7d781565b4);
+            
+
+            circle_marker_f95c80496bfc4180a92d0945ac1a2c05.bindPopup(popup_3e03fc55c2cc4d3cae82d94f9eacf7c8)
+            ;
+
+            
+        
+    
+            var circle_marker_0e938e64799047b9bd4699a12f1c71eb = L.circleMarker(
+                [46.2108450119279, 6.144116842983397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.108953969950291,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_27bc825f2cae4d3587db30a3c8957f5d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d5727b42dee4fe99256b99e99782f98 = $('<div id="html_3d5727b42dee4fe99256b99e99782f98" style="width: 100.0%; height: 100.0%;">Warwick Geneva: 82 likes</div>')[0];
+                popup_27bc825f2cae4d3587db30a3c8957f5d.setContent(html_3d5727b42dee4fe99256b99e99782f98);
+            
+
+            circle_marker_0e938e64799047b9bd4699a12f1c71eb.bindPopup(popup_27bc825f2cae4d3587db30a3c8957f5d)
+            ;
+
+            
+        
+    
+            var circle_marker_df8ecee0b712446b9298c492a717a183 = L.circleMarker(
+                [46.202361335565215, 6.1479653546077655],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.381976597885342,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_8f6cd07ce76a46d2aecf2e00d214cb76 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fd6d8db9d9ee48f995aec529fed8ff6f = $('<div id="html_fd6d8db9d9ee48f995aec529fed8ff6f" style="width: 100.0%; height: 100.0%;">Restaurant Perron: 6 likes</div>')[0];
+                popup_8f6cd07ce76a46d2aecf2e00d214cb76.setContent(html_fd6d8db9d9ee48f995aec529fed8ff6f);
+            
+
+            circle_marker_df8ecee0b712446b9298c492a717a183.bindPopup(popup_8f6cd07ce76a46d2aecf2e00d214cb76)
+            ;
+
+            
+        
+    
+            var circle_marker_69424e65484f408791e73ad651391579 = L.circleMarker(
+                [46.22087734901874, 6.140385654936275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_636916c8722546ad9487c76c1ef5c786 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_15ddc3a1fc2049b8819d76ab0ded84f7 = $('<div id="html_15ddc3a1fc2049b8819d76ab0ded84f7" style="width: 100.0%; height: 100.0%;">Restaurant Ariana: 9 likes</div>')[0];
+                popup_636916c8722546ad9487c76c1ef5c786.setContent(html_15ddc3a1fc2049b8819d76ab0ded84f7);
+            
+
+            circle_marker_69424e65484f408791e73ad651391579.bindPopup(popup_636916c8722546ad9487c76c1ef5c786)
+            ;
+
+            
+        
+    
+            var circle_marker_f04c729046bb46b2a6affb87ce19e46f = L.circleMarker(
+                [46.21902067626289, 6.137843629552535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9544100476116797,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_e28729c923ce40dba5606888ad8aa324 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6dcf833d7c0c471f800c6d24624d73b8 = $('<div id="html_6dcf833d7c0c471f800c6d24624d73b8" style="width: 100.0%; height: 100.0%;">Restaurant La Romana: 12 likes</div>')[0];
+                popup_e28729c923ce40dba5606888ad8aa324.setContent(html_6dcf833d7c0c471f800c6d24624d73b8);
+            
+
+            circle_marker_f04c729046bb46b2a6affb87ce19e46f.bindPopup(popup_e28729c923ce40dba5606888ad8aa324)
+            ;
+
+            
+        
+    
+            var circle_marker_e4485140cb7e4ec19909b5df21dbe1d5 = L.circleMarker(
+                [46.22440834960454, 6.132961691595145],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_d22d5df4154d4cd1a6e14436bd983b46 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c11196b4ed19457c898a18fe984a1bb1 = $('<div id="html_c11196b4ed19457c898a18fe984a1bb1" style="width: 100.0%; height: 100.0%;">Restaurant Woods: 9 likes</div>')[0];
+                popup_d22d5df4154d4cd1a6e14436bd983b46.setContent(html_c11196b4ed19457c898a18fe984a1bb1);
+            
+
+            circle_marker_e4485140cb7e4ec19909b5df21dbe1d5.bindPopup(popup_d22d5df4154d4cd1a6e14436bd983b46)
+            ;
+
+            
+        
+    
+            var circle_marker_9b1367ffaee14538b321a2c9abc5b7cf = L.circleMarker(
+                [46.220124247285575, 6.1413469383536565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.9544100476116797,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_e20c2dd39871482294df90107e5ccc0d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_077787df0426483cbe2fdff25d814d92 = $('<div id="html_077787df0426483cbe2fdff25d814d92" style="width: 100.0%; height: 100.0%;">Sagano Japanese Restaurant: 12 likes</div>')[0];
+                popup_e20c2dd39871482294df90107e5ccc0d.setContent(html_077787df0426483cbe2fdff25d814d92);
+            
+
+            circle_marker_9b1367ffaee14538b321a2c9abc5b7cf.bindPopup(popup_e20c2dd39871482294df90107e5ccc0d)
+            ;
+
+            
+        
+    
+            var circle_marker_2a57b9c399ba4765b3d6a00f3ccab5c4 = L.circleMarker(
+                [46.22084314652025, 6.149803707722968],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.0342144725641096,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_320737860a2248a59d950810ce6cb6d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e0a39b7c8dd24fe28905547eaa087614 = $('<div id="html_e0a39b7c8dd24fe28905547eaa087614" style="width: 100.0%; height: 100.0%;">Restaurant Layalina: 13 likes</div>')[0];
+                popup_320737860a2248a59d950810ce6cb6d4.setContent(html_e0a39b7c8dd24fe28905547eaa087614);
+            
+
+            circle_marker_2a57b9c399ba4765b3d6a00f3ccab5c4.bindPopup(popup_320737860a2248a59d950810ce6cb6d4)
+            ;
+
+            
+        
+    
+            var circle_marker_0264044cd449400cb8fb3844888194c3 = L.circleMarker(
+                [46.2154076841547, 6.148579091438737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_81222b89827842ba86a084cdb3e4c9b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e01f7c34ff624f3f82eb59a8c82fb4d2 = $('<div id="html_e01f7c34ff624f3f82eb59a8c82fb4d2" style="width: 100.0%; height: 100.0%;">Trilby Restaurant, Hotel N&#39;vY: 7 likes</div>')[0];
+                popup_81222b89827842ba86a084cdb3e4c9b9.setContent(html_e01f7c34ff624f3f82eb59a8c82fb4d2);
+            
+
+            circle_marker_0264044cd449400cb8fb3844888194c3.bindPopup(popup_81222b89827842ba86a084cdb3e4c9b9)
+            ;
+
+            
+        
+    
+            var circle_marker_1307206fc73a4b76937e4cbac2a674ed = L.circleMarker(
+                [46.219917312494886, 6.152830984294878],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.259537945889915,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_fdd3b902c01c4902b09c02e641cdccde = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eda759d3d5b348a4b65e496264ecedc4 = $('<div id="html_eda759d3d5b348a4b65e496264ecedc4" style="width: 100.0%; height: 100.0%;">La Perle du Lac: 57 likes</div>')[0];
+                popup_fdd3b902c01c4902b09c02e641cdccde.setContent(html_eda759d3d5b348a4b65e496264ecedc4);
+            
+
+            circle_marker_1307206fc73a4b76937e4cbac2a674ed.bindPopup(popup_fdd3b902c01c4902b09c02e641cdccde)
+            ;
+
+            
+        
+    
+            var circle_marker_80de050b54434f56a2850da342a8973b = L.circleMarker(
+                [46.22022288, 6.14184663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_07b2346f52834aa9b9aabaee1a996174 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eabb411a47ac417ab794a7816bb31050 = $('<div id="html_eabb411a47ac417ab794a7816bb31050" style="width: 100.0%; height: 100.0%;">Coop Supermarché Genève Montbrillant: 0 likes</div>')[0];
+                popup_07b2346f52834aa9b9aabaee1a996174.setContent(html_eabb411a47ac417ab794a7816bb31050);
+            
+
+            circle_marker_80de050b54434f56a2850da342a8973b.bindPopup(popup_07b2346f52834aa9b9aabaee1a996174)
+            ;
+
+            
+        
+    
+            var circle_marker_0f4ac804e19f4e688828a554a673721b = L.circleMarker(
+                [46.21542936326136, 6.148610266951351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4592453796829674,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_bf1cb3b6697b4b9f8b475b7e3103cf15 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d16c62320dcf411dbdb809aaec04826e = $('<div id="html_d16c62320dcf411dbdb809aaec04826e" style="width: 100.0%; height: 100.0%;">N&#39;vy Bar: 19 likes</div>')[0];
+                popup_bf1cb3b6697b4b9f8b475b7e3103cf15.setContent(html_d16c62320dcf411dbdb809aaec04826e);
+            
+
+            circle_marker_0f4ac804e19f4e688828a554a673721b.bindPopup(popup_bf1cb3b6697b4b9f8b475b7e3103cf15)
+            ;
+
+            
+        
+    
+            var circle_marker_defcc18ec6644c548750ad1007b88809 = L.circleMarker(
+                [46.21124812655311, 6.12859100577275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_8618cd25780141e8b477588790519ed1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0b05eb1ae074e85b86e1ff294c934b2 = $('<div id="html_d0b05eb1ae074e85b86e1ff294c934b2" style="width: 100.0%; height: 100.0%;">Restaurant Lamartine: 5 likes</div>')[0];
+                popup_8618cd25780141e8b477588790519ed1.setContent(html_d0b05eb1ae074e85b86e1ff294c934b2);
+            
+
+            circle_marker_defcc18ec6644c548750ad1007b88809.bindPopup(popup_8618cd25780141e8b477588790519ed1)
+            ;
+
+            
+        
+    
+            var circle_marker_5eee29038b44462fa4a650506a0cd59d = L.circleMarker(
+                [46.205704667924785, 6.131184078927277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.656366395715726,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_075c3016fc2c40c8933b5da9016b291c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be4d9244e131418ba4a19bb65d72e084 = $('<div id="html_be4d9244e131418ba4a19bb65d72e084" style="width: 100.0%; height: 100.0%;">Restaurant Les Tilleuls: 42 likes</div>')[0];
+                popup_075c3016fc2c40c8933b5da9016b291c.setContent(html_be4d9244e131418ba4a19bb65d72e084);
+            
+
+            circle_marker_5eee29038b44462fa4a650506a0cd59d.bindPopup(popup_075c3016fc2c40c8933b5da9016b291c)
+            ;
+
+            
+        
+    
+            var circle_marker_72b5b3c83ed14a1da85713281d1727f3 = L.circleMarker(
+                [46.212556073916566, 6.131636866016549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.5854414729132054,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_baa82df3896741d1a8dd2cf395db52d9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e0056021ecc0407c89fa151a40895640 = $('<div id="html_e0056021ecc0407c89fa151a40895640" style="width: 100.0%; height: 100.0%;">Coop: 21 likes</div>')[0];
+                popup_baa82df3896741d1a8dd2cf395db52d9.setContent(html_e0056021ecc0407c89fa151a40895640);
+            
+
+            circle_marker_72b5b3c83ed14a1da85713281d1727f3.bindPopup(popup_baa82df3896741d1a8dd2cf395db52d9)
+            ;
+
+            
+        
+    
+            var circle_marker_1e8b7d824d6a466089b142380495f6ad = L.circleMarker(
+                [46.199267936257726, 6.1325703173808455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_4f95b7fe92af4b8eb40c84454d8c775d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e640590b19b9432c9960413206391693 = $('<div id="html_e640590b19b9432c9960413206391693" style="width: 100.0%; height: 100.0%;">Liu Garden: 5 likes</div>')[0];
+                popup_4f95b7fe92af4b8eb40c84454d8c775d.setContent(html_e640590b19b9432c9960413206391693);
+            
+
+            circle_marker_1e8b7d824d6a466089b142380495f6ad.bindPopup(popup_4f95b7fe92af4b8eb40c84454d8c775d)
+            ;
+
+            
+        
+    
+            var circle_marker_094dc248728b493daa737604395a713c = L.circleMarker(
+                [46.206948753860146, 6.14277222848627],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.014626706796775,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_8f2dbfd594c347e7ac01794318311752 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a647f21c6c684ed3a8b6e7082cae8e2c = $('<div id="html_a647f21c6c684ed3a8b6e7082cae8e2c" style="width: 100.0%; height: 100.0%;">Manora Restaurant: 79 likes</div>')[0];
+                popup_8f2dbfd594c347e7ac01794318311752.setContent(html_a647f21c6c684ed3a8b6e7082cae8e2c);
+            
+
+            circle_marker_094dc248728b493daa737604395a713c.bindPopup(popup_8f2dbfd594c347e7ac01794318311752)
+            ;
+
+            
+        
+    
+            var circle_marker_71e4bc44701048a4907da72d83c21174 = L.circleMarker(
+                [46.202766061399146, 6.1508352311956385],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2615662610100802,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_947607f3ef7043c0814010b5dce23001 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_408f7f2f762c4204a27223b909166f68 = $('<div id="html_408f7f2f762c4204a27223b909166f68" style="width: 100.0%; height: 100.0%;">Restaurant Lin-Xiang: 4 likes</div>')[0];
+                popup_947607f3ef7043c0814010b5dce23001.setContent(html_408f7f2f762c4204a27223b909166f68);
+            
+
+            circle_marker_71e4bc44701048a4907da72d83c21174.bindPopup(popup_947607f3ef7043c0814010b5dce23001)
+            ;
+
+            
+        
+    
+            var circle_marker_74c92e1d747340f0abbabf83dbbed370 = L.circleMarker(
+                [46.1926436547763, 6.1387824040237104],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.876813695875796,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_10de3ae62bdb4311b81d84f38155542c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_27f6b28743ef4ff498b3238d60939160 = $('<div id="html_27f6b28743ef4ff498b3238d60939160" style="width: 100.0%; height: 100.0%;">Calabria Restaurant: 26 likes</div>')[0];
+                popup_10de3ae62bdb4311b81d84f38155542c.setContent(html_27f6b28743ef4ff498b3238d60939160);
+            
+
+            circle_marker_74c92e1d747340f0abbabf83dbbed370.bindPopup(popup_10de3ae62bdb4311b81d84f38155542c)
+            ;
+
+            
+        
+    
+            var circle_marker_b692eb2ac482412e9d2c6f8f70cc3ab7 = L.circleMarker(
+                [46.19001620571362, 6.140322799267204],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_830da33f0e174bc5b43e602d12f0d3a2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_91c91cd5a5b642c291e40c2ef9177077 = $('<div id="html_91c91cd5a5b642c291e40c2ef9177077" style="width: 100.0%; height: 100.0%;">Restaurant L&#39;Artichaut: 7 likes</div>')[0];
+                popup_830da33f0e174bc5b43e602d12f0d3a2.setContent(html_91c91cd5a5b642c291e40c2ef9177077);
+            
+
+            circle_marker_b692eb2ac482412e9d2c6f8f70cc3ab7.bindPopup(popup_830da33f0e174bc5b43e602d12f0d3a2)
+            ;
+
+            
+        
+    
+            var circle_marker_295c8a2c02eb4a17b1d6197058aeeb78 = L.circleMarker(
+                [46.211108197608134, 6.149038511386534],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.720348719413148,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_a335741fa5954e568a3734e5dea37aec = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e60287b691254fdfa3ce7fc52f93f8f4 = $('<div id="html_e60287b691254fdfa3ce7fc52f93f8f4" style="width: 100.0%; height: 100.0%;">Auberge de Savièse: 70 likes</div>')[0];
+                popup_a335741fa5954e568a3734e5dea37aec.setContent(html_e60287b691254fdfa3ce7fc52f93f8f4);
+            
+
+            circle_marker_295c8a2c02eb4a17b1d6197058aeeb78.bindPopup(popup_a335741fa5954e568a3734e5dea37aec)
+            ;
+
+            
+        
+    
+            var circle_marker_923c47393cea460386e54565f7284628 = L.circleMarker(
+                [46.21144418795797, 6.1498622181777955],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.7846987830302403,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_092421d081134ef9af55981a01acff16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0d4410cbefa4d959ae8f3826063465c = $('<div id="html_d0d4410cbefa4d959ae8f3826063465c" style="width: 100.0%; height: 100.0%;">L&#39;Edelweiss: 45 likes</div>')[0];
+                popup_092421d081134ef9af55981a01acff16.setContent(html_d0d4410cbefa4d959ae8f3826063465c);
+            
+
+            circle_marker_923c47393cea460386e54565f7284628.bindPopup(popup_092421d081134ef9af55981a01acff16)
+            ;
+
+            
+        
+    
+            var circle_marker_13c26d9109024e14bb690ee5acc47b0d = L.circleMarker(
+                [46.218281354943244, 6.111636133943643],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1850968611841584,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_2315cfd42d5b43a3ad7d2706323d972f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_48ac1c0a1f2c45dd9ac1a73c23dec91f = $('<div id="html_48ac1c0a1f2c45dd9ac1a73c23dec91f" style="width: 100.0%; height: 100.0%;">Migros Restaurant: 15 likes</div>')[0];
+                popup_2315cfd42d5b43a3ad7d2706323d972f.setContent(html_48ac1c0a1f2c45dd9ac1a73c23dec91f);
+            
+
+            circle_marker_13c26d9109024e14bb690ee5acc47b0d.bindPopup(popup_2315cfd42d5b43a3ad7d2706323d972f)
+            ;
+
+            
+        
+    
+            var circle_marker_047d705fe43b43339712dde6ac39a9ee = L.circleMarker(
+                [46.2243349452855, 6.126167657910964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.651697090182843,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_31718e82a09c4e2a8e5977005a405451 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_08fdd1232ea24a0c95cf01a6aa543b3a = $('<div id="html_08fdd1232ea24a0c95cf01a6aa543b3a" style="width: 100.0%; height: 100.0%;">Luigia: 139 likes</div>')[0];
+                popup_31718e82a09c4e2a8e5977005a405451.setContent(html_08fdd1232ea24a0c95cf01a6aa543b3a);
+            
+
+            circle_marker_047d705fe43b43339712dde6ac39a9ee.bindPopup(popup_31718e82a09c4e2a8e5977005a405451)
+            ;
+
+            
+        
+    
+            var circle_marker_712fe43f95a94e87a7cd4f9e1ec8d493 = L.circleMarker(
+                [46.22390126407829, 6.1006493062922535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.8209479177387813,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_1b5bc75a67e34b04b6553e7b8eed4569 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_feeb99248eba4eea9594fa3102c05253 = $('<div id="html_feeb99248eba4eea9594fa3102c05253" style="width: 100.0%; height: 100.0%;">Kamome Japanese Restaurant: 25 likes</div>')[0];
+                popup_1b5bc75a67e34b04b6553e7b8eed4569.setContent(html_feeb99248eba4eea9594fa3102c05253);
+            
+
+            circle_marker_712fe43f95a94e87a7cd4f9e1ec8d493.bindPopup(popup_1b5bc75a67e34b04b6553e7b8eed4569)
+            ;
+
+            
+        
+    
+            var circle_marker_e5e4766dca5f4a569da3aa5b49a5e234 = L.circleMarker(
+                [46.219082951265754, 6.094468785769358],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.692568750643269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_62e576aa9bb04f8c994f7298c1749e8b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_70e570a9098f44b784d15cfa1a4c3689 = $('<div id="html_70e570a9098f44b784d15cfa1a4c3689" style="width: 100.0%; height: 100.0%;">Restaurant Ikea: 9 likes</div>')[0];
+                popup_62e576aa9bb04f8c994f7298c1749e8b.setContent(html_70e570a9098f44b784d15cfa1a4c3689);
+            
+
+            circle_marker_e5e4766dca5f4a569da3aa5b49a5e234.bindPopup(popup_62e576aa9bb04f8c994f7298c1749e8b)
+            ;
+
+            
+        
+    
+            var circle_marker_0d54d8a914ad4dc2935f49d6d304d4ee = L.circleMarker(
+                [46.2238709309993, 6.100633920309514],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#9F3EA0",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#9F3EA0",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4927053303604616,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_08c4ff9b9037439995b5d4e292de9da4);
+            
+    
+            var popup_79cf139cf0b54189a11447b1ee809436 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a34efb9414e04a29bd506c2f11ec1671 = $('<div id="html_a34efb9414e04a29bd506c2f11ec1671" style="width: 100.0%; height: 100.0%;">Mövenpick Restaurant: 7 likes</div>')[0];
+                popup_79cf139cf0b54189a11447b1ee809436.setContent(html_a34efb9414e04a29bd506c2f11ec1671);
+            
+
+            circle_marker_0d54d8a914ad4dc2935f49d6d304d4ee.bindPopup(popup_79cf139cf0b54189a11447b1ee809436)
+            ;
+
+            
+        
+</script>

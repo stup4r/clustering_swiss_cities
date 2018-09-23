@@ -1,0 +1,51 @@
+,Neighborhood,Latitude,Longitude,Venue,Venue Category,Venue id,Venue Latitude,Venue Longitude,Rating,Tier,Likes
+0,"1007, Lausanne",46.5177,6.609,Backroom of grand restaurant PMI,Food Court,573d9ba5498edebe30e399ca,46.515403,6.611278,,,0
+1,"1007, Lausanne",46.5177,6.609,Greasy Spoon Restaurant,Fast Food Restaurant,50b73fa1e4b0852011385046,46.5120849609375,6.609353065490723,,1.0,0
+2,"1007, Lausanne",46.5177,6.609,Café Restaurant de Cour - Taimah,Asian Restaurant,4e666240ae60e9edf76a3c00,46.515593,6.617135,6.7,2.0,7
+3,"1007, Lausanne",46.5177,6.609,PMI Wellness Corner,Restaurant,528b5501498e8c59bc33f6fd,46.5149075853606,6.61084650463738,,2.0,2
+4,"1010, Lausanne",46.5362,6.6589,Café Restaurant de Montolieu,Pizza Place,4d5ae449fe7c224b34c487b5,46.543447927389245,6.647254411666205,,1.0,0
+5,"1010, Lausanne",46.5362,6.6589,Café-Restaurant des Tuileries,Restaurant,4d43187f1629b60c90c99d89,46.54433096938287,6.657511826954634,,2.0,0
+6,"1010, Lausanne",46.5362,6.6589,La Vallonnette Café-Restaurant,Restaurant,4d07afbe30a58cface04b2e7,46.53312168,6.64745224,,2.0,0
+7,"1010, Lausanne",46.5362,6.6589,Restaurant Coteau Fleuri,,4b9e201df964a52030cc36e3,46.53343,6.661609,,,0
+8,"1010, Lausanne",46.5362,6.6589,Restaurant-Pizzeria LesCroisettes,,4b705804f964a52017142de3,46.54284821892493,6.661105601648535,,,0
+9,"1010, Lausanne",46.5362,6.6589,Restaurant La Radio,Mediterranean Restaurant,537656fb498ecd8a3e9d51bf,46.53703308105469,6.649962425231934,,2.0,0
+10,"1010, Lausanne",46.5362,6.6589,Restaurant Mare & Monte,Restaurant,4cebfc4f595cb1f71d2edc14,46.54140855,6.6497254,,2.0,0
+11,"1010, Lausanne",46.5362,6.6589,Café Restaurant De Boveresse,Restaurant,51502f37e4b08a4f713fd1d7,46.5374941174717,6.666267819988129,,2.0,0
+12,"1010, Lausanne",46.5362,6.6589,Café Restaurant De La Poste,Diner,50950f7ee4b0e34d62a63ded,46.532863495421516,6.648133828626514,,1.0,0
+13,"1011, Lausanne",46.5249,6.6431,Le Chalet Suisse,Swiss Restaurant,4b897750f964a520e63832e3,46.531344226110996,6.639286124926737,8.5,3.0,89
+14,"1011, Lausanne",46.5249,6.6431,restaurante o panças,Portuguese Restaurant,55e74381498e0b728b92e4b6,46.52924866151861,6.63251942885194,,2.0,0
+15,"1012, Lausanne",46.5263,6.657,Restaurant Harmony,,4b5b590df964a52094f628e3,46.52160259169223,6.660273863152551,,,0
+16,"1018, Lausanne",46.5379,6.6293,Restaurant de l'aérodrome de la Blécherette,Italian Restaurant,4c442be8429a0f47f150481e,46.541502607331815,6.617550716854275,5.9,2.0,7
+17,"1018, Lausanne",46.5379,6.6293,Restaurant Auberge du Lac de,,4f9dba40e4b04f3d0a51fda5,46.53727427434102,6.638737573056,,,0
+18,"1018, Lausanne",46.5379,6.6293,Restaurant du Sous-Bois,,502acab4e4b08df39c4be6d6,46.541283,6.642337,,,0
+19,"8400, Winterthur",47.4916,8.7295,Restaurant Schäfli,Restaurant,4bf269ba55c7c9b6620e6204,47.498908963354616,8.731258089834895,7.0,2.0,10
+20,"8400, Winterthur",47.4916,8.7295,Restaurant Obergass,Restaurant,4b5b32e5f964a5208dea28e3,47.49886373142485,8.730310912730324,6.5,2.0,6
+21,"8400, Winterthur",47.4916,8.7295,Restaurant Barnabas,Restaurant,4c12871ca9c220a11f26549d,47.490325193813355,8.72737968702538,6.8,2.0,4
+22,"8400, Winterthur",47.4916,8.7295,Restaurant Widder,Gastropub,4b556dbaf964a5200fe427e3,47.49864910786305,8.727838749917636,8.1,3.0,10
+23,"8400, Winterthur",47.4916,8.7295,Restaurant Breite,Swiss Restaurant,4bbda72aa0a0c9b690d31b0f,47.490403,8.725692,,3.0,0
+24,"8400, Winterthur",47.4916,8.7295,Restaurant La Panetteria,Italian Restaurant,4cf567df55e137048e36c6b6,47.498311,8.731862,,2.0,2
+25,"8400, Winterthur",47.4916,8.7295,Restaurant George Museumsbistro,Restaurant,4bf95b365efe2d7fd50c6c34,47.489066,8.732159,,2.0,0
+26,"8400, Winterthur",47.4916,8.7295,Restaurant hermannsECK,Swiss Restaurant,5a21a27e916bc17361247938,47.498088,8.741046,,3.0,1
+27,"8400, Winterthur",47.4916,8.7295,Restaurant zur Sonne,Swiss Restaurant,4e7f69b777c8c6603259bab5,47.49980197715088,8.729846732337409,6.8,3.0,12
+28,"8400, Winterthur",47.4916,8.7295,Restaurant Cucina,Indian Restaurant,58a87b3e8ee5601dbaa35712,47.494748,8.740506,,2.0,0
+29,"8400, Winterthur",47.4916,8.7295,Restaurant Trübli,Swiss Restaurant,508c2725e4b0bfcf99392d8f,47.498742,8.726419,,3.0,1
+30,"8400, Winterthur",47.4916,8.7295,Restaurant Hirschen Wülflingen,,5032b38ce4b0b1cc546ff9ed,47.497762,8.734295,,,0
+31,"8400, Winterthur",47.4916,8.7295,Restaurant Pucinella,Italian Restaurant,59319972123a1963f5f1f6f2,47.49874,8.727763,,2.0,1
+32,"8400, Winterthur",47.4916,8.7295,Restaurant Al Giardino,Italian Restaurant,4cadc4bf2303a14348e1e8f0,47.49434,8.73981,7.0,2.0,6
+33,"8400, Winterthur",47.4916,8.7295,Restaurant Schützenwiese,,503bee11e4b0f3d4bdb0a5ae,47.49853,8.73299,,,0
+34,"8400, Winterthur",47.4916,8.7295,Restaurant Wallfisch,Restaurant,5250269211d23360f16ac72b,47.499348,8.729002,,2.0,0
+35,"8400, Winterthur",47.4916,8.7295,Restaurant Neumarkt,Swiss Restaurant,4bd6b4365631c9b69d38a630,47.49864664865988,8.726407727806347,7.5,3.0,8
+36,"8400, Winterthur",47.4916,8.7295,Restaurant Sonne,Swiss Restaurant,4da89d7881541df437c1661e,47.499373904985426,8.725453624802471,,3.0,1
+37,"8400, Winterthur",47.4916,8.7295,Restaurant Orsini,Swiss Restaurant,52a9964611d2a6d65bcf4f21,47.498836201473935,8.72415093457648,,3.0,3
+38,"8400, Winterthur",47.4916,8.7295,Restaurant Casinotheater,Swiss Restaurant,50b79d25e4b055e6a39e9bf3,47.49959031261868,8.726423861666863,,3.0,3
+39,"8400, Winterthur",47.4916,8.7295,Gilgamesh Restaurant,Middle Eastern Restaurant,590afe5c8d0a5340e0a4dd5e,47.49792,8.729378,,2.0,1
+40,"8400, Winterthur",47.4916,8.7295,Thai Kitchen Restaurant,,4d1dfa2f86e154819fffa43a,47.500184,8.729229,,,3
+41,"8400, Winterthur",47.4916,8.7295,Coop Restaurant,Restaurant,504f47def1ba6afe50c964e1,47.49985352875571,8.72640458509043,,2.0,0
+42,"8400, Winterthur",47.4916,8.7295,Coop Restaurant,Food Court,56dd6ab9498e4012e7e88ca0,47.499111,8.723755,,,1
+43,"8400, Winterthur",47.4916,8.7295,Bahnhof - Restaurant,Snack Place,50ab644fe4b035aaf415f062,47.499833591540494,8.723657139214852,,1.0,2
+44,"8400, Winterthur",47.4916,8.7295,Migros Restaurant,Restaurant,509ce588e4b03f3cc1251dab,47.49929901207134,8.721462870185434,,2.0,3
+45,"8400, Winterthur",47.4916,8.7295,Outback Lodge,Australian Restaurant,4b60959af964a520d7ee29e3,47.49536355380354,8.718363617392937,7.6,2.0,27
+46,"8400, Winterthur",47.4916,8.7295,National,Restaurant,4b8c281df964a52035c132e3,47.49970810867205,8.723949584580925,7.8,2.0,36
+47,"8400, Winterthur",47.4916,8.7295,Casinotheater,General Entertainment,4b829ec7f964a52015db30e3,47.49982330560852,8.726492972805715,7.9,,45
+48,"8400, Winterthur",47.4916,8.7295,bloom,Hotel Bar,4b5f2bcaf964a520c3aa29e3,47.500976230973635,8.732609744752372,7.4,3.0,11
+49,"8400, Winterthur",47.4916,8.7295,Suan Long,Chinese Restaurant,4bc596ac0a30d13afc2c5a9c,47.49958201374554,8.723665082893534,,1.0,3
